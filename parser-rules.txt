@@ -1,6 +1,6 @@
 {
     490 , data => List(
-        Pair("IMD_SHUTDOWN", 56)
+        Pair("IMD_SHUTDOWN", 92)
     )
 },
 
