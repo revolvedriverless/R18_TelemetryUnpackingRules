@@ -1,6 +1,6 @@
 {
     490 , data => List(
-        Pair("IMD_SHUTDOWN", Math.Sqrt(9))
+        Pair("IMD_SHUTDOWN", Sqrt(9))
     )
 },
 
