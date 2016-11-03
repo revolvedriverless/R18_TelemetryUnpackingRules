@@ -1,6 +1,6 @@
 {
     490 , data => List(
-        Pair("IMD_SHUTDOWN", Int(getByte(data, 0), 16))
+        Pair("IMD_SHUTDOWN", 56)
     )
 },
 
