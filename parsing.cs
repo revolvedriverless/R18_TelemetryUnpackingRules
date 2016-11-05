@@ -2,10 +2,10 @@
 
 Format:
 {
-    <ID> , data => List(
-        Pair("<NAME>", <Data unpacing function>),
-        Pair("<ANOTHER_NAME>", <Another data unpacing function>)
-    )
+    <ID> , data => new Data {
+        { "<NAME>", <Data unpacing function> },
+        { "<ANOTHER_NAME>", <Another data unpacing function> }
+    }
 },
 
 Available functions:
@@ -19,16 +19,16 @@ All of Math lib
 
 
 {
-    490 , data => List(
-        Pair("IMD_SHUTDOWN", Math.Sqrt(9))
-    )
+     490 , data => new Data {
+        { "IMD_SHUTDOWN", Math.Sqrt(9) },
+     }                       
 },
 
 {
-    310 , data => List(
-        Pair("TPS_right", hexToUint(getByte(data, 0) + getByte(data, 1)) / 10.0),
-        Pair("TPS_left", hexToUint(getByte(data, 2) + getByte(data, 3)) / 10.0)
-    )
+    310 , data => new Data {
+        { "TPS_right", hexToUint(getByte(data, 0) + getByte(data, 1)) / 10.0 },
+        { "TPS_left", hexToUint(getByte(data, 2) + getByte(data, 3)) / 10.0 }
+     }        
 },
 
 
