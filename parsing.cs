@@ -9,11 +9,11 @@ Format:
 },
 
 Available functions:
-hexToUint(string message)
-hexToInt(string message)
-getByte(string data, int index)
-Int(string message, int radix)
-All of Math lib
+    hexToUint(string message)
+    hexToInt(string message)
+    getByte(string data, int index)
+    Int(string message, int radix)
+    All of Math lib
 
 */
 
