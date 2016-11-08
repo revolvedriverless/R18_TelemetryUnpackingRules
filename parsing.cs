@@ -30,6 +30,11 @@ Available functions:
      }                       
 },
 
+{
+     137 , data => new Data {
+        { "SINUS", hexToFloat(data) },
+     }                       
+},
 
 {
     310 , data => new Data {
