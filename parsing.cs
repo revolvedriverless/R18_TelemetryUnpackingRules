@@ -25,6 +25,13 @@ Available functions:
 },
 
 {
+     123 , data => new Data {
+        { "SINUS", hexToFloat(data) },
+     }                       
+},
+
+
+{
     310 , data => new Data {
         { "TPS_right", hexToUint(getByte(data, 0) + getByte(data, 1)) / 10.0 },
         { "TPS_left", hexToUint(getByte(data, 2) + getByte(data, 3)) / 10.0 }
