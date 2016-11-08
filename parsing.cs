@@ -32,7 +32,7 @@ Available functions:
 
 {
      137 , data => new Data {
-        { "SINUS", hexToFloat(data) },
+        { "COSINUS", hexToFloat(data) },
      }                       
 },
 
