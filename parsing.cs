@@ -26,7 +26,7 @@ Available functions:
 
 {
      123 , data => new Data {
-        { "SINUS", hexToFloat(data) },
+        { "SINUS", 2 },
      }                       
 },
 
