@@ -19,25 +19,25 @@ Available functions:
 
 
 {
-     490 , data => new Data {
+     490 , data => {
         { "IMD_SHUTDOWN", Math.Sqrt(9) },
      }                       
 },
 
 {
-     123 , data => new Data {
+     123 , data => {
         { "SINUS", hexToFloat(data) },
      }                       
 },
 
 {
-     137 , data => new Data {
+     137 , data => {
         { "COSINUS", hexToFloat(data) },
      }                       
 },
 
 {
-    310 , data => new Data {
+    310 , data => {
         { "TPS_right", hexToUint(getByte(data, 0) + getByte(data, 1)) / 10.0 },
         { "TPS_left", hexToUint(getByte(data, 2) + getByte(data, 3)) / 10.0 }
      }        
