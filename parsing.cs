@@ -38,7 +38,7 @@ Available functions:
 
 {
      137 , data => {
-        { "COSINUS", hexToFloat(data) },
+        { "COSINUS", 40*hexToFloat(data) + 50 },
      }                       
 },
 
