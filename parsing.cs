@@ -32,7 +32,7 @@ Available functions:
 
 {
      100 , data => {
-        { "DISTANCE", hexToFloat(data) },
+        { "DISTANCE", Int(data) },
      }                       
 },
 
