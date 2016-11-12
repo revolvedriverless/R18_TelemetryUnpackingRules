@@ -38,7 +38,7 @@ Available functions:
 
 {
      122 , data => {
-        { "POT", Int(data) },
+        { "POT", Int(data) / 12.0 },
      }                       
 },
 
