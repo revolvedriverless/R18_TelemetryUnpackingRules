@@ -37,6 +37,12 @@ Available functions:
 },
 
 {
+     122 , data => {
+        { "POT", Int(data) },
+     }                       
+},
+
+{
      137 , data => {
         { "COSINUS", 40*hexToFloat(data) + 50 },
      }                       
