@@ -3,7 +3,7 @@ Rules for parsing of telemetry data
 
 # Format
 
-```
+```sh
 {
     <ID> , data => {
         { "<NAME>", <Data unpacing function> },
