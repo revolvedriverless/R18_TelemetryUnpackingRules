@@ -17,6 +17,11 @@ Available functions:
 
 */
 
+{
+     185 , data => {
+        { "SETPOINT_STATE_FL", Uint(data[1] },
+     }
+},
 
 {
      490 , data => {
