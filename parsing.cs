@@ -91,7 +91,7 @@ Available functions:
      }
 },
 
- 
+{
 	0x290, data => new Data {
 		{ "State_speed", Int(data[2],data[3])},
 		{ "State_encoder_data",Uint(data[4],data[5],data[6],data[7])},
@@ -117,13 +117,6 @@ Available functions:
 		{ "STATUS_BITS_24-31",Int(data[3])},
 	}
 },
-
-
-
-
-
-
-
 
 {
 	0x450 , data => new Data {
