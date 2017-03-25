@@ -91,6 +91,38 @@ Available functions:
      }
 },
 
+ 
+	0x290, data => new Data {
+		{ "State_speed", Int(data[2],data[3])},
+		{ "State_encoder_data",Uint(data[4],data[5],data[6],data[7])},
+		{ "State_torque_request", Int(data[0], data[1])/100}
+	}
+},
+
+
+{ 
+	0x292, data => new Data {
+		{ "State_current_q", Int(data[0],data[1])/100},
+		{ "State_current_d",Int(data[2],data[3])/100},
+		{ "State_current_a", Int(data[4], data[5])/100},
+		{ "State_current_b", Int(data[6], data[7])/100},
+	}
+},
+
+{ 
+	0x293, data => new Data {
+		{ "STATUS_BITS_0-7",Int(data[0])},
+		{ "STATUS_BITS_7-15",Int(data[1])},
+		{ "STATUS_BITS_15-23",Int(data[2])},
+		{ "STATUS_BITS_24-31",Int(data[3])},
+	}
+},
+
+
+
+
+
+
 
 
 {
