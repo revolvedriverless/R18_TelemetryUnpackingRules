@@ -119,10 +119,10 @@ Available functions:
 },
 
 {
-    	0x310 , data => new Data {
+	0x310 , data => new Data {
        		{ "Sensor_TPS_right", Uint(data[0], data[1]) / 10.0 },
         	{ "Sensor_TPS_left", Uint(data[2], data[3]) / 10.0 }
-     }
+	}
 },
 
 {
@@ -135,26 +135,6 @@ Available functions:
 	0x359 , data => new Data {
         	{ "Parameter_ID", Uint(data[0])},
 		{ "Parameter_value", Float(data[4],data[5],data[6],data[7])},
-	}
-},
-
-{
-	0x45E , data => new Data {
-        	{ "Soft_BSPD_status", Uint(data[0]) },
-	}
-},
-
-
-{
-    	0x310 , data => new Data {
-        	{ "Sensor_TPS_right", Uint(data[0], data[1]) / 10.0 },
-        	{ "Sensor_TPS_left", Uint(data[2], data[3]) / 10.0 }
-     }
-},
-
-{
-	0x350 , data => new Data {
-       		{ "Dash_RTDS_requested", Uint(data[0]) },
 	}
 },
 
@@ -175,6 +155,14 @@ Available functions:
 		{"Sensor_POS_VY_INS", Int(data[6], data[7]) }
 	}
 }, 
+
+
+{
+	0x45E , data => new Data {
+        	{ "Soft_BSPD_status", Uint(data[0]) },
+	}
+},
+
 
 {
 	0x4C0 , data => new Data {
