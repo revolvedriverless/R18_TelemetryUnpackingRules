@@ -390,7 +390,7 @@ Available functions:
 {   0x472 , data => new Data {{ "DASH_RTDS_FINISHED",        Uint(data[0])},}},
 
 {
-	0x47F, data => new Data {
+	0x47F , data => new Data {
 		{ "DASH_ALIVE_STATUS_BITS", Uint(data[0], data[1]) },
 	}
 },
