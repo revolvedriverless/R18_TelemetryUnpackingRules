@@ -116,71 +116,71 @@ Available functions:
 },
 
 {  
-  0x29F, data => new Data { 
-    { "R17_RR_STATUS_BIT_0",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_1",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_2",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_3",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_4",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_5",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_6",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_7",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_8",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_9",              Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_10",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_11",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_12",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_13",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_14",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_15",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_16",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_17",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_18",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_19",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_20",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_21",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_22",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_23",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_24",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_25",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_26",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_27",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_28",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_29",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_30",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_STATUS_BIT_31",             Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_0",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_1",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_2",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_3",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_4",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_5",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_6",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_7",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_8",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_9",  Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_10", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_11", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_12", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_13", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_14", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_15", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_16", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_17", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_18", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_19", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_20", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_21", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_22", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_23", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_24", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_25", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_26", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_27", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_28", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_29", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_30", Uint(data[0], data[1]) / 10.0 }, 
-    { "R17_RR_ACCUMULATED_STATUS_BIT_31", Uint(data[0], data[1]) / 10.0 } 
+	0x29F , data => new Data { 
+		{ "R17_RR_STATUS_BIT_0",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_1",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_2",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_3",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_4",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_5",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_6",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_7",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_8",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_9",              Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_10",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_11",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_12",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_13",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_14",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_15",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_16",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_17",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_18",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_19",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_20",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_21",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_22",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_23",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_24",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_25",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_26",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_27",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_28",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_29",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_30",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_STATUS_BIT_31",             Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_0",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_1",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_2",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_3",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_4",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_5",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_6",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_7",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_8",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_9",  Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_10", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_11", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_12", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_13", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_14", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_15", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_16", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_17", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_18", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_19", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_20", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_21", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_22", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_23", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_24", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_25", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_26", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_27", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_28", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_29", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_30", Uint(data[0], data[1]) / 10.0 }, 
+		{ "R17_RR_ACCUMULATED_STATUS_BIT_31", Uint(data[0], data[1]) / 10.0 } 
   } 
 }, 
 
@@ -194,20 +194,19 @@ Available functions:
 		{ "ECU_INS_GPStime_hour",	Uint(data[3]) },
 		{ "ECU_INS_GPStime_min", 	Uint(data[4]) },
 		{ "ECU_INS_GPStime_sec", 	Uint(data[5]) }
-
 	}
 },
 
 {
 	0x35C , data => new Data {
-        	{ "ECU_Alfa_r", Uint(data[0],data[1])},
+		{ "ECU_Alfa_r", Uint(data[0],data[1])},
 	}
 },
 
 {
 	0x359 , data => new Data {
-		{ "Parameter_ID", Uint(data[0])},
-		{ "Parameter_value", Float(data[4],data[5],data[6],data[7])},
+		{ "ECU_Parameter_ID", Uint(data[0])},
+		{ "ECU_Parameter_value", Float(data[4],data[5],data[6],data[7])},
 	}
 },
 
@@ -216,7 +215,7 @@ Available functions:
 		{ "ADC_FL_DamperFL", Uint(data[0], data[1])},
 		{ "ADC_FL_DamperRateFL", Int(data[2], data[3])},
 		{ "ADC_FL_GearTempFL", Uint(data[4], data[5])},
-		{ "ADC_FL_CoolingFL", Uint(data[6], data[7])}
+		{ "ADC_FL_CoolingTempFL", Uint(data[6], data[7])}
 	}
 },
 
@@ -233,7 +232,7 @@ Available functions:
 		{ "ADC_FR_DamperFR", Uint(data[0], data[1])},
 		{ "ADC_FR_DamperRateFR", Int(data[2], data[3])},
 		{ "ADC_FR_GearTempFR", Uint(data[4], data[5])},
-		{ "ADC_FR_CoolingFR", Uint(data[6], data[7])}
+		{ "ADC_FR_CoolingTempFR", Uint(data[6], data[7])}
 	}
 },
 
@@ -264,8 +263,8 @@ Available functions:
 	0x421 , data => new Data {
 		{ "ADC_REAR_GearTempRL", Uint(data[0], data[1])},
 		{ "ADC_REAR_GearTempRR", Uint(data[2], data[3])},
-		{ "ADC_REAR_CoolingRL", Uint(data[4], data[5])},
-		{ "ADC_REAR_CoolingRR", Uint(data[6], data[7])}
+		{ "ADC_REAR_CoolingTempRL", Uint(data[4], data[5])},
+		{ "ADC_REAR_CoolingTempRR", Uint(data[6], data[7])}
 	}
 },
 
@@ -303,25 +302,25 @@ Available functions:
 
 {
     0x445 , data => new Data {
-        {"Power"        , Int(data[0], data[1])*10},
-        {"Voltage_SOC"  , Int(data[2], data[3])/10}
+        {"BMS_Power"        , Int(data[0], data[1])*10},
+        {"BMS_Voltage_SOC"  , Int(data[2], data[3])/10}
     }
 },
 
 {
     0x450 , data => new Data {
-            { "ECU_System_Status", Uint(data[0])},
-            { "ECU_Torque_Allocation",Uint(data[2])},
-            { "ECU_Vehicle_State", Uint(data[3])}
+		{ "ECU_System_Status", Uint(data[0])},
+		{ "ECU_Torque_Allocation",Uint(data[2])},
+		{ "ECU_Vehicle_State", Uint(data[3])}
     }
 },
 
 {
 	0x451 , data => new Data {
-        	{ "ECU_Slip_ratio_FL", Uint(data[0],data[1]) },
-        	{ "ECU_Slip_ratio_FR", Uint(data[2],data[3]) },
-        	{ "ECU_Slip_ratio_RL", Uint(data[4],data[5]) },
-        	{ "ECU_Slip_ratio_RR", Uint(data[6],data[7]) },
+		{ "ECU_Slip_ratio_FL", Uint(data[0],data[1]) },
+		{ "ECU_Slip_ratio_FR", Uint(data[2],data[3]) },
+		{ "ECU_Slip_ratio_RL", Uint(data[4],data[5]) },
+		{ "ECU_Slip_ratio_RR", Uint(data[6],data[7]) },
 	}
 },
 
@@ -390,7 +389,7 @@ Available functions:
 {   0x470 , data => new Data {{ "DASH_REQUEST_DRIVE_ENABLE", Uint(data[0])},}},
 {   0x472 , data => new Data {{ "DASH_RTDS_FINISHED",        Uint(data[0])},}},
 
-{   0x491 , data => new Data {{ "IMD_State", Uint(data[0])}}},
+{   0x491 , data => new Data {{ "BMS_IMD_State", Uint(data[0])}}},
 
 {	0x4C0 , data => new Data {{ "Alive_message", Uint(data[0])}}},
 
