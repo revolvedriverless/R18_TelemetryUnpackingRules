@@ -3,7 +3,7 @@
 Format:
 {
 	<ID> , data => {
-		{ "<NAME>", <Data unpacing function> },
+		{ "<NAME>", <Data unpacking function> },
 		{ "<ANOTHER_NAME>", <Another data unpacing function> }
 	}
 },
