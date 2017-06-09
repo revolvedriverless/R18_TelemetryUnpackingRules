@@ -335,7 +335,7 @@ Available functions:
 
 {
     0x445 , data => new Data {
-        {"BMS_Power"        , Int(data[0], data[1])*10},
+        {"BMS_Power"        , Int(data[0], data[1])/10},
         {"BMS_Voltage_SOC"  , Int(data[2], data[3])/10}
     }
 },
