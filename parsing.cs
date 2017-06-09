@@ -91,16 +91,16 @@ Available functions:
 
 {
 	0x290 , data => new Data {
-		{ "R17_State_speed", Int(data[2],data[3])},
-		{ "R17_State_encoder_data",Int(data[4],data[5],data[6],data[7])},
+		{ "R17_State_speed", Int(data[2], data[3])},
+		{ "R17_State_encoder_data",Int(data[4], data[5], data[6], data[7])},
 		{ "R17_State_torque_request", Int(data[0], data[1])/100}
 	}
 },
 
 {
 	0x292 , data => new Data {
-		{ "R17_State_current_q", Int(data[0],data[1])/100},
-		{ "R17_State_current_d",Int(data[2],data[3])/100},
+		{ "R17_State_current_q", Int(data[0], data[1])/100},
+		{ "R17_State_current_d",Int(data[2], data[3])/100},
 		{ "R17_State_current_a", Int(data[4], data[5])/100},
 		{ "R17_State_current_b", Int(data[6], data[7])/100},
 	}
@@ -199,14 +199,14 @@ Available functions:
 
 {
 	0x35C , data => new Data {
-		{ "ECU_Alfa_r", Uint(data[0],data[1])},
+		{ "ECU_Alfa_r", Uint(data[0], data[1])},
 	}
 },
 
 {
 	0x359 , data => new Data {
 		{ "ECU_Parameter_ID", Uint(data[0])},
-		{ "ECU_Parameter_value", Float(data[4],data[5],data[6],data[7])},
+		{ "ECU_Parameter_value", Float(data[4], data[5], data[6], data[7])},
 	}
 },
 
@@ -317,10 +317,10 @@ Available functions:
 
 {
 	0x451 , data => new Data {
-		{ "ECU_Slip_ratio_FL", Uint(data[0],data[1]) },
-		{ "ECU_Slip_ratio_FR", Uint(data[2],data[3]) },
-		{ "ECU_Slip_ratio_RL", Uint(data[4],data[5]) },
-		{ "ECU_Slip_ratio_RR", Uint(data[6],data[7]) },
+		{ "ECU_Slip_ratio_FL", Uint(data[0], data[1]) },
+		{ "ECU_Slip_ratio_FR", Uint(data[2], data[3]) },
+		{ "ECU_Slip_ratio_RL", Uint(data[4], data[5]) },
+		{ "ECU_Slip_ratio_RR", Uint(data[6], data[7]) },
 	}
 },
 
@@ -355,7 +355,7 @@ Available functions:
 	0x458 , data => new Data {
 		{"ECU_INS_Yaw_rate", Int(data[0], data[1]) },
 		{"ECU_INS_Yaw_acceleration", Int(data[2], data[3]) },
-		{"ECU_INS_Roll_angle", Float(data[4], data[5],data[6],data[7]) }
+		{"ECU_INS_Roll_angle", Float(data[4], data[5], data[6], data[7]) }
 	}
 }, 
 
