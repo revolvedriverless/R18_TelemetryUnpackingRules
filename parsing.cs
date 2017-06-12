@@ -375,7 +375,7 @@ Available functions:
 	}
 },
 
-{   0x454 , data => new Data {{ "ECU_Sensor_Status", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6])}}},
+{   0x454 , data => new Data {{ "ECU_Sensor_Status", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}}},
 
 {
 	0x455 , data => new Data {
