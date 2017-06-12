@@ -431,9 +431,7 @@ Available functions:
 {
     0x461 , data => new Data {
         {"GLVBMS_Cell_Voltage_4", Uint(data[0], data[1])*0.0001},
-        {"GLVBMS_Cell_Voltage_5", Uint(data[2], data[3])*0.0001},
-        {"GLVBMS_Cell_Voltage_6", Uint(data[4], data[5])*0.0001},
-        {"GLVBMS_Cell_Voltage_7", Uint(data[6], data[7])*0.0001}
+        {"GLVBMS_Cell_Voltage_5", Uint(data[2], data[3])*0.0001}
     }
 },
 
@@ -446,14 +444,7 @@ Available functions:
     }
 },
 
-{
-    0x463 , data => new Data {
-        {"GLVBMS_Cell_Temperature_4", Uint(data[0], data[1])*0.01},
-        {"GLVBMS_Cell_Temperature_5", Uint(data[2], data[3])*0.01},
-        {"GLVBMS_Cell_Temperature_6", Uint(data[4], data[5])*0.01},
-        {"GLVBMS_Cell_Temperature_7", Uint(data[6], data[7])*0.01}
-    }
-},
+{   0x463 , data => new Data {{"GLVBMS_Cell_Temperature_4", Uint(data[0], data[1])*0.01}}},
 
 {
     0x465 , data => new Data {
