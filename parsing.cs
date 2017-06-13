@@ -76,7 +76,7 @@ Available functions:
 		{ "AMK_FL_Temp_Motor", Uint(data[0],data[1])/10 },
 		{ "AMK_FL_Temp_Inverter", Int(data[2], data[3])/10 },
 		{ "AMK_FL_Error_Info", (Int(data[4],data[5])) },
-		{ "AMK_FL_Temp_IGBT", Int(data[6], data[7]) }
+		{ "AMK_FL_Temp_IGBT", Int(data[6], data[7])/10}
      }
 },
 {
@@ -84,7 +84,7 @@ Available functions:
 		{ "AMK_FR_Temp_Motor", Uint(data[0],data[1])/10 },
 		{ "AMK_FR_Temp_Inverter", Int(data[2], data[3])/10 },
 		{ "AMK_FR_Error_Info", (Int(data[4],data[5])) },
-		{ "AMK_FR_Temp_IGBT", Int(data[6], data[7]) }
+		{ "AMK_FR_Temp_IGBT", Int(data[6], data[7])/10 }
      }
 },
 {
@@ -110,7 +110,7 @@ Available functions:
 		{ "AMK_RL_Temp_Motor", Uint(data[0],data[1])/10 },
 		{ "AMK_RL_Temp_Inverter", Int(data[2], data[3])/10 },
 		{ "AMK_RL_Error_Info", (Int(data[4],data[5])) },
-		{ "AMK_RL_Temp_IGBT", Int(data[6], data[7]) }
+		{ "AMK_RL_Temp_IGBT", Int(data[6], data[7])/10 }
      }
 },
 {
@@ -118,7 +118,7 @@ Available functions:
 		{ "AMK_RR_Temp_Motor", Uint(data[0],data[1])/10 },
 		{ "AMK_RR_Temp_Inverter", Int(data[2], data[3])/10 },
 		{ "AMK_RR_Error_Info", (Int(data[4],data[5])) },
-		{ "AMK_RR_Temp_IGBT", Int(data[6], data[7]) }
+		{ "AMK_RR_Temp_IGBT", Int(data[6], data[7])/10 }
      }
 },
 
@@ -247,8 +247,8 @@ Available functions:
 	0x400 , data => new Data {
 		{ "ADC_FL_DamperFL", Uint(data[0], data[1])},
 		{ "ADC_FL_DamperRateFL", Int(data[2], data[3])},
-		{ "ADC_FL_GearTempFL", Uint(data[4], data[5])},
-		{ "ADC_FL_CoolingTempFL", Uint(data[6], data[7])}
+		{ "ADC_FL_GearTempFL", Uint(data[4], data[5])/100},
+		{ "ADC_FL_CoolingTempFL", Uint(data[6], data[7])/100}
 	}
 },
 
@@ -264,15 +264,15 @@ Available functions:
 	0x410 , data => new Data {
 		{ "ADC_FR_DamperFR", Uint(data[0], data[1])},
 		{ "ADC_FR_DamperRateFR", Int(data[2], data[3])},
-		{ "ADC_FR_GearTempFR", Uint(data[4], data[5])},
-		{ "ADC_FR_CoolingTempFR", Uint(data[6], data[7])}
+		{ "ADC_FR_GearTempFR", Uint(data[4], data[5])/100},
+		{ "ADC_FR_CoolingTempFR", Uint(data[6], data[7])/100}
 	}
 },
 
 {
 	0x411 , data => new Data {
-		{ "ADC_FR_TPS_left", Uint(data[0], data[1])},
-		{ "ADC_FR_TPS_right", Uint(data[2], data[3])}
+		{ "ADC_FR_TPS_left", Uint(data[0], data[1])/10},
+		{ "ADC_FR_TPS_right", Uint(data[2], data[3])/10}
 	}
 },
 
@@ -294,10 +294,10 @@ Available functions:
 
 {
 	0x421 , data => new Data {
-		{ "ADC_REAR_GearTempRL", Uint(data[0], data[1])},
-		{ "ADC_REAR_GearTempRR", Uint(data[2], data[3])},
-		{ "ADC_REAR_CoolingTempRL", Uint(data[4], data[5])},
-		{ "ADC_REAR_CoolingTempRR", Uint(data[6], data[7])}
+		{ "ADC_REAR_GearTempRL", Uint(data[0], data[1])/100},
+		{ "ADC_REAR_GearTempRR", Uint(data[2], data[3])/100},
+		{ "ADC_REAR_CoolingTempRL", Uint(data[4], data[5])/100},
+		{ "ADC_REAR_CoolingTempRR", Uint(data[6], data[7])/100}
 	}
 },
 
@@ -325,7 +325,7 @@ Available functions:
     0x442 , data => new Data {
         {"BMS_Tractive_System_Voltage"  , Uint(data[0], data[1])/10},
         {"BMS_Tractive_System_Current"  , Int(data[2], data[3])/10},
-        {"BMS_Tractive_System_Power"    , Int(data[4], data[5])/10},
+        {"BMS_Tractive_System_Power"    , Int(data[4], data[5])/100},
         {"BMS_State_of_Charge"          , Uint(data[6], data[7])/100}
     }
 },
