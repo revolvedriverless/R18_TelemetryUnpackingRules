@@ -747,50 +747,37 @@ Available functions:
 {
     0x51D , data => new Data {
         {"BMS_Cell_Voltage_116", Uint(data[0], data[1])*0.0001},
-        {"BMS_Cell_Voltage_117", Uint(data[2], data[3])*0.0001},
-        //{"xBMS_Cell_Voltage_118", Uint(data[4], data[5])*0.0001},
-        //{"xBMS_Cell_Voltage_119", Uint(data[6], data[7])*0.0001}
+        {"BMS_Cell_Voltage_117", Uint(data[2], data[3])*0.0001}
     }
 },
 
 {
     0x51E , data => new Data {
-        {"BMS_Cell_Voltage_118", Uint(data[0], data[1])*0.0001},
-        {"BMS_Cell_Voltage_119", Uint(data[2], data[3])*0.0001},
-        {"BMS_Cell_Voltage_120", Uint(data[4], data[5])*0.0001},
-        {"BMS_Cell_Voltage_121", Uint(data[6], data[7])*0.0001}
+        {"BMS_Cell_Voltage_120", Uint(data[0], data[1])*0.0001},
+        {"BMS_Cell_Voltage_121", Uint(data[2], data[3])*0.0001},
+        {"BMS_Cell_Voltage_122", Uint(data[4], data[5])*0.0001},
+        {"BMS_Cell_Voltage_123", Uint(data[6], data[7])*0.0001}
     }
 },
 
 {
     0x51F , data => new Data {
-        {"BMS_Cell_Voltage_122", Uint(data[0], data[1])*0.0001},
-        {"BMS_Cell_Voltage_123", Uint(data[2], data[3])*0.0001},
-        {"BMS_Cell_Voltage_124", Uint(data[4], data[5])*0.0001},
-        {"BMS_Cell_Voltage_125", Uint(data[6], data[7])*0.0001}
+        {"BMS_Cell_Voltage_124", Uint(data[0], data[1])*0.0001},
+        {"BMS_Cell_Voltage_125", Uint(data[2], data[3])*0.0001},
+        {"BMS_Cell_Voltage_126", Uint(data[4], data[5])*0.0001},
+        {"BMS_Cell_Voltage_127", Uint(data[6], data[7])*0.0001}
     }
 },
 
 {
     0x520 , data => new Data {
-        {"BMS_Cell_Voltage_126", Uint(data[0], data[1])*0.0001},
-        {"BMS_Cell_Voltage_127", Uint(data[2], data[3])*0.0001},
-        //{"xBMS_Cell_Voltage_130", Uint(data[4], data[5])*0.0001},
-        //{"xBMS_Cell_Voltage_131", Uint(data[6], data[7])*0.0001}
+        {"BMS_Cell_Voltage_128", Uint(data[0], data[1])*0.0001},
+        {"BMS_Cell_Voltage_129", Uint(data[2], data[3])*0.0001}
     }
 },
 
 {
     0x521 , data => new Data {
-        {"BMS_Cell_Voltage_128", Uint(data[0], data[1])*0.0001},
-        {"BMS_Cell_Voltage_129", Uint(data[2], data[3])*0.0001},
-        {"BMS_Cell_Voltage_130", Uint(data[4], data[5])*0.0001},
-        {"BMS_Cell_Voltage_131", Uint(data[6], data[7])*0.0001}
-    }
-},
-
-{
-    0x522 , data => new Data {
         {"BMS_Cell_Voltage_132", Uint(data[0], data[1])*0.0001},
         {"BMS_Cell_Voltage_133", Uint(data[2], data[3])*0.0001},
         {"BMS_Cell_Voltage_134", Uint(data[4], data[5])*0.0001},
@@ -799,11 +786,20 @@ Available functions:
 },
 
 {
-    0x523 , data => new Data {
+    0x522 , data => new Data {
         {"BMS_Cell_Voltage_136", Uint(data[0], data[1])*0.0001},
         {"BMS_Cell_Voltage_137", Uint(data[2], data[3])*0.0001},
         {"BMS_Cell_Voltage_138", Uint(data[4], data[5])*0.0001},
         {"BMS_Cell_Voltage_139", Uint(data[6], data[7])*0.0001}
+    }
+},
+
+{
+    0x523 , data => new Data {
+        {"BMS_Cell_Voltage_140", Uint(data[0], data[1])*0.0001},
+        {"BMS_Cell_Voltage_141", Uint(data[2], data[3])*0.0001},
+        {"BMS_Cell_Voltage_142", Uint(data[4], data[5])*0.0001},
+        {"BMS_Cell_Voltage_143", Uint(data[6], data[7])*0.0001}
     }
 },
 
@@ -1071,50 +1067,37 @@ Available functions:
 {
     0x55D , data => new Data {
         {"BMS_Cell_Temperature_116", Uint(data[0], data[1])*0.1},
-        //{"xBMS_Cell_Temperature_117", Uint(data[2], data[3])*0.1},
-        //{"xBMS_Cell_Temperature_118", Uint(data[4], data[5])*0.1},
         {"BMS_Cell_Temperature_117", Uint(data[6], data[7])*0.1}
     }
 },
 
 {
     0x55E , data => new Data {
-        {"BMS_Cell_Temperature_118", Uint(data[0], data[1])*0.1},
-        {"BMS_Cell_Temperature_119", Uint(data[2], data[3])*0.1},
-        {"BMS_Cell_Temperature_120", Uint(data[4], data[5])*0.1},
-        {"BMS_Cell_Temperature_121", Uint(data[6], data[7])*0.1}
+        {"BMS_Cell_Temperature_120", Uint(data[0], data[1])*0.1},
+        {"BMS_Cell_Temperature_121", Uint(data[2], data[3])*0.1},
+        {"BMS_Cell_Temperature_122", Uint(data[4], data[5])*0.1},
+        {"BMS_Cell_Temperature_123", Uint(data[6], data[7])*0.1}
     }
 },
 
 {
     0x55F , data => new Data {
-        {"BMS_Cell_Temperature_122", Uint(data[0], data[1])*0.1},
-        {"BMS_Cell_Temperature_123", Uint(data[2], data[3])*0.1},
-        {"BMS_Cell_Temperature_124", Uint(data[4], data[5])*0.1},
-        {"BMS_Cell_Temperature_125", Uint(data[6], data[7])*0.1}
-    }
-},
-
-{
-    0x560 , data => new Data {
-        {"BMS_Cell_Temperature_126", Uint(data[0], data[1])*0.1},
-        //{"xBMS_Cell_Temperature_129", Uint(data[2], data[3])*0.1},
-        //{"xBMS_Cell_Temperature_130", Uint(data[4], data[5])*0.1},
+        {"BMS_Cell_Temperature_124", Uint(data[0], data[1])*0.1},
+        {"BMS_Cell_Temperature_125", Uint(data[2], data[3])*0.1},
+        {"BMS_Cell_Temperature_126", Uint(data[4], data[5])*0.1},
         {"BMS_Cell_Temperature_127", Uint(data[6], data[7])*0.1}
     }
 },
 
 {
-    0x561 , data => new Data {
+    0x560 , data => new Data {
         {"BMS_Cell_Temperature_128", Uint(data[0], data[1])*0.1},
-        {"BMS_Cell_Temperature_129", Uint(data[2], data[3])*0.1},
-        {"BMS_Cell_Temperature_130", Uint(data[4], data[5])*0.1},
-        {"BMS_Cell_Temperature_131", Uint(data[6], data[7])*0.1}
+        {"BMS_Cell_Temperature_129", Uint(data[6], data[7])*0.1}
     }
 },
 
 {
-    0x562 , data => new Data {
+    0x561 , data => new Data {
         {"BMS_Cell_Temperature_132", Uint(data[0], data[1])*0.1},
         {"BMS_Cell_Temperature_133", Uint(data[2], data[3])*0.1},
         {"BMS_Cell_Temperature_134", Uint(data[4], data[5])*0.1},
@@ -1123,10 +1106,19 @@ Available functions:
 },
 
 {
-    0x563 , data => new Data {
+    0x562 , data => new Data {
         {"BMS_Cell_Temperature_136", Uint(data[0], data[1])*0.1},
         {"BMS_Cell_Temperature_137", Uint(data[2], data[3])*0.1},
         {"BMS_Cell_Temperature_138", Uint(data[4], data[5])*0.1},
         {"BMS_Cell_Temperature_139", Uint(data[6], data[7])*0.1}
+    }
+},
+
+{
+    0x563 , data => new Data {
+        {"BMS_Cell_Temperature_140", Uint(data[0], data[1])*0.1},
+        {"BMS_Cell_Temperature_141", Uint(data[2], data[3])*0.1},
+        {"BMS_Cell_Temperature_142", Uint(data[4], data[5])*0.1},
+        {"BMS_Cell_Temperature_143", Uint(data[6], data[7])*0.1}
     }
 },
