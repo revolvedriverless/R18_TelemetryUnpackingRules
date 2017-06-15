@@ -421,56 +421,56 @@ Available functions:
 
 {
     0x460 , data => new Data {
-        {"GLVBMS_Cell_Voltage_0", Uint(data[0], data[1])*0.0001},
-        {"GLVBMS_Cell_Voltage_1", Uint(data[2], data[3])*0.0001},
-        {"GLVBMS_Cell_Voltage_2", Uint(data[4], data[5])*0.0001},
-        {"GLVBMS_Cell_Voltage_3", Uint(data[6], data[7])*0.0001}
+        {"GLV_Cell_Voltage_0", Uint(data[0], data[1])*0.0001},
+        {"GLV_Cell_Voltage_1", Uint(data[2], data[3])*0.0001},
+        {"GLV_Cell_Voltage_2", Uint(data[4], data[5])*0.0001},
+        {"GLV_Cell_Voltage_3", Uint(data[6], data[7])*0.0001}
     }
 },
 
 {
     0x461 , data => new Data {
-        {"GLVBMS_Cell_Voltage_4", Uint(data[0], data[1])*0.0001},
-        {"GLVBMS_Cell_Voltage_5", Uint(data[2], data[3])*0.0001}
+        {"GLV_Cell_Voltage_4", Uint(data[0], data[1])*0.0001},
+        {"GLV_Cell_Voltage_5", Uint(data[2], data[3])*0.0001}
     }
 },
 
 {
     0x462 , data => new Data {
-        {"GLVBMS_Cell_Temperature_0", Uint(data[0], data[1])*0.01},
-        {"GLVBMS_Cell_Temperature_1", Uint(data[2], data[3])*0.01},
-        {"GLVBMS_Cell_Temperature_2", Uint(data[4], data[5])*0.01},
-        {"GLVBMS_Cell_Temperature_3", Uint(data[6], data[7])*0.01}
+        {"GLV_Cell_Temperature_0", Uint(data[0], data[1])*0.01},
+        {"GLV_Cell_Temperature_1", Uint(data[2], data[3])*0.01},
+        {"GLV_Cell_Temperature_2", Uint(data[4], data[5])*0.01},
+        {"GLV_Cell_Temperature_3", Uint(data[6], data[7])*0.01}
     }
 },
 
-{   0x463 , data => new Data {{"GLVBMS_Cell_Temperature_4", Uint(data[0], data[1])*0.01}}},
+{   0x463 , data => new Data {{"GLV_Cell_Temperature_4", Uint(data[0], data[1])*0.01}}},
 
 {
     0x465 , data => new Data {
-        {"GLVBMS_Min_Cell_Voltage", Uint(data[0], data[1])*0.0001},
-        {"GLVBMS_Max_Cell_Voltage", Uint(data[2], data[3])*0.0001},
-        {"GLVBMS_Tot_Cell_Voltage", Uint(data[4], data[5], data[6], data[7])*0.0001}
+        {"GLV_Min_Cell_Voltage", Uint(data[0], data[1])*0.0001},
+        {"GLV_Max_Cell_Voltage", Uint(data[2], data[3])*0.0001},
+        {"GLV_Tot_Cell_Voltage", Uint(data[4], data[5], data[6], data[7])*0.0001}
     }
 },
 
 {
     0x466 , data => new Data {
-        {"GLVBMS_Min_Cell_Temperature", Uint(data[0], data[1])*0.01},
-        {"GLVBMS_Max_Cell_Temperature", Uint(data[2], data[3])*0.01},
-        //{"Reserved: GLVBMS_Cell_Balancing", Uint(data[4], data[5])*0.01},
-        //{"Reserved: GLVBMS_Current", Uint(data[6], data[7])*0.001}
+        {"GLV_Min_Cell_Temperature", Uint(data[0], data[1])*0.01},
+        {"GLV_Max_Cell_Temperature", Uint(data[2], data[3])*0.01},
+        //{"Reserved: GLV_Cell_Balancing", Uint(data[4], data[5])*0.01},
+        //{"Reserved: GLV_Current", Uint(data[6], data[7])*0.001}
     }
 },
 
 {
     0x467 , data => new Data {
-        {"GLVBMS_State_of_Charge", Uint(data[0])},
-        {"GLVBMS_Battery_Charge_Capacity", Uint(data[1], data[2], data[3], data[4])*0.001}
+        {"GLV_State_of_Charge", Uint(data[0])},
+        {"GLV_Battery_Charge_Capacity", Uint(data[1], data[2], data[3], data[4])*0.001}
     }
 },
 
-//{   0x468 , data => new Data {{"Reserved: GLVBMS_State", Uint(data[0], data[1])}}},
+//{   0x468 , data => new Data {{"Reserved: GLV_State", Uint(data[0], data[1])}}},
 
 {   0x470 , data => new Data {{"DASH_REQUEST_DRIVE_ENABLE", Uint(data[0])}}},
 {   0x472 , data => new Data {{"DASH_RTDS_FINISHED",        Uint(data[0])}}},
