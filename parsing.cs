@@ -21,8 +21,8 @@ Available functions:
      0x185 , data => new Data {
 		{ "AMK_FL_Setpoint_control_word", Uint(data[1]) },
 		{ "AMK_FL_Setpoint_RPM_request", Int(data[2], data[3]) },
-		{ "AMK_FL_Setpoint_positive_torque_limit", Int(data[4], data[5]) },
-		{ "AMK_FL_Setpoint_negative_torque_limit", Int(data[6], data[7]) }
+		{ "AMK_FL_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 }, //convert from 0.1% of nominal motor torque (9.8) to Nm
+		{ "AMK_FL_Setpoint_negative_torque_limit", Int(data[6], data[7])*0.0098 }
      }
 },
 
@@ -30,8 +30,8 @@ Available functions:
      0x186 , data => new Data {
 		{ "AMK_FR_Setpoint_control_word", Uint(data[1]) },
 		{ "AMK_FR_Setpoint_RPM_request", Int(data[2], data[3]) },
-		{ "AMK_FR_Setpoint_positive_torque_limit", Int(data[4], data[5]) },
-		{ "AMK_FR_Setpoint_negative_torque_limit", Int(data[6], data[7]) }
+		{ "AMK_FR_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },
+		{ "AMK_FR_Setpoint_negative_torque_limit", Int(data[6], data[7])*0.0098 }
     }
 },
 
@@ -39,8 +39,8 @@ Available functions:
      0x189 , data => new Data {
 		{ "AMK_RL_Setpoint_control_word", Uint(data[1]) },
 		{ "AMK_RL_Setpoint_RPM_request", Int(data[2], data[3]) },
-		{ "AMK_RL_Setpoint_positive_torque_limit", Int(data[4], data[5]) },
-		{ "AMK_RL_Setpoint_negative_torque_limit", Int(data[6], data[7]) }
+		{ "AMK_RL_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },
+		{ "AMK_RL_Setpoint_negative_torque_limit", Int(data[6], data[7])*0.0098 }
     }
 },
 
@@ -48,8 +48,8 @@ Available functions:
      0x18A , data => new Data {
 		{ "AMK_RR_Setpoint_control_word", Uint(data[1]) },
 		{ "AMK_RR_Setpoint_RPM_request", Int(data[2], data[3]) },
-		{ "AMK_RR_Setpoint_positive_torque_limit", Int(data[4], data[5]) },
-		{ "AMK_RR_Setpoint_negative_torque_limit", Int(data[6], data[7]) }
+		{ "AMK_RR_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },
+		{ "AMK_RR_Setpoint_negative_torque_limit", Int(data[6], data[7])*0.0098 }
     }
 },
 
