@@ -21,7 +21,7 @@ Available functions:
      0x185 , data => new Data {
 		{ "AMK_FL_Setpoint_control_word", Uint(data[1]) },
 		{ "AMK_FL_Setpoint_RPM_request", Int(data[2], data[3]) },
-		{ "AMK_FL_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 }, //convert from 0.1% of nominal motor torque (9.8) to Nm
+		{ "AMK_FL_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },
 		{ "AMK_FL_Setpoint_negative_torque_limit", Int(data[6], data[7])*0.0098 }
      }
 },
