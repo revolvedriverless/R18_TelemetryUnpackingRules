@@ -218,6 +218,9 @@ Available functions:
 },
 
 {   0x350 , data => new Data {{"ECU_PLAY_RTDS", Uint(data[0])}}},
+{   0x351 , data => new Data {{"ECU_DRIVE_ENABLE", Uint(data[0])}}},
+{   0x352 , data => new Data {{"ECU_DRIVE_DISABLE", Uint(data[0])}}},
+{   0x351 , data => new Data {{"ECU_RESET_AMK_INVERTER_ERROR", Uint(data[0])}}},
 
 {
 	0x358 , data => new Data {
@@ -350,28 +353,28 @@ Available functions:
 
 {
 	0x451 , data => new Data {
-		{ "ECU_Slip_ratio_FL", Uint(data[0], data[1]) },
-		{ "ECU_Slip_ratio_FR", Uint(data[2], data[3]) },
-		{ "ECU_Slip_ratio_RL", Uint(data[4], data[5]) },
-		{ "ECU_Slip_ratio_RR", Uint(data[6], data[7]) },
+		{ "ECU_Slip_ratio_FL", Int(data[0], data[1])/100 },
+		{ "ECU_Slip_ratio_FR", Int(data[2], data[3])/100 },
+		{ "ECU_Slip_ratio_RL", Int(data[4], data[5])/100 },
+		{ "ECU_Slip_ratio_RR", Int(data[6], data[7])/100 },
 	}
 },
 
 {
 	0x452 , data => new Data {
-		{"ECU_Fx_div_Fz_FL", Int(data[0], data[1]) },
-		{"ECU_Fx_div_Fz_FR", Int(data[2], data[3]) },
-		{"ECU_Fx_div_Fz_RL", Int(data[4], data[5]) },
-		{"ECU_Fx_div_Fz_RR", Int(data[6], data[7]) }
+		{"ECU_Fx_div_Fz_FL", Int(data[0], data[1])/1000 },
+		{"ECU_Fx_div_Fz_FR", Int(data[2], data[3])/1000 },
+		{"ECU_Fx_div_Fz_RL", Int(data[4], data[5])/1000 },
+		{"ECU_Fx_div_Fz_RR", Int(data[6], data[7])/1000 }
 	}
 },
 
 {
 	0x453 , data => new Data {
-		{"ECU_Fz_damper_est_FL", Uint(data[0], data[1]) },
-		{"ECU_Fz_damper_est_FR", Uint(data[2], data[3]) },
-		{"ECU_Fz_damper_est_RL", Uint(data[4], data[5]) },
-		{"ECU_Fz_damper_est_RR", Uint(data[6], data[7]) }
+		{"ECU_Fz_damper_estimate_FL", Uint(data[0], data[1])/10 },
+		{"ECU_Fz_damper_estimate_FR", Uint(data[2], data[3])/10 },
+		{"ECU_Fz_damper_estimate_RL", Uint(data[4], data[5])/10 },
+		{"ECU_Fz_damper_estimate_RR", Uint(data[6], data[7])/10 }
 	}
 },
 
@@ -379,25 +382,38 @@ Available functions:
 
 {
 	0x455 , data => new Data {
-		{"ECU_Mz_ref", Int(data[0], data[1]) },
-		{"ECU_Yaw_rate_ref", Int(data[2], data[3]) }
+		{"ECU_Mz_ref", Int(data[0], data[1])/10 },
+		{"ECU_Yaw_rate_ref", Int(data[2], data[3])/1000 }
+	}
+},
+
+{
+	0x456 , data => new Data {
+		{"ECU_INS_Longtitude",	Float(data[0], data[1],data[2], data[3]) },
+		{"ECU_INS_Latitude", 	Float(data[4], data[5],data[6], data[7]) }
+	}
+},
+
+{
+	0x457 , data => new Data {
+		{"ECU_INS_Altitude",	Float(data[0], data[1],data[2], data[3]) },
 	}
 },
 
 {
 	0x458 , data => new Data {
-		{"ECU_INS_Yaw_rate", Int(data[0], data[1]) },
-		{"ECU_INS_Yaw_acceleration", Int(data[2], data[3]) },
-		{"ECU_INS_Roll_angle", Float(data[4], data[5], data[6], data[7]) }
+		{"ECU_INS_Yaw_rate", Int(data[0], data[1])/1000 },
+		{"ECU_INS_Yaw_acceleration", Int(data[2], data[3])/100 },
+		{"ECU_INS_Roll_angle", Float(data[4], data[5], data[6], data[7])/1000 }
 	}
 },
 
 {
 	0x459 , data => new Data {
-		{"ECU_INS_AX", Int(data[0], data[1]) },
-		{"ECU_INS_AY", Int(data[2], data[3]) },
-		{"ECU_INS_VX", Int(data[4], data[5]) },
-		{"ECU_INS_VY", Int(data[6], data[7]) }
+		{"ECU_INS_AX", Int(data[0], data[1])/100 },
+		{"ECU_INS_AY", Int(data[2], data[3])/100 },
+		{"ECU_INS_VX", Int(data[4], data[5])/100 },
+		{"ECU_INS_VY", Int(data[6], data[7])/100 }
 	}
 },
 
@@ -405,6 +421,15 @@ Available functions:
 	0x45B , data => new Data {
         { "ECU_INS_GPSfix", Uint(data[0]) },
 		{ "ECU_INS_Tracked_satelites", Uint(data[1]) }
+	}
+},
+
+{
+	0x45C , data => new Data {
+		{"ECU_Fx_estimate_FL", Uint(data[0], data[1])/10 },
+		{"ECU_Fx_estimate_FR", Uint(data[2], data[3])/10 },
+		{"ECU_Fx_estimate_RL", Uint(data[4], data[5])/10 },
+		{"ECU_Fx_estimate_RR", Uint(data[6], data[7])/10 }
 	}
 },
 
