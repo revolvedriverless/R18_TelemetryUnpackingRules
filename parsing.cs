@@ -1157,7 +1157,7 @@ Available functions:
         {"ECU_TV_monitor_Yaw_rate_ref", Int(data[0], data[1])/1000},
         {"ECU_TV_monitor_Mz_ref", Int(data[2], data[3])/10},
         {"ECU_TV_monitor_Mz_reserved", Int(data[4], data[5])/10},
-        {"ECU_T_driver_torque_request", Uint(data[6])*2}
+        {"ECU_T_driver_torque_request", Uint(data[6])*2},
 	{"ECU_T_percentage_og_req_torque_allocated", Uint(data[6])*2}
    }
 },
