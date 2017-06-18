@@ -21,7 +21,7 @@ Available functions:
      0x185 , data => new Data {
 		{ "AMK_FL_Setpoint_control_word", Uint(data[1]) },
 		{ "AMK_FL_Setpoint_RPM_request", Int(data[2], data[3]) },
-		{ "AMK_FL_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },
+		{ "AMK_FL_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },//convert from 0.1% of nominal motor torque (9.8) to Nm
 		{ "AMK_FL_Setpoint_negative_torque_limit", Int(data[6], data[7])*0.0098 }
      }
 },
@@ -220,7 +220,7 @@ Available functions:
 {   0x350 , data => new Data {{"ECU_PLAY_RTDS", Uint(data[0])}}},
 {   0x351 , data => new Data {{"ECU_DRIVE_ENABLE", Uint(data[0])}}},
 {   0x352 , data => new Data {{"ECU_DRIVE_DISABLE", Uint(data[0])}}},
-{   0x351 , data => new Data {{"ECU_RESET_AMK_INVERTER_ERROR", Uint(data[0])}}},
+{   0x353 , data => new Data {{"ECU_RESET_AMK_INVERTER_ERROR", Uint(data[0])}}},
 
 {
 	0x358 , data => new Data {
