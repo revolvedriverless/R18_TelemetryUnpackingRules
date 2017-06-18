@@ -1145,24 +1145,21 @@ Available functions:
 
 {
     0x650 , data => new Data {
-        {"BMS_Cell_Temperature_140", Uint(data[0], data[1])*0.1},
-        {"BMS_Cell_Temperature_141", Uint(data[2], data[3])*0.1},
-        {"BMS_Cell_Temperature_142", Uint(data[4], data[5])*0.1},
-        {"BMS_Cell_Temperature_143", Uint(data[6], data[7])*0.1}
-    }
+        {"ECU_TV_Max_motor_torque_FL", Int(data[0], data[1])/100},
+		{"ECU_TV_Max_motor_torque_FR", Int(data[2], data[3])/100},
+		{"ECU_TV_Max_motor_torque_RL", Int(data[4], data[5])/100},
+		{"ECU_TV_Max_motor_torque_RR", Int(data[6], data[7])/100}
+	}
 },
-	
+
 {
     0x653 , data => new Data {
-        {"ECU_TV_monitor_Yaw_rate_ref", Int(data[0], data[1])/1000},
-        {"ECU_TV_monitor_Mz_ref", Int(data[2], data[3])/10},
-        {"ECU_TV_monitor_Mz_reserved", Int(data[4], data[5])/10},
-        {"ECU_T_driver_torque_request", Uint(data[6])*2},
-	{"ECU_T_percentage_og_req_torque_allocated", Uint(data[6])*2}
+        {"ECU_TV_Yaw_rate_ref", 						Int(data[0], data[1])/1000},
+        {"ECU_TV_Mz_ref", 								Int(data[2], data[3])/10},
+        {"ECU_TV_Mz_reserved", 							Int(data[4], data[5])/10},
+        {"ECU_TV_Driver_torque_request", 				Uint(data[6])*2},
+		{"ECU_TV_Percentage_of_req_torque_allocated", 	Uint(data[6])*2}
    }
 },
-{
-    0x654 , data => new Data {
-        {"ECU_TV_monitor_Yaw_rate_ref", Int(data[0], data[1])/1000},
-    }
-}
+
+{	0x654 , data => new Data {{"ECU_TV_Active_constraints", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}}},
