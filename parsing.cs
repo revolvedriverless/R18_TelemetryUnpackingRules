@@ -499,6 +499,7 @@ Available functions:
 
 {	0x480 , data => new Data {{ "BSPD_Trigger", Uint(data[0])}}},
 
+{   0x490 , data => new Data {{ "BMS_IMD_Shutdown_open", Uint(data[0])}}},
 {   0x491 , data => new Data {{ "BMS_IMD_State", Uint(data[0])}}},
 
 {	0x4C0 , data => new Data {{ "Alive_message", Uint(data[0])}}},
