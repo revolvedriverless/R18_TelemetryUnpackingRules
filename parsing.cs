@@ -328,7 +328,7 @@ Available functions:
     0x442 , data => new Data {
         {"BMS_Tractive_System_Voltage"  , Uint(data[0], data[1])/10},
         {"BMS_Tractive_System_Current"  , Int(data[2], data[3])/10},
-        {"BMS_Tractive_System_Power"    , Int(data[4], data[5])/100},
+        {"BMS_Tractive_System_Power"    , Int(data[4], data[5])*10},
         {"BMS_State_of_Charge"          , Uint(data[6], data[7])/100}
     }
 },
@@ -338,7 +338,7 @@ Available functions:
 
 {
     0x445 , data => new Data {
-        {"BMS_Power"        , Int(data[0], data[1])/10},
+        {"BMS_Power"        , Int(data[0], data[1])*10},
         {"BMS_Voltage_SOC"  , Int(data[2], data[3])/10}
     }
 },
