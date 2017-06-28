@@ -6,7 +6,8 @@
 // #kake
 // 288 = ninja
 // 31A = bolle
-
+Jeg er kul
 #Test
 420 = ys
 288 = Beb
+-1 = NINININIINI
