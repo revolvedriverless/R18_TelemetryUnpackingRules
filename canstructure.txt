@@ -19,6 +19,8 @@
 118 = and_this
 119 = and_this
 120 = and_this
+
+#Hola
 121 = and_this
 122 = and_this
 123 = and_this
@@ -31,4 +33,14 @@
 130 = and_this
 131 = and_this
 132 = and_this
+
+#Testitest
+4C0 = beb
+ABC = bab
+312 = bib
+231 = bob
+3BC = bæb
+FFF = bøb
+AAA = båb
+BBB = bub
 
