@@ -1,13 +1,13 @@
 // HOW TO USE:
 // Use a '#' for a new catergory
+// All names cannot contain spaces.
 // (CAN_ID) = (CAN_NAME)
 // 
 // Example:
 // #kake
 // 288 = ninja
 // 31A = bolle
-Jeg er kul
-#Test
-420 = ys
-288 = Beb
--1 = NINININIINI
+
+#Change_This
+123 = this_too
+321 = and_this
