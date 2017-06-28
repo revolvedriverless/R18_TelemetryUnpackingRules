@@ -5,4 +5,8 @@
 // Example:
 // #kake
 // 288 = ninja
-// 31 = bolle
+// 31A = bolle
+
+#Test
+420 = ys
+288 = Beb
