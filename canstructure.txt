@@ -9,5 +9,26 @@
 // 31A = bolle
 
 #Change_This
-123 = this_too
-321 = and_this
+111 = this_too
+112 = and_this
+113 = and_this
+114 = and_this
+115 = and_this
+116 = and_this
+117 = and_this
+118 = and_this
+119 = and_this
+120 = and_this
+121 = and_this
+122 = and_this
+123 = and_this
+124 = and_this
+125 = and_this
+126 = and_this
+127 = and_this
+128 = and_this
+129 = and_this
+130 = and_this
+131 = and_this
+132 = and_this
+
