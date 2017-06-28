@@ -1,0 +1,8 @@
+// HOW TO USE:
+// Use a '#' for a new catergory
+// (CAN_ID) = (CAN_NAME)
+// 
+// Example:
+// #kake
+// 288 = ninja
+// 31 = bolle
