@@ -263,6 +263,8 @@ Available functions:
 	}
 },
 
+{	0x402 , data => new Data {{ "BSPD_Trigger", Uint(data[0])}}},
+
 {
 	0x410 , data => new Data {
 		{ "ADC_FR_DamperFR", Uint(data[0], data[1])*0.01},
@@ -496,8 +498,6 @@ Available functions:
 {   0x475 , data => new Data {{"DASH_REQUEST_KERS_ACTIVATION", Uint(data[0])}}},
 
 {	0x47F , data => new Data {{ "DASH_ALIVE_STATUS_BITS", Uint(data[0], data[1])}}},
-
-{	0x480 , data => new Data {{ "BSPD_Trigger", Uint(data[0])}}},
 
 {   0x490 , data => new Data {{ "BMS_IMD_Shutdown_open", Uint(data[0])}}},
 {   0x491 , data => new Data {{ "BMS_IMD_State", Uint(data[0])}}},
