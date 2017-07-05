@@ -338,8 +338,8 @@ Available functions:
 
 {
     0x445 , data => new Data {
-        {"BMS_Power"        , Int(data[0], data[1])*10},
-        {"BMS_Voltage_SOC"  , Int(data[2], data[3])/10}
+        {"BMS_Power_fast"               , Int(data[0], data[1])*10},
+        {"BMS_Voltage_Sum_of_Cells"     , Int(data[2], data[3])/10}
     }
 },
 
@@ -371,10 +371,10 @@ Available functions:
 
 {
 	0x453 , data => new Data {
-		{"ECU_Fz_damper_estimate_FL", Uint(data[0], data[1])/10 },
-		{"ECU_Fz_damper_estimate_FR", Uint(data[2], data[3])/10 },
-		{"ECU_Fz_damper_estimate_RL", Uint(data[4], data[5])/10 },
-		{"ECU_Fz_damper_estimate_RR", Uint(data[6], data[7])/10 }
+		{"ECU_Fz_damper_estimate_FL", Uint(data[0], data[1])*0.01 },
+		{"ECU_Fz_damper_estimate_FR", Uint(data[2], data[3])*0.01 },
+		{"ECU_Fz_damper_estimate_RL", Uint(data[4], data[5])*0.01 },
+		{"ECU_Fz_damper_estimate_RR", Uint(data[6], data[7])*0.01 }
 	}
 },
 
