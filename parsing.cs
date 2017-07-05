@@ -248,10 +248,10 @@ Available functions:
 
 {
 	0x400 , data => new Data {
-		{ "ADC_FL_DamperFL", Uint(data[0], data[1])},
+		{ "ADC_FL_DamperFL", Uint(data[0], data[1])*0.01},
 		{ "ADC_FL_DamperRateFL", Int(data[2], data[3])},
-		{ "ADC_FL_GearTempFL", Uint(data[4], data[5])/100},
-		{ "ADC_FL_CoolingTempFL", Uint(data[6], data[7])/100}
+		{ "ADC_FL_GearTempFL", Uint(data[4], data[5])*0.01},
+		{ "ADC_FL_CoolingTempFL", Uint(data[6], data[7])*0.01}
 	}
 },
 
@@ -265,10 +265,10 @@ Available functions:
 
 {
 	0x410 , data => new Data {
-		{ "ADC_FR_DamperFR", Uint(data[0], data[1])},
+		{ "ADC_FR_DamperFR", Uint(data[0], data[1])*0.01},
 		{ "ADC_FR_DamperRateFR", Int(data[2], data[3])},
-		{ "ADC_FR_GearTempFR", Uint(data[4], data[5])/100},
-		{ "ADC_FR_CoolingTempFR", Uint(data[6], data[7])/100}
+		{ "ADC_FR_GearTempFR", Uint(data[4], data[5])*0.01},
+		{ "ADC_FR_CoolingTempFR", Uint(data[6], data[7])*0.01}
 	}
 },
 
@@ -288,9 +288,9 @@ Available functions:
 
 {
 	0x420 , data => new Data {
-		{ "ADC_REAR_DamperRL", Uint(data[0], data[1])},
+		{ "ADC_REAR_DamperRL", Uint(data[0], data[1])*0.01},
 		{ "ADC_REAR_DamperRateRL", Int(data[2], data[3])},
-		{ "ADC_REAR_DamperRR", Uint(data[4], data[5])},
+		{ "ADC_REAR_DamperRR", Uint(data[4], data[5])*0.01},
 		{ "ADC_REAR_DamperRateRR", Int(data[6], data[7])}
 	}
 },
