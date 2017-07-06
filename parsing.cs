@@ -328,10 +328,10 @@ Available functions:
 
 {
     0x442 , data => new Data {
-        {"BMS_Tractive_System_Voltage"  , Uint(data[0], data[1])/10},
-        {"BMS_Tractive_System_Current"  , Int(data[2], data[3])/10},
-        {"BMS_Tractive_System_Power"    , Int(data[4], data[5])*10},
-        {"BMS_State_of_Charge"          , Uint(data[6], data[7])/100}
+        {"BMS_Tractive_System_Voltage"              , Uint(data[0], data[1])/10},
+        {"BMS_Tractive_System_Current"              , Int(data[2], data[3])/10},
+        {"BMS_Tractive_System_Current_Transient"    , Int(data[4], data[5])*10},
+        {"BMS_State_of_Charge"                      , Uint(data[6], data[7])/100}
     }
 },
 
@@ -340,8 +340,8 @@ Available functions:
 
 {
     0x445 , data => new Data {
-        {"BMS_Power_fast"               , Int(data[0], data[1])*10},
-        {"BMS_Voltage_Sum_of_Cells"     , Int(data[2], data[3])/10}
+        {"BMS_Tractive_System_Power"                , Int(data[0], data[1])*10},
+        {"BMS_Voltage_Sum_of_Cells"                 , Int(data[2], data[3])/10}
     }
 },
 
