@@ -12,7 +12,7 @@ Rules for parsing of telemetry data
 },
 ```
 
-The unpacing function takes argument string data, its a hex string of the data value sendt from the telemetry module.
+The unpacking function takes argument string data, in the form of a hex string of the data value sendt from the telemetry module.
 
 # Available functions
 
