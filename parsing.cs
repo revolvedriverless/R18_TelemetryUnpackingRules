@@ -307,7 +307,7 @@ Available functions:
 },
 
 {
-    0x440 , data => new Data {
+   0x440 , data => new Data {
         {"BMS_Max_Cell_Voltage"     , Uint(data[0], data[1])/10000},
         {"BMS_Average_Cell_Voltage" , Uint(data[2], data[3])/10000},
         {"BMS_Min_Cell_Voltage"     , Uint(data[4], data[5])/10000},
@@ -330,7 +330,7 @@ Available functions:
     0x442 , data => new Data {
         {"BMS_Tractive_System_Voltage"              , Uint(data[0], data[1])/10},
         {"BMS_Tractive_System_Current"              , Int(data[2], data[3])/10},
-        {"BMS_Tractive_System_Current_Transient"    , Int(data[4], data[5])*10},
+        {"BMS_Tractive_System_Current_Transient"    , Int(data[4], data[5])/10},
         {"BMS_State_of_Charge"                      , Uint(data[6], data[7])/100}
     }
 },
