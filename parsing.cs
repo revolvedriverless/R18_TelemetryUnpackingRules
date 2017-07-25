@@ -311,8 +311,8 @@ Available functions:
     {"BMS_Max_Cell_Voltage"     , Uint(data[0], data[1])/10000},
     {"BMS_Average_Cell_Voltage" , Uint(data[2], data[3])/10000},
     {"BMS_Min_Cell_Voltage"     , Uint(data[4], data[5])/10000},
-    {"BMS_Max_Voltage_ID"       , Int(data[6])},
-    {"BMS_Min_Voltage_ID"       , Int(data[7])}
+    {"BMS_Max_Voltage_ID"       , Uint(data[6])},
+    {"BMS_Min_Voltage_ID"       , Uint(data[7])}
   }
 },
 
@@ -321,8 +321,8 @@ Available functions:
     {"BMS_Max_Cell_Temperature"     , Uint(data[0], data[1])/10},
     {"BMS_Average_Cell_Temperature" , Uint(data[2], data[3])/10},
     {"BMS_Min_Cell_Temperature"     , Uint(data[4], data[5])/10},
-    {"BMS_Max_Temperature_ID"       , Int(data[6])},
-    {"BMS_Min_Temperature_ID"       , Int(data[7])}
+    {"BMS_Max_Temperature_ID"       , Uint(data[6])},
+    {"BMS_Min_Temperature_ID"       , Uint(data[7])}
   }
 },
 
