@@ -8,39 +8,18 @@
 // 288 = ninja
 // 31A = bolle
 
-#Change_This
-111 = this_too
-112 = and_this
-113 = and_this
-114 = and_this
-115 = and_this
-116 = and_this
-117 = and_this
-118 = and_this
-119 = and_this
-120 = and_this
+#BMS
+440 = Max_Cell_Voltage
+440 = Average_Cell_Voltage
+440 = Min_Cell_Voltage
 
-#Hola
-121 = and_this
-122 = and_this
-123 = and_this
-124 = and_this
-125 = and_this
-126 = and_this
-127 = and_this
-128 = and_this
-129 = and_this
-130 = and_this
-131 = and_this
-132 = and_this
+#ECU
+351 = ECU_DRIVE_ENABLE
+352 = ECU_DRIVE_DISABLE
 
-#Testitest
-4C0 = beb
-ABC = bab
-312 = bib
-231 = bob
-3BC = bæb
-FFF = bøb
-AAA = båb
-BBB = bub
+#GLV
+465 = GLV_Min_Cell_Voltage
+466 = GLV_Max_Cell_Voltage
+467 = GLV_State_Of_Charge
+
 
