@@ -10,8 +10,8 @@
 
 #BMS
 440 = Max_Cell_Voltage
-440 = Average_Cell_Voltage
-440 = Min_Cell_Voltage
+441 = Average_Cell_Voltage
+442 = Min_Cell_Voltage
 
 #ECU
 351 = ECU_DRIVE_ENABLE
