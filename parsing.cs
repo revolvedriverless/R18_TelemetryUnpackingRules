@@ -306,6 +306,10 @@ Available functions:
 	}
 },
 
+{    0x428 , data => new Data {{"Charger_Data", Uint(data[0])}}},
+{    0x429 , data => new Data {{"Charger_Acknowledge", Uint(data[0])}}},
+{    0x317 , data => new Data {{"Charger_Error", Uint(data[0], data[1], data[2], data[3])}}},
+
 {
  0x440 , data => new Data {
     {"BMS_Max_Cell_Voltage"     , Uint(data[0], data[1])/10000},
