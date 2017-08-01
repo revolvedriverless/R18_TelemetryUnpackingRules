@@ -350,6 +350,14 @@ Available functions:
 },
 
 {
+    0x44A , data => new Data {
+		{ "BMS_max_isoSPI_fails", Uint(data[0]) },
+		{ "BMS_max_isoSPI_fails_Slave_ID", Uint(data[1]) },
+		{ "BMS_max_isoSPI_fails_Register_ID", Uint(data[2]) }
+  }
+},
+
+{
   0x450 , data => new Data {
 		{ "ECU_System_Status", Uint(data[0])},
 		{ "ECU_Torque_Allocation",Uint(data[2])},
