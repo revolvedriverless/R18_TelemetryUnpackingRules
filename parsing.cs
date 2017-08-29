@@ -162,8 +162,8 @@ Available functions:
 
 {
 	0x401 , data => new Data {
-		{ "ADC_FL_BrakePressure_1", Uint(data[0], data[1])},
-		{ "ADC_FL_BrakePressure_2", Uint(data[2], data[3])},
+		{ "ADC_FL_BrakePressure_1", Uint(data[0], data[1])/1000},
+		{ "ADC_FL_BrakePressure_2", Uint(data[2], data[3])/1000},
 		{ "ADC_FL_KERS", Uint(data[4], data[5])*0.1},
 	}
 },
