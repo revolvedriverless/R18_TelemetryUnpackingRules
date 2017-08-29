@@ -410,16 +410,15 @@ Available functions:
 
 //{   0x468 , data => new Data {{"Reserved: GLV_State", Uint(data[0], data[1])}}},
 
-{   0x470 , data => new Data {{"DASH_REQUEST_DRIVE_ENABLE", Uint(data[0])}}},
-{   0x472 , data => new Data {{"DASH_RTDS_FINISHED",        Uint(data[0])}}},
-{   0x475 , data => new Data {{"DASH_REQUEST_KERS_ACTIVATION", Uint(data[0])}}},
+{   0x470 , data => new Data {{ "DASH_REQUEST_DRIVE_ENABLE", 	Uint(data[0])}}},
+{   0x472 , data => new Data {{ "DASH_RTDS_FINISHED",        	Uint(data[0])}}},
+{   0x475 , data => new Data {{ "DASH_REQUEST_KERS_ACTIVATION", Uint(data[0])}}},
+{	0x47F , data => new Data {{ "DASH_ALIVE_STATUS_BITS", 		Uint(data[0], data[1])}}},
 
-{	0x47F , data => new Data {{ "DASH_ALIVE_STATUS_BITS", Uint(data[0], data[1])}}},
+{   0x490 , data => new Data {{ "BMS_IMD_Shutdown_open", 		Uint(data[0])}}},
+{   0x491 , data => new Data {{ "BMS_IMD_State", 				Uint(data[0])}}},
 
-{   0x490 , data => new Data {{ "BMS_IMD_Shutdown_open", Uint(data[0])}}},
-{   0x491 , data => new Data {{ "BMS_IMD_State", Uint(data[0])}}},
-
-{	0x4C0 , data => new Data {{ "Alive_message", Uint(data[0])}}},
+{	0x4C0 , data => new Data {{ "Alive_message", 				Uint(data[0])}}},
 
 {
 	0x500 , data => new Data {
