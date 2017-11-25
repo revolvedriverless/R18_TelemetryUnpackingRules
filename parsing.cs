@@ -1030,7 +1030,11 @@ Available functions:
 		{"ECU_TV_Mz_reserved", 							Int(data[4], data[5])/10},
 		{"ECU_TV_Driver_torque_request", 				Int(data[6])*2},
 		{"ECU_TV_Percentage_of_req_torque_allocated", 	Int(data[6])*2}
- }
+ 	}
 },
 
-{	0x654 , data => new Data {{"ECU_TV_Active_constraints", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}}},
+{	
+	0x654 , data => new Data {
+		{"ECU_TV_Active_constraints", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}
+	}
+},
