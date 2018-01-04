@@ -1029,7 +1029,7 @@ Available functions:
 		{"ECU_TV_Mz_ref", 								Int(data[2], data[3])/10},
 		{"ECU_TV_Mz_reserved", 							Int(data[4], data[5])/10},
 		{"ECU_TV_Driver_torque_request", 				Int(data[6])*2},
-		{"ECU_TV_Percentage_of_req_torque_allocated", 	Int(data[6])*2}
+		{"ECU_TV_Percentage_of_req_torque_allocated", 	Int(data[7])*2}
  	}
 },
 
