@@ -1,4 +1,54 @@
 {
+  "0x010": {
+    "Simian_dataLogger_playback_Ia": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.01
+    },
+    "Simian_dataLogger_playback_Ib": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x011": {
+    "Simian_dataLogger_playback_Id": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.01
+    },
+    "Simian_dataLogger_playback_Iq": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.01
+    },
+    "Simian_dataLogger_playback_rpm": {
+      "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 1.0
+    }
+  },
+  "0x012": {
+    "Simian_dataLogger_playback_encoder_pos": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 4,
+      "factor": 1.0
+    }
+  },
+  "0x013": {
+    "Simian_dataLogger_playback_encoder_raw": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 4,
+      "factor": 1.0
+    }
+  },
   "0x185": {
     "AMK_FL_Setpoint_control_word": {
       "type": "Uint",
@@ -101,6 +151,80 @@
       "startbyte": 6,
       "length": 2,
       "factor": 0.0098
+    }
+  },
+  "0x200": {
+    "Simian_current_a": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_current_b": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_current_d": {
+      "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_current_q": {
+      "type": "Int",
+      "startbyte": 7,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x201": {
+    "Simian_current_dc": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_voltage_dc": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x202": {
+    "Simian_speed_rpm": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 1.0
+    },
+    "Simian_speed_max_rpm": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 1.0
+    },
+    "Simian_speed_min_rpm": {
+      "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 1.0
+    }
+  },
+  "0x203": {
+    "Simian_current_a_rms": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_current_b_rms": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1
     }
   },
   "0x284": {
@@ -309,6 +433,48 @@
       "startbyte": 6,
       "length": 2,
       "factor": 0.1
+    }
+  },
+  "0x290": {
+    "Simian_encoder_pos": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 4,
+      "factor": 1.0
+    }
+  },
+  "0x294": {
+    "Simian_voltage_d": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_voltage_q": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_voltage_a": {
+      "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_voltage_b": {
+      "type": "Int",
+      "startbyte": 7,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x295": {
+    "Simian_torque_request": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.01
     }
   },
   "0x350": {
