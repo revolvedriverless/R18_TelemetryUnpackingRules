@@ -1,7 +1,29 @@
 # Telemetry Unpacking Rules
 Rules for parsing of telemetry data
 
-# Format
+### JSON format
+
+    {
+        "<ID>": {
+            "<NAME_1>": {
+                "type": "<Datatype>",
+                "startbyte": "<Index of first byte in the data section of message>",
+                "length": "<Length of this entry>",
+                "factor": "<Factor this message is to be multiplied with>"
+            },
+            ...
+            "<NAME_N>": {
+                "type": "<Datatype>",
+                "startbyte": "<Index of first byte in the data section of message>",
+                "length": "<Length of this entry>",
+                "factor": "<Factor this message is to be multiplied with>"
+            }
+        },
+        ...
+    }
+
+
+### C# Format
 
 ```cs
 {
@@ -14,7 +36,7 @@ Rules for parsing of telemetry data
 
 The unpacking function takes argument string data, in the form of a hex string of the data value sent from the telemetry module.
 
-# Available functions
+### Available functions
 
 >hexToUint(string message)
 
