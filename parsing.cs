@@ -16,9 +16,35 @@ Available functions:
 	All of Math lib
 
 */
+{   
+	0x010 , data => new Data {
+		{ "Simian_dataLogger_playback_Ia", Int(data[0], data[1]) / 100 },
+		{ "Simian_dataLogger_playback_Ib", Int(data[2], data[3]) / 100 }
+	}
+},
+
+{   
+	0x011 , data => new Data {
+		{ "Simian_dataLogger_playback_Id", Int(data[0], data[1]) / 100 },
+		{ "Simian_dataLogger_playback_Iq", Int(data[2], data[3]) / 100 },
+		{ "Simian_dataLogger_playback_rpm", Int(data[4], data[5]) }
+	}
+},
+
+{   
+	0x012 , data => new Data {
+		{ "Simian_dataLogger_playback_encoder_pos", Uint(data[0], data[1], data[2], data[3]) }
+	}
+},
+
+{   
+	0x013 , data => new Data {
+		{ "Simian_dataLogger_playback_encoder_raw", Uint(data[0], data[1], data[2], data[3]) }
+	}
+},
 
 {
-		0x185 , data => new Data {
+	0x185 , data => new Data {
 		{ "AMK_FL_Setpoint_control_word", Uint(data[1]) },
 		{ "AMK_FL_Setpoint_RPM_request", Int(data[2], data[3]) },
 		{ "AMK_FL_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },//convert from 0.1% of nominal motor torque (9.8) to Nm
@@ -50,6 +76,38 @@ Available functions:
 		{ "AMK_RR_Setpoint_RPM_request", Int(data[2], data[3]) },
 		{ "AMK_RR_Setpoint_positive_torque_limit", Int(data[4], data[5])*0.0098 },
 		{ "AMK_RR_Setpoint_negative_torque_limit", Int(data[6], data[7])*0.0098 }
+	}
+},
+
+{   
+	0x200 , data => new Data {
+		{ "Simian_current_a",         Int(data[0], data[1]) / 10 },
+		{ "Simian_current_b",         Int(data[2], data[3]) / 10 },
+		{ "Simian_current_c",     -(Int(data[0], data[1]) + Int(data[2], data[3])) / 10},
+		{ "Simian_current_d",         Int(data[4], data[5]) / 10 },
+		{ "Simian_current_q",         Int(data[6], data[7]) / 10 }
+	}
+},
+
+{   
+	0x201 , data => new Data {
+		{ "Simian_current_dc",        Int(data[0], data[1]) / 10 },
+		{ "Simian_voltage_dc",        Int(data[2], data[3]) / 10 }
+	}
+},
+
+{   
+	0x202 , data => new Data {
+		{ "Simian_speed_rpm",         Int(data[0], data[1]) },
+		{ "Simian_speed_max_rpm",     Int(data[2], data[3]) },
+		{ "Simian_speed_min_rpm",     Int(data[4], data[5]) }
+	}
+},
+
+{   
+	0x203 , data => new Data {
+		{ "Simian_current_a_rms",     Int(data[0], data[1]) / 10 },
+		{ "Simian_current_b_rms",     Int(data[2], data[3]) / 10 }
 	}
 },
 
@@ -114,18 +172,39 @@ Available functions:
 	}
 },
 {
-		 0x28B , data => new Data {
+	0x28B , data => new Data {
 		{ "AMK_RR_Temp_Motor", Uint(data[0],data[1])/10 },
 		{ "AMK_RR_Temp_Inverter", Int(data[2], data[3])/10 },
 		{ "AMK_RR_Error_Info", (Int(data[4],data[5])) },
 		{ "AMK_RR_Temp_IGBT", Int(data[6], data[7])/10 }
-		 }
+	}
 },
 
-{   0x350 , data => new Data {{"ECU_PLAY_RTDS", Uint(data[0])}}},
-{   0x351 , data => new Data {{"ECU_DRIVE_ENABLE", Uint(data[0])}}},
-{   0x352 , data => new Data {{"ECU_DRIVE_DISABLE", Uint(data[0])}}},
-{   0x353 , data => new Data {{"ECU_RESET_AMK_INVERTER_ERROR", Uint(data[0])}}},
+{   
+	0x290 , data => new Data {
+		{ "Simian_encoder_pos",   Uint(data[0], data[1], data[2], data[3]) }
+	}
+},
+
+{   
+	0x294 , data => new Data {
+		{ "Simian_voltage_d",         Int(data[0], data[1]) / 10 },
+		{ "Simian_voltage_q",         Int(data[2], data[3]) / 10 },
+		{ "Simian_voltage_a",         Int(data[4], data[5]) / 10 },
+		{ "Simian_voltage_b",         Int(data[6], data[7]) / 10 }
+	}
+},
+
+{
+	0x295 , data => new Data {
+		{ "Simian_torque_request",    Int(data[0], data[1]) / 100 }
+	}
+},
+
+{	0x350 , data => new Data {{"ECU_PLAY_RTDS", Uint(data[0])}}},
+{	0x351 , data => new Data {{"ECU_DRIVE_ENABLE", Uint(data[0])}}},
+{	0x352 , data => new Data {{"ECU_DRIVE_DISABLE", Uint(data[0])}}},
+{	0x353 , data => new Data {{"ECU_RESET_AMK_INVERTER_ERROR", Uint(data[0])}}},
 
 {
 	0x358 , data => new Data {
@@ -211,12 +290,12 @@ Available functions:
 	}
 },
 
-{    0x428 , data => new Data {{"Charger_Data", Uint(data[0])}}},
-{    0x429 , data => new Data {{"Charger_Acknowledge", Uint(data[0])}}},
-{    0x317 , data => new Data {{"Charger_Error", Uint(data[0], data[1], data[2], data[3])}}},
+{	0x428 , data => new Data {{"Charger_Data", Uint(data[0])}}},
+{	0x429 , data => new Data {{"Charger_Acknowledge", Uint(data[0])}}},
+{	0x317 , data => new Data {{"Charger_Error", Uint(data[0], data[1], data[2], data[3])}}},
 
 {
- 0x440 , data => new Data {
+	0x440 , data => new Data {
 		{"BMS_Max_Cell_Voltage"     , Uint(data[0], data[1])/10000},
 		{"BMS_Average_Cell_Voltage" , Uint(data[2], data[3])/10000},
 		{"BMS_Min_Cell_Voltage"     , Uint(data[4], data[5])/10000},
@@ -244,8 +323,8 @@ Available functions:
 	}
 },
 
-{    0x443 , data => new Data {{"BMS_Error_Flags", Uint(data[0], data[1])}}},
-{    0x444 , data => new Data {{"BMS_State", Uint(data[0])}}},
+{	0x443 , data => new Data {{"BMS_Error_Flags", Uint(data[0], data[1])}}},
+{	0x444 , data => new Data {{"BMS_State", Uint(data[0])}}},
 
 {
 	0x445 , data => new Data {
@@ -297,7 +376,7 @@ Available functions:
 	}
 },
 
-{   0x454 , data => new Data {{ "ECU_Sensor_Status", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}}},
+{	0x454 , data => new Data {{ "ECU_Sensor_Status", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}}},
 
 
 {
@@ -332,7 +411,7 @@ Available functions:
 
 {
 	0x45B , data => new Data {
-				{ "ECU_INS_GPSfix", Uint(data[0]) },
+		{ "ECU_INS_GPSfix", Uint(data[0]) },
 		{ "ECU_INS_Tracked_satelites", Uint(data[1]) }
 	}
 },
@@ -382,7 +461,7 @@ Available functions:
 	}
 },
 
-{   0x463 , data => new Data {{"GLV_Cell_Temperature_4", Uint(data[0], data[1])*0.01}}},
+{	0x463 , data => new Data {{"GLV_Cell_Temperature_4", Uint(data[0], data[1])*0.01}}},
 
 {
 	0x465 , data => new Data {
@@ -410,15 +489,15 @@ Available functions:
 
 //{   0x468 , data => new Data {{"Reserved: GLV_State", Uint(data[0], data[1])}}},
 
-{   0x470 , data => new Data {{ "DASH_REQUEST_DRIVE_ENABLE", 	Uint(data[0])}}},
-{   0x472 , data => new Data {{ "DASH_RTDS_FINISHED",        	Uint(data[0])}}},
-{   0x475 , data => new Data {{ "DASH_REQUEST_KERS_ACTIVATION", Uint(data[0])}}},
-{	0x47F , data => new Data {{ "DASH_ALIVE_STATUS_BITS", 		Uint(data[0], data[1])}}},
+{	0x470 , data => new Data {{ "DASH_REQUEST_DRIVE_ENABLE", 	Uint(data[0])}}},
+{	0x472 , data => new Data {{ "DASH_RTDS_FINISHED",        	Uint(data[0])}}},
+{	0x475 , data => new Data {{ "DASH_REQUEST_KERS_ACTIVATION", Uint(data[0])}}},
+{	0x47F , data => new Data {{ "DASH_ALIVE_STATUS_BITS", 	Uint(data[0], data[1])}}},
 
-{   0x490 , data => new Data {{ "BMS_IMD_Shutdown_open", 		Uint(data[0])}}},
-{   0x491 , data => new Data {{ "BMS_IMD_State", 				Uint(data[0])}}},
+{	0x490 , data => new Data {{ "BMS_IMD_Shutdown_open", 	Uint(data[0])}}},
+{	0x491 , data => new Data {{ "BMS_IMD_State", 		Uint(data[0])}}},
 
-{	0x4C0 , data => new Data {{ "Alive_message", 				Uint(data[0])}}},
+{	0x4C0 , data => new Data {{ "Alive_message", 		Uint(data[0])}}},
 
 {
 	0x500 , data => new Data {
@@ -656,10 +735,10 @@ Available functions:
 
 {
 	0x51A , data => new Data {
-			{"BMS_Cell_Voltage_104", Uint(data[0], data[1])*0.0001},
-			{"BMS_Cell_Voltage_105", Uint(data[2], data[3])*0.0001},
-			{"BMS_Cell_Voltage_106", Uint(data[4], data[5])*0.0001},
-			{"BMS_Cell_Voltage_107", Uint(data[6], data[7])*0.0001}
+		{"BMS_Cell_Voltage_104", Uint(data[0], data[1])*0.0001},
+		{"BMS_Cell_Voltage_105", Uint(data[2], data[3])*0.0001},
+		{"BMS_Cell_Voltage_106", Uint(data[4], data[5])*0.0001},
+		{"BMS_Cell_Voltage_107", Uint(data[6], data[7])*0.0001}
 	}
 },
 
@@ -818,10 +897,10 @@ Available functions:
 
 {
 	0x54B , data => new Data {
-			{"BMS_Cell_Temperature_44", Uint(data[0], data[1])*0.1},
-			{"BMS_Cell_Temperature_45", Uint(data[2], data[3])*0.1},
-			{"BMS_Cell_Temperature_46", Uint(data[4], data[5])*0.1},
-			{"BMS_Cell_Temperature_47", Uint(data[6], data[7])*0.1}
+		{"BMS_Cell_Temperature_44", Uint(data[0], data[1])*0.1},
+		{"BMS_Cell_Temperature_45", Uint(data[2], data[3])*0.1},
+		{"BMS_Cell_Temperature_46", Uint(data[4], data[5])*0.1},
+		{"BMS_Cell_Temperature_47", Uint(data[6], data[7])*0.1}
 	}
 },
 
@@ -844,21 +923,21 @@ Available functions:
 },
 
 {
-		0x54E , data => new Data {
-				{"BMS_Cell_Temperature_56", Uint(data[0], data[1])*0.1},
-				{"BMS_Cell_Temperature_57", Uint(data[2], data[3])*0.1},
-				{"BMS_Cell_Temperature_58", Uint(data[4], data[5])*0.1},
-				{"BMS_Cell_Temperature_59", Uint(data[6], data[7])*0.1}
-		}
+	0x54E , data => new Data {
+		{"BMS_Cell_Temperature_56", Uint(data[0], data[1])*0.1},
+		{"BMS_Cell_Temperature_57", Uint(data[2], data[3])*0.1},
+		{"BMS_Cell_Temperature_58", Uint(data[4], data[5])*0.1},
+		{"BMS_Cell_Temperature_59", Uint(data[6], data[7])*0.1}
+	}
 },
 
 {
-		0x54F , data => new Data {
-				{"BMS_Cell_Temperature_60", Uint(data[0], data[1])*0.1},
-				{"BMS_Cell_Temperature_61", Uint(data[2], data[3])*0.1},
-				{"BMS_Cell_Temperature_62", Uint(data[4], data[5])*0.1},
-				{"BMS_Cell_Temperature_63", Uint(data[6], data[7])*0.1}
-		}
+	0x54F , data => new Data {
+		{"BMS_Cell_Temperature_60", Uint(data[0], data[1])*0.1},
+		{"BMS_Cell_Temperature_61", Uint(data[2], data[3])*0.1},
+		{"BMS_Cell_Temperature_62", Uint(data[4], data[5])*0.1},
+		{"BMS_Cell_Temperature_63", Uint(data[6], data[7])*0.1}
+	}
 },
 
 {
@@ -1025,10 +1104,10 @@ Available functions:
 
 {
 	0x653 , data => new Data {
-		{"ECU_TV_Yaw_rate_ref", 						Int(data[0], data[1])/1000},
-		{"ECU_TV_Mz_ref", 								Int(data[2], data[3])/10},
-		{"ECU_TV_Mz_reserved", 							Int(data[4], data[5])/10},
-		{"ECU_TV_Driver_torque_request", 				Int(data[6])*2},
+		{"ECU_TV_Yaw_rate_ref", Int(data[0], data[1])/1000},
+		{"ECU_TV_Mz_ref", 	Int(data[2], data[3])/10},
+		{"ECU_TV_Mz_reserved", 	Int(data[4], data[5])/10},
+		{"ECU_TV_Driver_torque_request",		Int(data[6])*2},
 		{"ECU_TV_Percentage_of_req_torque_allocated", 	Int(data[7])*2}
  	}
 },
