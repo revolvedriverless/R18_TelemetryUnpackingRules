@@ -1,0 +1,22 @@
+{
+  "0x654": {
+    "Undercurrent": {
+      "bytenumber": 1,
+	  "description": "not enough current",	  
+    },
+    "Overvoltage": {
+      "bytenumber": 1,
+	  "description": "too much voltage",
+    }
+  },
+  "0x650": {
+    "Batteryfire": {
+      "bytenumber": 1,
+	  "description": "burning",	  
+    },
+    "Crash": {
+      "bytenumber": 1,
+	  "description": "driver crash",
+    }
+  }
+}
