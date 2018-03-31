@@ -241,9 +241,10 @@ Available functions:
 
 {
 	0x401 , data => new Data {
-		{ "ADC_FL_BrakePressure_1", Uint(data[0], data[1])*0.001},
-		{ "ADC_FL_BrakePressure_2", Uint(data[2], data[3])*0.001},
-		{ "ADC_FL_KERS", Uint(data[4], data[5])*0.1},
+		{ "ADC_FL_APPS_1", Uint(data[0], data[1])*0.001},
+		{ "ADC_FL_APPS_2", Uint(data[2], data[3])*0.001},
+		{ "ADC_FL_Brake_pressure_1", Uint(data[4], data[5])*0.1},
+		{ "ADC_FL_Brake_pressure_2", Uint(data[6], data[7])*0.1},
 	}
 },
 
@@ -404,8 +405,7 @@ Available functions:
 	0x459 , data => new Data {
 		{"ECU_INS_AX", Int(data[0], data[1])/100 },
 		{"ECU_INS_AY", Int(data[2], data[3])/100 },
-		{"ECU_INS_VX", Int(data[4], data[5])/100 },
-		{"ECU_INS_VY", Int(data[6], data[7])/100 }
+		{"ECU_INS_AZ", Int(data[4], data[5])/100 }
 	}
 },
 
