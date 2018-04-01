@@ -24,5 +24,17 @@
       "bytenumber": 8,
       "description": "High",	  
     },
+"A2_GearTempRearL_Sensor2": {
+      "bytenumber": 9,
+      "description": "HighHigh",	  
+    },
+"A2_GearTempRearL_Sensor3": {
+      "bytenumber": 10,
+      "description": "Low",	  
+    },
+"A2_GearTempRearL_Sensor4": {
+      "bytenumber": 11,
+      "description": "LowLow",	  
+    }
   }
 }
