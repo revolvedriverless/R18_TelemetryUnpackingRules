@@ -434,10 +434,10 @@ Available functions:
 
 {
 	0x453 , data => new Data {
-		{"VCU_Fz_ekf_est_FL", Uint(data[0], data[1])*0.1 },
-		{"VCU_Fz_ekf_est_FR", Uint(data[2], data[3])*0.1 },
-		{"VCU_Fz_ekf_est_RL", Uint(data[4], data[5])*0.1 },
-		{"VCU_Fz_ekf_est_RR", Uint(data[6], data[7])*0.1 }
+		{"VCU_Fz_acc_est_FL", Uint(data[0], data[1])*0.1 },
+		{"VCU_Fz_acc_est_FR", Uint(data[2], data[3])*0.1 },
+		{"VCU_Fz_acc_est_RL", Uint(data[4], data[5])*0.1 },
+		{"VCU_Fz_acc_est_RR", Uint(data[6], data[7])*0.1 }
 	}
 },
 
