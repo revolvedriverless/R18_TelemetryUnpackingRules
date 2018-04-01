@@ -137,6 +137,7 @@ Available functions:
 		{ "AMK_FL_Temp_IGBT", Int(data[6], data[7])/10}
 	}
 },
+
 {
 	0x287 , data => new Data {
 		{ "AMK_FR_Temp_Motor", Uint(data[0],data[1])/10 },
@@ -145,6 +146,7 @@ Available functions:
 		{ "AMK_FR_Temp_IGBT", Int(data[6], data[7])/10 }
 	}
 },
+
 {
 	0x288 , data => new Data {
 		{ "AMK_RL_Status", Uint(data[1]) },
@@ -171,6 +173,7 @@ Available functions:
 		{ "AMK_RL_Temp_IGBT", Int(data[6], data[7])/10 }
 	}
 },
+
 {
 	0x28B , data => new Data {
 		{ "AMK_RR_Temp_Motor", Uint(data[0],data[1])/10 },
@@ -232,42 +235,41 @@ Available functions:
 	}
 },
 
-
-//	0x400  used for error flags for SBS FL
 {
 	0x401 , data => new Data {
-		{ "SBS_FL_TPS_1", Uint(data[0], data[1])*0.01},
-		{ "SBS_FL_TPS_2", Uint(data[2], data[3])*0.01},
-		{ "SBS_FL_Brake_pressure_1", Uint(data[4], data[5])*0.01},
-		{ "SBS_FL_Brake_pressure_2", Uint(data[4], data[5])*0.01}
+		{ "SBS_F1_TPS_1", Uint(data[0], data[1])*0.01},
+		{ "SBS_F1_TPS_2", Uint(data[2], data[3])*0.01},
+		{ "SBS_F1_Brake_pressure_1", Uint(data[4], data[5])*0.01},
+		{ "SBS_F1_Brake_pressure_2", Uint(data[4], data[5])*0.01}
 	}
 },
 
 {
 	0x402 , data => new Data {
-		{ "SBS_FL_KERS_pos", Uint(data[0], data[1])*0.01},
-		{ "SBS_FL_Steering_angle", Uint(data[2], data[3])*0.01},
-		{ "SBS_FL_Steering_speed", Uint(data[4], data[5])*0.01}
+		{ "SBS_F1_KERS_pos", Uint(data[0], data[1])*0.01},
+		{ "SBS_F1_Steering_angle", Uint(data[2], data[3])*0.01},
+		{ "SBS_F1_Steering_speed", Uint(data[4], data[5])*0.01}
 	}
 },
-//  0x410 used for error flags for SBS FR
+
 {
 	0x411 , data => new Data {
-		{ "SBS_FR_Damper_pos_FL", Uint(data[0], data[1])*0.01},
-		{ "SBS_FR_Damper_rate_FL", Int(data[2], data[3])*0.1},
-		{ "SBS_FR_Damper_pos_FR", Uint(data[4], data[5])*0.01},
-		{ "SBS_FR_Damper_rate_FR", Int(data[6], data[7])*0.1}
+		{ "SBS_F2_Damper_pos_FL", Uint(data[0], data[1])*0.01},
+		{ "SBS_F2_Damper_rate_FL", Int(data[2], data[3])*0.1},
+		{ "SBS_F2_Damper_pos_FR", Uint(data[4], data[5])*0.01},
+		{ "SBS_F2_Damper_rate_FR", Int(data[6], data[7])*0.1}
 	}
 },
+
 {
 	0x412 , data => new Data {
-		{ "SBS_FR_acc_upright_FL", Int(data[0], data[1])*0.01},
-		{ "SBS_FR_acc_upright_FR", Int(data[2], data[3])*0.01},
-		{ "SBS_FR_temp_gear_FL", Int(data[4], data[5])*0.01},
-		{ "SBS_FR_temp_gear_FR", Int(data[6], data[7])*0.01}
+		{ "SBS_F2_acc_upright_FL", Int(data[0], data[1])*0.01},
+		{ "SBS_F2_acc_upright_FR", Int(data[2], data[3])*0.01},
+		{ "SBS_F2_temp_gear_FL", Int(data[4], data[5])*0.01},
+		{ "SBS_F2_temp_gear_FR", Int(data[6], data[7])*0.01}
 	}
 },
-//	0x420 used for error flags for SBS R1
+
 {
 	0x421 , data => new Data {
 		{ "SBS_R1_Damper_pos_RL", Int(data[0], data[1])*0.01},
@@ -276,6 +278,7 @@ Available functions:
 		{ "SBS_R1_Damper_rate_RR", Int(data[6], data[7])*0.1}
 	}
 },
+
 {
 	0x422 , data => new Data {
 		{ "SBS_R1_acc_upright_RL", Int(data[0], data[1])*0.01},
@@ -284,7 +287,7 @@ Available functions:
 		{ "SBS_R1_temp_gear_RR", Int(data[6], data[7])*0.01}
 	}
 },
-//	0x426 used for error flags for SBS R2
+
 {
 	0x422 , data => new Data {
 		{ "SBS_R2_temp_cooling_high_L", Int(data[0], data[1])*0.01},
@@ -293,22 +296,24 @@ Available functions:
 		{ "SBS_R2_temp_cooling_low_R", Int(data[6], data[7])*0.01}
 	}
 },
+
 {	0x428 , data => new Data {{"Charger_Data", Uint(data[0])}}},
 {	0x429 , data => new Data {{"Charger_Acknowledge", Uint(data[0])}}},
 {	0x317 , data => new Data {{"Charger_Error", Uint(data[0], data[1], data[2], data[3])}}},
-// start new IDs 0x430-0x43F---------------------------------------------------------
 {
 	0x430 , data => new Data {
 		{"INS_status_attitude"   , Uint(data[0], data[1])},
 		{"INS_status" 	, Uint(data[2])}
 	}
 },
+
 {
 	0x431 , data => new Data {
 		{"INS_GPS_fix_1"   , Uint(data[0])},
 		{"ISN_GPS_tracked_satellites" 	, Uint(data[1])}
 	}
 },
+
 {
 	0x432 , data => new Data {
 		{"INS_Vx"   , Int(data[0], data[1])/100},
@@ -316,6 +321,7 @@ Available functions:
 		{"INS_Vz"   , Int(data[4], data[5])/100}
 	}
 },
+
 {
 	0x433 , data => new Data {
 		{"INS_Ax"   , Int(data[0], data[1])/100},
@@ -323,6 +329,7 @@ Available functions:
 		{"INS_Az"   , Int(data[4], data[5])/100}
 	}
 },
+
 {
 	0x434 , data => new Data {
 		{"INS_Roll_rate"   , Int(data[0], data[1])/100},
@@ -330,6 +337,7 @@ Available functions:
 		{"INS_Yaw_rate"    , Int(data[4], data[5])/100}
 	}
 },
+
 {
 	0x435 , data => new Data {
 		{"INS_Roll_angle"   , Int(data[0], data[1])/100},
@@ -337,24 +345,28 @@ Available functions:
 		{"INS_Yaw_angle"    , Int(data[4], data[5])/100}
 	}
 },
+
 {
 	0x436 , data => new Data {
-		{"INS_Longtitude",	Float(data[0], data[1],data[2], data[3]) },
+		{"INS_Longitude",	Float(data[0], data[1],data[2], data[3]) },
 		{"INS_Latitude", 	Float(data[4], data[5],data[6], data[7]) }
 	}
 },
+
 {
 	0x437 , data => new Data {
 		{"INS_Altitude",	Float(data[0], data[1],data[2], data[3]) },
 	}
 },
+
 {
 	0x438 , data => new Data {
 		{"INS_Roll_acc"     , Int(data[0], data[1])*0.01},
 		{"INS_Pitch_acc" 	, Int(data[2], data[3])*0.01},
 		{"INS_Yaw_acc"      , Int(data[4], data[5])*0.01}
 	}
-}
+},
+
 {
 	0x440 , data => new Data {
 		{"BMS_Max_Cell_Voltage"     , Uint(data[0], data[1])/10000},
@@ -402,10 +414,6 @@ Available functions:
 	}
 },
 
-{	
-
-},
-
 {
 	0x451 , data => new Data {
 		{ "VCU_Fz_est_FL", Uint(data[0], data[1])*0.1 },
@@ -432,6 +440,7 @@ Available functions:
 		{"VCU_Fz_ekf_est_RR", Uint(data[6], data[7])*0.1 }
 	}
 },
+
 {
 	0x454 , data => new Data {
 		{"VCU_Fz_ekf_est_FL", Uint(data[0], data[1])*0.1 },
@@ -440,6 +449,7 @@ Available functions:
 		{"VCU_Fz_ekf_est_RR", Uint(data[6], data[7])*0.1 }
 	}
 },
+
 {
 	0x455 , data => new Data {
 		{"VCU_R_eff_FL", Uint(data[0], data[1])*0.00001 },
@@ -448,6 +458,7 @@ Available functions:
 		{"VCU_R_eff_RR", Uint(data[6], data[7])*0.00001 }
 	}
 },
+
 {
 	0x456 , data => new Data {
 		{"VCU_Fx_est_FL", Int(data[0], data[1])*0.1 },
@@ -456,6 +467,7 @@ Available functions:
 		{"VCU_Fx_est_RR", Int(data[6], data[7])*0.1 }
 	}
 },
+
 {
 	0x457 , data => new Data {
 		{"VCU_Slip_Ratio_FL", Int(data[0], data[1])*0.001 },
@@ -464,6 +476,7 @@ Available functions:
 		{"VCU_Slip_Ratio_RR", Int(data[6], data[7])*0.001 }
 	}
 },
+
 {
 	0x458 , data => new Data {
 		{"VCU_Slip_Angle_FL", Int(data[0], data[1])*0.001 },
@@ -472,6 +485,7 @@ Available functions:
 		{"VCU_Slip_Angle_RR", Int(data[6], data[7])*0.001 }
 	}
 },
+
 {
 	0x459 , data => new Data {
 		{"VCU_RPM_der_FL", Int(data[0], data[1])*10 },
@@ -480,12 +494,14 @@ Available functions:
 		{"VCU_RPM_der_RR", Int(data[6], data[7])*10 }
 	}
 },
+
 {
 	0x45A , data => new Data {
 		{"VCU_steering_angle", Int(data[0], data[1])*0.001 },
 		{"VCU_steering_speed", Int(data[2], data[3])*0.01 }
 	}
 },
+
 {
 	0x45B , data => new Data {
 		{"VCU_alfa_r", Int(data[0], data[1])*0.001 }
@@ -1253,7 +1269,7 @@ Available functions:
 		{"VCU_TV_percentage_delivered_torque", Int(data[4], data[5])/100}
 	}
 },
-// 0x652 in use for error messages
+
 {
 	0x653 , data => new Data {
 		{"VCU_TV_Mz_ref_controller", Int(data[0], data[1])*0.1},
@@ -1262,11 +1278,13 @@ Available functions:
 		{"VCU_TV_Mz_ref_generator_unsat", Int(data[5], data[6])*0.1}
  	}
 },
+
 {	
 	0x654 , data => new Data {
 		{"VCU_TV_Active_constraints", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}
 	}
 },
+
 {
 	0x655 , data => new Data {
 		{"VCU_TV_Yaw_rate_ref", Int(data[0], data[1])*0.1},
@@ -1275,6 +1293,7 @@ Available functions:
 		{"VCU_TV_Mz_ref_generator_unsat", Int(data[5], data[6])*0.1}
  	}
 },
+
 {
 	0x656 , data => new Data {
 		{"VCU_TV_P_term_generator", Int(data[0], data[1])*0.01},
@@ -1283,6 +1302,7 @@ Available functions:
 		{"VCU_TV_Kd_generator", Int(data[5], data[6])*0.01}
  	}
 },
+
 {
 	0x657 , data => new Data {
 		{"VCU_TV_P_term_regulator", Int(data[0], data[1])*0.01},
@@ -1291,6 +1311,7 @@ Available functions:
 		{"VCU_TV_Backstepping_regulator", Int(data[5], data[6])*0.01}
  	}
 },
+
 {
 	0x658 , data => new Data {
 		{"VCU_TV_MMT_tire_force_FL", Int(data[0], data[1])*0.01},
@@ -1299,6 +1320,7 @@ Available functions:
 		{"VCU_TV_MMT_tire_force_RR", Int(data[5], data[6])*0.01}
  	}
 },
+
 {
 	0x659 , data => new Data {
 		{"VCU_TV_MMT_tire_force_slip_FL", Int(data[0], data[1])*0.01},
@@ -1307,6 +1329,7 @@ Available functions:
 		{"VCU_TV_MMT_tire_force_slip_RR", Int(data[5], data[6])*0.01}
  	}
 },
+
 {
 	0x65A , data => new Data {
 		{"VCU_TV_slip_scaling_factors_FL", Int(data[0], data[1])*0.001},
@@ -1369,7 +1392,7 @@ Available functions:
 },
 {
 	0x72A , data => new Data {
-		{"HIL_Pitch_angøe", Float(data[0],data[1],data[2],data[3])}
+		{"HIL_Pitch_angle", Float(data[0],data[1],data[2],data[3])}
  	}
 },
 {
