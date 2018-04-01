@@ -18,7 +18,7 @@
       "bytenumber": 1,
 	  "description": "driver crash",
     }
-  }
+  },
   "0x420": {
     "A2_GearTempRearL_Sensor": {
       "bytenumber": 8,
