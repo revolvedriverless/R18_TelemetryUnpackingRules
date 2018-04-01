@@ -1,40 +1,72 @@
 {
+  "0x420": {
+    "A4_DamperRearL_Sensor_low": {
+      "byteNumber": "16",
+      "description": "low"
+    },
+    "A4_DamperRearL_Sensor_high": {
+      "byteNumber": "17",
+      "description": "High"
+    },
+    "A4_DamperRearL_Sensor_TVlow": {
+      "byteNumber": "18",
+      "description": "low"
+    },
+    "A4_DamperRearL_Sensor_TVhigh": {
+      "byteNumber": "19",
+      "description": "high"
+    },
+    "A4_DamperRearR_Sensor_low": {
+      "byteNumber": "20",
+      "description": "low"
+    },
+    "A4_DamperRearR_Sensor_high": {
+      "byteNumber": "21",
+      "description": "high"
+    },
+    "A4_DamperRearR_Sensor_TVlow": {
+      "byteNumber": "22",
+      "description": "low"
+    },
+    "A4_DamperRearR_Sensor_TVhigh": {
+      "byteNumber": "23",
+      "description": "high"
+    },
+    "A2_GearTempRearL_Sensor": {
+      "byteNumber": "8",
+      "description": "High"
+    },
+    "A2_GearTempRearL_Sensor2": {
+      "byteNumber": "9",
+      "description": "HighHigh"
+    },
+    "A2_GearTempRearL_Sensor3": {
+      "byteNumber": "10",
+      "description": "Low"
+    },
+    "A2_GearTempRearL_Sensor4": {
+      "byteNumber": "11",
+      "description": "LowLow"
+    }
+  },
   "0x654": {
     "Undercurrent": {
-      "bytenumber": 1,
-	  "description": "not enough current",	  
+      "byteNumber": "1",
+      "description": "not enough current"
     },
     "Overvoltage": {
-      "bytenumber": 1,
-	  "description": "too much voltage",
+      "byteNumber": "1",
+      "description": "too much voltage"
     }
   },
   "0x650": {
     "Batteryfire": {
-      "bytenumber": 1,
-	  "description": "burning",	  
+      "byteNumber": "1",
+      "description": "burning"
     },
     "Crash": {
-      "bytenumber": 1,
-	  "description": "driver crash",
-    }
-  },
-  "0x420": {
-    "A2_GearTempRearL_Sensor": {
-      "bytenumber": 8,
-      "description": "High",	  
-    },
-"A2_GearTempRearL_Sensor2": {
-      "bytenumber": 9,
-      "description": "HighHigh",	  
-    },
-"A2_GearTempRearL_Sensor3": {
-      "bytenumber": 10,
-      "description": "Low",	  
-    },
-"A2_GearTempRearL_Sensor4": {
-      "bytenumber": 11,
-      "description": "LowLow",	  
+      "byteNumber": "1",
+      "description": "driver crash"
     }
   }
 }
