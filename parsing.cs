@@ -137,6 +137,7 @@ Available functions:
 		{ "AMK_FL_Temp_IGBT", Int(data[6], data[7])/10}
 	}
 },
+
 {
 	0x287 , data => new Data {
 		{ "AMK_FR_Temp_Motor", Uint(data[0],data[1])/10 },
@@ -145,6 +146,7 @@ Available functions:
 		{ "AMK_FR_Temp_IGBT", Int(data[6], data[7])/10 }
 	}
 },
+
 {
 	0x288 , data => new Data {
 		{ "AMK_RL_Status", Uint(data[1]) },
@@ -171,6 +173,7 @@ Available functions:
 		{ "AMK_RL_Temp_IGBT", Int(data[6], data[7])/10 }
 	}
 },
+
 {
 	0x28B , data => new Data {
 		{ "AMK_RR_Temp_Motor", Uint(data[0],data[1])/10 },
@@ -201,98 +204,168 @@ Available functions:
 	}
 },
 
-{	0x350 , data => new Data {{"ECU_PLAY_RTDS", Uint(data[0])}}},
-{	0x351 , data => new Data {{"ECU_DRIVE_ENABLE", Uint(data[0])}}},
-{	0x352 , data => new Data {{"ECU_DRIVE_DISABLE", Uint(data[0])}}},
-{	0x353 , data => new Data {{"ECU_RESET_AMK_INVERTER_ERROR", Uint(data[0])}}},
+{	0x350 , data => new Data {{"VCU_PLAY_RTDS", Uint(data[0])}}},
+{	0x351 , data => new Data {{"VCU_DRIVE_ENABLE", Uint(data[0])}}},
+{	0x352 , data => new Data {{"VCU_DRIVE_DISABLE", Uint(data[0])}}},
+{	0x353 , data => new Data {{"VCU_RESET_AMK_INVERTER_ERROR", Uint(data[0])}}},
 
 {
 	0x358 , data => new Data {
-		{ "ECU_INS_GPStime_year", 	Uint(data[0]) },
-		{ "ECU_INS_GPStime_month", 	Uint(data[1]) },
-		{ "ECU_INS_GPStime_day", 	Uint(data[2]) },
-		{ "ECU_INS_GPStime_hour",	Uint(data[3]) },
-		{ "ECU_INS_GPStime_min", 	Uint(data[4]) },
-		{ "ECU_INS_GPStime_sec", 	Uint(data[5]) }
+		{ "INS_GPStime_year", 	Uint(data[0]) },
+		{ "INS_GPStime_month", 	Uint(data[1]) },
+		{ "INS_GPStime_day", 	Uint(data[2]) },
+		{ "INS_GPStime_hour",	Uint(data[3]) },
+		{ "INS_GPStime_min", 	Uint(data[4]) },
+		{ "INS_GPStime_sec", 	Uint(data[5]) }
 	}
 },
 
 {
 	0x35C , data => new Data {
-		{ "ECU_Alfa_r", Uint(data[0], data[1])},
+		{ "VCU_System_Status", Uint(data[0])},
+		{ "VCU_Torque_Allocation",Uint(data[2])},
+		{ "VCU_Vehicle_State", Uint(data[3])}
 	}
 },
 
 {
 	0x359 , data => new Data {
-		{ "ECU_Parameter_ID", Uint(data[0])},
-		{ "ECU_Parameter_value", Float(data[4], data[5], data[6], data[7])},
-	}
-},
-
-{
-	0x400 , data => new Data {
-		{ "ADC_FL_DamperFL", Uint(data[0], data[1])*0.01},
-		{ "ADC_FL_DamperRateFL", Int(data[2], data[3])},
-		{ "ADC_FL_GearTempFL", Uint(data[4], data[5])*0.01},
-		{ "ADC_FL_CoolingTempFL", Uint(data[6], data[7])*0.01}
+		{ "VCU_Parameter_ID", Uint(data[0])},
+		{ "VCU_Parameter_value", Float(data[4], data[5], data[6], data[7])},
 	}
 },
 
 {
 	0x401 , data => new Data {
-		{ "ADC_FL_BrakePressure_1", Uint(data[0], data[1])*0.001},
-		{ "ADC_FL_BrakePressure_2", Uint(data[2], data[3])*0.001},
-		{ "ADC_FL_KERS", Uint(data[4], data[5])*0.1},
+		{ "SBS_F1_TPS_1", Uint(data[0], data[1])*0.01},
+		{ "SBS_F1_TPS_2", Uint(data[2], data[3])*0.01},
+		{ "SBS_F1_Brake_pressure_1", Uint(data[4], data[5])*0.01},
+		{ "SBS_F1_Brake_pressure_2", Uint(data[4], data[5])*0.01}
 	}
 },
 
-{	0x402 , data => new Data {{ "BSPD_Trigger", Uint(data[0])}}},
-
 {
-	0x410 , data => new Data {
-		{ "ADC_FR_DamperFR", Uint(data[0], data[1])*0.01},
-		{ "ADC_FR_DamperRateFR", Int(data[2], data[3])},
-		{ "ADC_FR_GearTempFR", Uint(data[4], data[5])*0.01},
-		{ "ADC_FR_CoolingTempFR", Uint(data[6], data[7])*0.01}
+	0x402 , data => new Data {
+		{ "SBS_F1_KERS_pos", Uint(data[0], data[1])*0.01},
+		{ "SBS_F1_Steering_angle", Uint(data[2], data[3])*0.01},
+		{ "SBS_F1_Steering_speed", Uint(data[4], data[5])*0.01}
 	}
 },
 
 {
 	0x411 , data => new Data {
-		{ "ADC_FR_TPS_left", Uint(data[0], data[1])/10},
-		{ "ADC_FR_TPS_right", Uint(data[2], data[3])/10}
+		{ "SBS_F2_Damper_pos_FL", Uint(data[0], data[1])*0.01},
+		{ "SBS_F2_Damper_rate_FL", Int(data[2], data[3])*0.1},
+		{ "SBS_F2_Damper_pos_FR", Uint(data[4], data[5])*0.01},
+		{ "SBS_F2_Damper_rate_FR", Int(data[6], data[7])*0.1}
 	}
 },
 
 {
 	0x412 , data => new Data {
-		{ "ADC_FR_SteeringAngle", Int(data[0], data[1])},
-		{ "ADC_FR_SteeringSpeed", Float(data[4], data[5], data[6], data[7])}
-	}
-},
-
-{
-	0x420 , data => new Data {
-		{ "ADC_REAR_DamperRL", Uint(data[0], data[1])*0.01},
-		{ "ADC_REAR_DamperRateRL", Int(data[2], data[3])},
-		{ "ADC_REAR_DamperRR", Uint(data[4], data[5])*0.01},
-		{ "ADC_REAR_DamperRateRR", Int(data[6], data[7])}
+		{ "SBS_F2_acc_upright_FL", Int(data[0], data[1])*0.01},
+		{ "SBS_F2_acc_upright_FR", Int(data[2], data[3])*0.01},
+		{ "SBS_F2_temp_gear_FL", Int(data[4], data[5])*0.01},
+		{ "SBS_F2_temp_gear_FR", Int(data[6], data[7])*0.01}
 	}
 },
 
 {
 	0x421 , data => new Data {
-		{ "ADC_REAR_GearTempRL", Uint(data[0], data[1])/100},
-		{ "ADC_REAR_GearTempRR", Uint(data[2], data[3])/100},
-		{ "ADC_REAR_CoolingTempRL", Uint(data[4], data[5])/100},
-		{ "ADC_REAR_CoolingTempRR", Uint(data[6], data[7])/100}
+		{ "SBS_R1_Damper_pos_RL", Int(data[0], data[1])*0.01},
+		{ "SBS_R1_Damper_rate_RL", Int(data[2], data[3])*0.1},
+		{ "SBS_R1_Damper_pos_RR", Int(data[4], data[5])*0.01},
+		{ "SBS_R1_Damper_rate_RR", Int(data[6], data[7])*0.1}
+	}
+},
+
+{
+	0x422 , data => new Data {
+		{ "SBS_R1_acc_upright_RL", Int(data[0], data[1])*0.01},
+		{ "SBS_R1_acc_upright_RR", Int(data[2], data[3])*0.01},
+		{ "SBS_R1_temp_gear_RL", Int(data[4], data[5])*0.01},
+		{ "SBS_R1_temp_gear_RR", Int(data[6], data[7])*0.01}
+	}
+},
+
+{
+	0x422 , data => new Data {
+		{ "SBS_R2_temp_cooling_high_L", Int(data[0], data[1])*0.01},
+		{ "SBS_R2_temp_cooling_low_L", Int(data[2], data[3])*0.01},
+		{ "SBS_R2_temp_cooling_high_R", Int(data[4], data[5])*0.01},
+		{ "SBS_R2_temp_cooling_low_R", Int(data[6], data[7])*0.01}
 	}
 },
 
 {	0x428 , data => new Data {{"Charger_Data", Uint(data[0])}}},
 {	0x429 , data => new Data {{"Charger_Acknowledge", Uint(data[0])}}},
 {	0x317 , data => new Data {{"Charger_Error", Uint(data[0], data[1], data[2], data[3])}}},
+{
+	0x430 , data => new Data {
+		{"INS_status_attitude"   , Uint(data[0], data[1])},
+		{"INS_status" 	, Uint(data[2])}
+	}
+},
+
+{
+	0x431 , data => new Data {
+		{"INS_GPS_fix_1"   , Uint(data[0])},
+		{"ISN_GPS_tracked_satellites" 	, Uint(data[1])}
+	}
+},
+
+{
+	0x432 , data => new Data {
+		{"INS_Vx"   , Int(data[0], data[1])/100},
+		{"INS_Vy" 	, Int(data[2], data[3])/100},
+		{"INS_Vz"   , Int(data[4], data[5])/100}
+	}
+},
+
+{
+	0x433 , data => new Data {
+		{"INS_Ax"   , Int(data[0], data[1])/100},
+		{"INS_Ay" 	, Int(data[2], data[3])/100},
+		{"INS_Az"   , Int(data[4], data[5])/100}
+	}
+},
+
+{
+	0x434 , data => new Data {
+		{"INS_Roll_rate"   , Int(data[0], data[1])/100},
+		{"INS_Pitch_rate" 	, Int(data[2], data[3])/100},
+		{"INS_Yaw_rate"    , Int(data[4], data[5])/100}
+	}
+},
+
+{
+	0x435 , data => new Data {
+		{"INS_Roll_angle"   , Int(data[0], data[1])/100},
+		{"INS_Pitch_angle" 	, Int(data[2], data[3])/100},
+		{"INS_Yaw_angle"    , Int(data[4], data[5])/100}
+	}
+},
+
+{
+	0x436 , data => new Data {
+		{"INS_Longitude",	Float(data[0], data[1],data[2], data[3]) },
+		{"INS_Latitude", 	Float(data[4], data[5],data[6], data[7]) }
+	}
+},
+
+{
+	0x437 , data => new Data {
+		{"INS_Altitude",	Float(data[0], data[1],data[2], data[3]) },
+	}
+},
+
+{
+	0x438 , data => new Data {
+		{"INS_Roll_acc"     , Int(data[0], data[1])*0.01},
+		{"INS_Pitch_acc" 	, Int(data[2], data[3])*0.01},
+		{"INS_Yaw_acc"      , Int(data[4], data[5])*0.01}
+	}
+},
 
 {
 	0x440 , data => new Data {
@@ -342,99 +415,98 @@ Available functions:
 },
 
 {
-	0x450 , data => new Data {
-		{ "ECU_System_Status", Uint(data[0])},
-		{ "ECU_Torque_Allocation",Uint(data[2])},
-		{ "ECU_Vehicle_State", Uint(data[3])}
-	}
-},
-
-{
 	0x451 , data => new Data {
-		{ "ECU_Slip_ratio_FL", Int(data[0], data[1])/100 },
-		{ "ECU_Slip_ratio_FR", Int(data[2], data[3])/100 },
-		{ "ECU_Slip_ratio_RL", Int(data[4], data[5])/100 },
-		{ "ECU_Slip_ratio_RR", Int(data[6], data[7])/100 },
+		{ "VCU_Fz_est_FL", Uint(data[0], data[1])*0.1 },
+		{ "VCU_Fz_est_FR", Uint(data[2], data[3])*0.1 },
+		{ "VCU_Fz_est_RL", Uint(data[4], data[5])*0.1 },
+		{ "VCU_Fz_est_RR", Uint(data[6], data[7])*0.1 },
 	}
 },
 
 {
 	0x452 , data => new Data {
-		{"ECU_Fx_div_Fz_FL", Int(data[0], data[1])/1000 },
-		{"ECU_Fx_div_Fz_FR", Int(data[2], data[3])/1000 },
-		{"ECU_Fx_div_Fz_RL", Int(data[4], data[5])/1000 },
-		{"ECU_Fx_div_Fz_RR", Int(data[6], data[7])/1000 }
+		{"VCU_Fz_damper_est_FL", Uint(data[0], data[1])*0.1 },
+		{"VCU_Fz_damper_est_FR", Uint(data[2], data[3])*0.1 },
+		{"VCU_Fz_damper_est_RL", Uint(data[4], data[5])*0.1 },
+		{"VCU_Fz_damper_est_RR", Uint(data[6], data[7])*0.1 }
 	}
 },
 
 {
 	0x453 , data => new Data {
-		{"ECU_Fz_damper_estimate_FL", Uint(data[0], data[1])*0.01 },
-		{"ECU_Fz_damper_estimate_FR", Uint(data[2], data[3])*0.01 },
-		{"ECU_Fz_damper_estimate_RL", Uint(data[4], data[5])*0.01 },
-		{"ECU_Fz_damper_estimate_RR", Uint(data[6], data[7])*0.01 }
+		{"VCU_Fz_ekf_est_FL", Uint(data[0], data[1])*0.1 },
+		{"VCU_Fz_ekf_est_FR", Uint(data[2], data[3])*0.1 },
+		{"VCU_Fz_ekf_est_RL", Uint(data[4], data[5])*0.1 },
+		{"VCU_Fz_ekf_est_RR", Uint(data[6], data[7])*0.1 }
 	}
 },
 
-{	0x454 , data => new Data {{ "ECU_Sensor_Status", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}}},
+{
+	0x454 , data => new Data {
+		{"VCU_Fz_ekf_est_FL", Uint(data[0], data[1])*0.1 },
+		{"VCU_Fz_ekf_est_FR", Uint(data[2], data[3])*0.1 },
+		{"VCU_Fz_ekf_est_RL", Uint(data[4], data[5])*0.1 },
+		{"VCU_Fz_ekf_est_RR", Uint(data[6], data[7])*0.1 }
+	}
+},
 
+{
+	0x455 , data => new Data {
+		{"VCU_R_eff_FL", Uint(data[0], data[1])*0.00001 },
+		{"VCU_R_eff_FR", Uint(data[2], data[3])*0.00001 },
+		{"VCU_R_eff_RL", Uint(data[4], data[5])*0.00001 },
+		{"VCU_R_eff_RR", Uint(data[6], data[7])*0.00001 }
+	}
+},
 
 {
 	0x456 , data => new Data {
-		{"ECU_INS_Longtitude",	Float(data[0], data[1],data[2], data[3]) },
-		{"ECU_INS_Latitude", 	Float(data[4], data[5],data[6], data[7]) }
+		{"VCU_Fx_est_FL", Int(data[0], data[1])*0.1 },
+		{"VCU_Fx_est_FR", Int(data[2], data[3])*0.1 },
+		{"VCU_Fx_est_RL", Int(data[4], data[5])*0.1 },
+		{"VCU_Fx_est_RR", Int(data[6], data[7])*0.1 }
 	}
 },
 
 {
 	0x457 , data => new Data {
-		{"ECU_INS_Altitude",	Float(data[0], data[1],data[2], data[3]) },
+		{"VCU_Slip_Ratio_FL", Int(data[0], data[1])*0.001 },
+		{"VCU_Slip_Ratio_FR", Int(data[2], data[3])*0.001 },
+		{"VCU_Slip_Ratio_RL", Int(data[4], data[5])*0.001 },
+		{"VCU_Slip_Ratio_RR", Int(data[6], data[7])*0.001 }
 	}
 },
 
 {
 	0x458 , data => new Data {
-		{"ECU_INS_Yaw_rate", Int(data[0], data[1])/1000 },
-		{"ECU_INS_Yaw_acceleration", Int(data[2], data[3])/100 },
-		{"ECU_INS_Roll_angle", Float(data[4], data[5], data[6], data[7])/1000 }
+		{"VCU_Slip_Angle_FL", Int(data[0], data[1])*0.001 },
+		{"VCU_Slip_Angle_FR", Int(data[2], data[3])*0.001 },
+		{"VCU_Slip_Angle_RL", Int(data[4], data[5])*0.001 },
+		{"VCU_Slip_Angle_RR", Int(data[6], data[7])*0.001 }
 	}
 },
 
 {
 	0x459 , data => new Data {
-		{"ECU_INS_AX", Int(data[0], data[1])/100 },
-		{"ECU_INS_AY", Int(data[2], data[3])/100 },
-		{"ECU_INS_VX", Int(data[4], data[5])/100 },
-		{"ECU_INS_VY", Int(data[6], data[7])/100 }
+		{"VCU_RPM_der_FL", Int(data[0], data[1])*10 },
+		{"VCU_RPM_der_FR", Int(data[2], data[3])*10 },
+		{"VCU_RPM_der_RL", Int(data[4], data[5])*10 },
+		{"VCU_RPM_der_RR", Int(data[6], data[7])*10 }
+	}
+},
+
+{
+	0x45A , data => new Data {
+		{"VCU_steering_angle", Int(data[0], data[1])*0.001 },
+		{"VCU_steering_speed", Int(data[2], data[3])*0.01 }
 	}
 },
 
 {
 	0x45B , data => new Data {
-		{ "ECU_INS_GPSfix", Uint(data[0]) },
-		{ "ECU_INS_Tracked_satelites", Uint(data[1]) }
+		{"VCU_alfa_r", Int(data[0], data[1])*0.001 }
 	}
 },
-
-{
-	0x45C , data => new Data {
-		{"ECU_Fx_estimate_FL", Uint(data[0], data[1])/10 },
-		{"ECU_Fx_estimate_FR", Uint(data[2], data[3])/10 },
-		{"ECU_Fx_estimate_RL", Uint(data[4], data[5])/10 },
-		{"ECU_Fx_estimate_RR", Uint(data[6], data[7])/10 }
-	}
-},
-
-{
-	0x45D , data => new Data {
-		{"ECU_RPM_derivative_FL", Int(data[0], data[1]) },
-		{"ECU_RPM_derivative_FR", Int(data[2], data[3]) },
-		{"ECU_RPM_derivative_RL", Int(data[4], data[5]) },
-		{"ECU_RPM_derivative_RR", Int(data[6], data[7]) }
-	}
-},
-
-{	0x45E , data => new Data {{ "ECU_Soft_BSPD_status", Uint(data[0])}}},
 
 {
 	0x460 , data => new Data {
@@ -1092,28 +1164,239 @@ Available functions:
 		{"BMS_Cell_Temperature_131", Uint(data[6], data[7])*0.1}
 	}
 },
+// new can ids 0x630 - 0x63F start-------------------------------------------------------
+{
+	0x630 , data => new Data {
+		{"VCU_LC_torque_FL", Int(data[0], data[1])*0.01},
+		{"VCU_LC_torque_FR", Int(data[2], data[3])*0.01},
+		{"VCU_LC_torque_RL", Int(data[4], data[5])*0.01},
+		{"VCU_LC_torque_RR", Int(data[6], data[7])*0.01}
+	}
+},
+{
+	0x631 , data => new Data {
+		{"VCU_LC_SR_error_FL", Int(data[0], data[1])*0.001},
+		{"VCU_LC_SR_error_FR", Int(data[2], data[3])*0.001},
+		{"VCU_LC_SR_error_RL", Int(data[4], data[5])*0.001},
+		{"VCU_LC_SR_error_RR", Int(data[6], data[7])*0.001}
+	}
+},
+{
+	0x632 , data => new Data {
+		{"VCU_LC_SR_der_error_FL", Int(data[0], data[1])*0.01},
+		{"VCU_LC_SR_der_error_FR", Int(data[2], data[3])*0.01},
+		{"VCU_LC_SR_der_error_RL", Int(data[4], data[5])*0.01},
+		{"VCU_LC_SR_der_error_RR", Int(data[6], data[7])*0.01}
+	}
+},
+{
+	0x633 , data => new Data {
+		{"VCU_LC_SR_ref_FL", Int(data[0], data[1])*0.001},
+		{"VCU_LC_SR_ref_FR", Int(data[2], data[3])*0.001},
+		{"VCU_LC_SR_ref_RL", Int(data[4], data[5])*0.001},
+		{"VCU_LC_SR_ref_RR", Int(data[6], data[7])*0.001}
+	}
+},
+{
+	0x634 , data => new Data {
+		{"VCU_LC_SR_FL", Int(data[0], data[1])*0.001},
+		{"VCU_LC_SR_FR", Int(data[2], data[3])*0.001},
+		{"VCU_LC_SR_RL", Int(data[4], data[5])*0.001},
+		{"VCU_LC_SR_RR", Int(data[6], data[7])*0.001}
+	}
+},
+{
+	0x635 , data => new Data {
+		{"VCU_LC_P_term_FL", Int(data[0], data[1])*0.01},
+		{"VCU_LC_P_term_FR", Int(data[2], data[3])*0.01},
+		{"VCU_LC_P_term_RL", Int(data[4], data[5])*0.01},
+		{"VCU_LC_P_term_RR", Int(data[6], data[7])*0.01}
+	}
+},
+{
+	0x636 , data => new Data {
+		{"VCU_LC_I_term_FL", Int(data[0], data[1])*0.01},
+		{"VCU_LC_I_term_FR", Int(data[2], data[3])*0.01},
+		{"VCU_LC_I_term_RL", Int(data[4], data[5])*0.01},
+		{"VCU_LC_I_term_RR", Int(data[6], data[7])*0.01}
+	}
+},
+{
+	0x637 , data => new Data {
+		{"VCU_LC_D_term_FL", Int(data[0], data[1])*0.01},
+		{"VCU_LC_D_term_FR", Int(data[2], data[3])*0.01},
+		{"VCU_LC_D_term_RL", Int(data[4], data[5])*0.01},
+		{"VCU_LC_D_term_RR", Int(data[6], data[7])*0.01}
+	}
+},
+{
+	0x638 , data => new Data {
+		{"VCU_LC_Kp", Int(data[0], data[1])*0.01},
+		{"VCU_LC_Ki", Int(data[2], data[3])*0.01},
+		{"VCU_LC_Kd", Int(data[4], data[5])*0.01},
+		{"VCU_LC_T_req", Int(data[6], data[7])*0.01}
+	}
+},
+{
+	0x639 , data => new Data {
+		{"VCU_LC_Launch_Mode", Int(data[0])},
+		{"VCU_LC_Launching", Int(data[1])}
+	}
+},
+{
+	0x63A , data => new Data {
+		{"VCU_LC_Power_Limit_FL", Int(data[0], data[1])*0.01},
+		{"VCU_LC_Power_Limit_FR", Int(data[2], data[3])*0.01},
+		{"VCU_LC_Power_Limit_RL", Int(data[4], data[5])*0.01},
+		{"VCU_LC_Power_Limit_RR", Int(data[6], data[7])*0.01}
+	}
+},
+
+// new can ids 0x630 - 0x63F start-------------------------------------------------------
 
 {
 	0x650 , data => new Data {
-		{"ECU_TV_Max_motor_torque_FL", Int(data[0], data[1])/100},
-		{"ECU_TV_Max_motor_torque_FR", Int(data[2], data[3])/100},
-		{"ECU_TV_Max_motor_torque_RL", Int(data[4], data[5])/100},
-		{"ECU_TV_Max_motor_torque_RR", Int(data[6], data[7])/100}
+		{"VCU_TV_Max_motor_torque_FL", Int(data[0], data[1])/100},
+		{"VCU_TV_Max_motor_torque_FR", Int(data[2], data[3])/100},
+		{"VCU_TV_Max_motor_torque_RL", Int(data[4], data[5])/100},
+		{"VCU_TV_Max_motor_torque_RR", Int(data[6], data[7])/100}
+	}
+},
+{
+	0x651 , data => new Data {
+		{"VCU_TV_T_req", Int(data[0], data[1])/100},
+		{"VCU_TV_Mz_error", Int(data[2], data[3])/100},
+		{"VCU_TV_percentage_delivered_torque", Int(data[4], data[5])/100}
 	}
 },
 
 {
 	0x653 , data => new Data {
-		{"ECU_TV_Yaw_rate_ref", Int(data[0], data[1])/1000},
-		{"ECU_TV_Mz_ref", 	Int(data[2], data[3])/10},
-		{"ECU_TV_Mz_reserved", 	Int(data[4], data[5])/10},
-		{"ECU_TV_Driver_torque_request",		Int(data[6])*2},
-		{"ECU_TV_Percentage_of_req_torque_allocated", 	Int(data[7])*2}
+		{"VCU_TV_Mz_ref_controller", Int(data[0], data[1])*0.1},
+		{"VCU_TV_Mz_ref_generator", Int(data[2], data[3])*0.1},
+		{"VCU_TV_Mz_ref_controller_unsat", Int(data[4], data[5])*0.1},
+		{"VCU_TV_Mz_ref_generator_unsat", Int(data[5], data[6])*0.1}
  	}
 },
 
 {	
 	0x654 , data => new Data {
-		{"ECU_TV_Active_constraints", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}
+		{"VCU_TV_Active_constraints", Uint(data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7])}
 	}
+},
+
+{
+	0x655 , data => new Data {
+		{"VCU_TV_Yaw_rate_ref", Int(data[0], data[1])*0.1},
+		{"VCU_TV_Yaw_rate_lim", Int(data[2], data[3])*0.1},
+		{"VCU_TV_Mz_ref_controller_unsat", Int(data[4], data[5])*0.1},
+		{"VCU_TV_Mz_ref_generator_unsat", Int(data[5], data[6])*0.1}
+ 	}
+},
+
+{
+	0x656 , data => new Data {
+		{"VCU_TV_P_term_generator", Int(data[0], data[1])*0.01},
+		{"VCU_TV_D_term_generator", Int(data[2], data[3])*0.01},
+		{"VCU_TV_Kp_generator", Int(data[4], data[5])*0.01},
+		{"VCU_TV_Kd_generator", Int(data[5], data[6])*0.01}
+ 	}
+},
+
+{
+	0x657 , data => new Data {
+		{"VCU_TV_P_term_regulator", Int(data[0], data[1])*0.01},
+		{"VCU_TV_I_term_regulator", Int(data[2], data[3])*0.01},
+		{"VCU_TV_D_term_retulagot", Int(data[4], data[5])*0.01},
+		{"VCU_TV_Backstepping_regulator", Int(data[5], data[6])*0.01}
+ 	}
+},
+
+{
+	0x658 , data => new Data {
+		{"VCU_TV_MMT_tire_force_FL", Int(data[0], data[1])*0.01},
+		{"VCU_TV_MMT_tire_force_FR", Int(data[2], data[3])*0.01},
+		{"VCU_TV_MMT_tire_force_RL", Int(data[4], data[5])*0.01},
+		{"VCU_TV_MMT_tire_force_RR", Int(data[5], data[6])*0.01}
+ 	}
+},
+
+{
+	0x659 , data => new Data {
+		{"VCU_TV_MMT_tire_force_slip_FL", Int(data[0], data[1])*0.01},
+		{"VCU_TV_MMT_tire_force_slip_FR", Int(data[2], data[3])*0.01},
+		{"VCU_TV_MMT_tire_force_slip_RL", Int(data[4], data[5])*0.01},
+		{"VCU_TV_MMT_tire_force_slip_RR", Int(data[5], data[6])*0.01}
+ 	}
+},
+
+{
+	0x65A , data => new Data {
+		{"VCU_TV_slip_scaling_factors_FL", Int(data[0], data[1])*0.001},
+		{"VCU_TV_slip_scaling_factors_FR", Int(data[2], data[3])*0.001},
+		{"VCU_TV_slip_scaling_factors_RL", Int(data[4], data[5])*0.001},
+		{"VCU_TV_slip_scaling_factors_RR", Int(data[5], data[6])*0.001}
+ 	}
+},
+
+//----HIL testing IDs------------------------------------------------------------
+{
+	0x720 , data => new Data {
+		{"HIL_Yaw_rate", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x721 , data => new Data {
+		{"HIL_Pitch_rate", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x722 , data => new Data {
+		{"HIL_Roll_rate", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x723 , data => new Data {
+		{"HIL_Ax", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x724 , data => new Data {
+		{"HIL_Ay", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x725 , data => new Data {
+		{"HIL_Az", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x726 , data => new Data {
+		{"HIL_Vx", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x727 , data => new Data {
+		{"HIL_Vy", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x728 , data => new Data {
+		{"HIL_Vz", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x729 , data => new Data {
+		{"HIL_Yaw_angle", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x72A , data => new Data {
+		{"HIL_Pitch_angøe", Float(data[0],data[1],data[2],data[3])}
+ 	}
+},
+{
+	0x72B , data => new Data {
+		{"HIL_Roll_angle", Float(data[0],data[1],data[2],data[3])}
+ 	}
 },
