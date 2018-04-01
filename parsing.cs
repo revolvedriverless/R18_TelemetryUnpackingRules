@@ -1392,7 +1392,7 @@ Available functions:
 },
 {
 	0x72A , data => new Data {
-		{"HIL_Pitch_angøe", Float(data[0],data[1],data[2],data[3])}
+		{"HIL_Pitch_angle", Float(data[0],data[1],data[2],data[3])}
  	}
 },
 {
