@@ -4,13 +4,21 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_dataLogger_playback_Ib": {
       "type": "Int",
       "startbyte": 3,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x011": {
@@ -18,19 +26,31 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_dataLogger_playback_Iq": {
       "type": "Int",
       "startbyte": 3,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_dataLogger_playback_rpm": {
       "type": "Int",
       "startbyte": 5,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x012": {
@@ -38,7 +58,11 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x013": {
@@ -46,7 +70,11 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x185": {
@@ -54,25 +82,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Setpoint_RPM_request": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Setpoint_positive_torque_limit": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Setpoint_negative_torque_limit": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x186": {
@@ -80,25 +124,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Setpoint_RPM_request": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Setpoint_positive_torque_limit": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Setpoint_negative_torque_limit": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x189": {
@@ -106,25 +166,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Setpoint_RPM_request": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Setpoint_positive_torque_limit": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Setpoint_negative_torque_limit": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x18A": {
@@ -132,25 +208,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Setpoint_RPM_request": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Setpoint_positive_torque_limit": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Setpoint_negative_torque_limit": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0098
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x200": {
@@ -158,25 +250,41 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_current_b": {
       "type": "Int",
       "startbyte": 3,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_current_d": {
       "type": "Int",
       "startbyte": 5,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_current_q": {
       "type": "Int",
       "startbyte": 7,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x201": {
@@ -184,13 +292,21 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_voltage_dc": {
       "type": "Int",
       "startbyte": 3,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x202": {
@@ -198,19 +314,31 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_speed_max_rpm": {
       "type": "Int",
       "startbyte": 3,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_speed_min_rpm": {
       "type": "Int",
       "startbyte": 5,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x203": {
@@ -218,13 +346,21 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_current_b_rms": {
       "type": "Int",
       "startbyte": 3,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x284": {
@@ -232,25 +368,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Actual_velocity": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Torque_current": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Magnetizing_current": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x285": {
@@ -258,25 +410,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Actual_velocity": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Torque_current": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Magnetizing_current": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x286": {
@@ -284,25 +452,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Temp_Inverter": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Error_Info": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FL_Temp_IGBT": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x287": {
@@ -310,25 +494,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Temp_Inverter": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Error_Info": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_FR_Temp_IGBT": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x288": {
@@ -336,25 +536,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Actual_velocity": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Torque_current": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Magnetizing_current": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x289": {
@@ -362,25 +578,41 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Actual_velocity": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Torque_current": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Magnetizing_current": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 6.54296875
+      "factor": 6.54296875,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x28A": {
@@ -388,25 +620,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Temp_Inverter": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Error_Info": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RL_Temp_IGBT": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x28B": {
@@ -414,25 +662,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Temp_Inverter": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Error_Info": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "AMK_RR_Temp_IGBT": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x290": {
@@ -440,7 +704,11 @@
       "type": "Uint",
       "startbyte": 1,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x294": {
@@ -448,25 +716,41 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_voltage_q": {
       "type": "Int",
       "startbyte": 3,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_voltage_a": {
       "type": "Int",
       "startbyte": 5,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_voltage_b": {
       "type": "Int",
       "startbyte": 7,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x295": {
@@ -474,7 +758,11 @@
       "type": "Int",
       "startbyte": 1,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x350": {
@@ -482,7 +770,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x351": {
@@ -490,7 +782,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x352": {
@@ -498,7 +794,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x353": {
@@ -506,7 +806,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x358": {
@@ -514,37 +818,61 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_GPStime_month": {
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_GPStime_day": {
       "type": "Uint",
       "startbyte": 2,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_GPStime_hour": {
       "type": "Uint",
       "startbyte": 3,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_GPStime_min": {
       "type": "Uint",
       "startbyte": 4,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_GPStime_sec": {
       "type": "Uint",
       "startbyte": 5,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x35C": {
@@ -552,7 +880,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x359": {
@@ -560,13 +892,21 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Parameter_value": {
       "type": "Float",
       "startbyte": 4,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x400": {
@@ -574,25 +914,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FL_DamperRateFL": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FL_GearTempFL": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FL_CoolingTempFL": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x401": {
@@ -600,19 +956,31 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FL_BrakePressure_2": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FL_KERS": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x402": {
@@ -620,7 +988,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x410": {
@@ -628,25 +1000,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FR_DamperRateFR": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FR_GearTempFR": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FR_CoolingTempFR": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x411": {
@@ -654,13 +1042,21 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FR_TPS_right": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x412": {
@@ -668,13 +1064,21 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_FR_SteeringSpeed": {
       "type": "Float",
       "startbyte": 4,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x420": {
@@ -682,25 +1086,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_REAR_DamperRateRL": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_REAR_DamperRR": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_REAR_DamperRateRR": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x421": {
@@ -708,25 +1128,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_REAR_GearTempRR": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_REAR_CoolingTempRL": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ADC_REAR_CoolingTempRR": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x428": {
@@ -734,7 +1170,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x429": {
@@ -742,7 +1182,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x317": {
@@ -750,7 +1194,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x440": {
@@ -758,31 +1206,51 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Average_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Min_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Max_Voltage_ID": {
       "type": "Uint",
       "startbyte": 6,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Min_Voltage_ID": {
       "type": "Uint",
       "startbyte": 7,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x441": {
@@ -790,31 +1258,51 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Average_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Min_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Max_Temperature_ID": {
       "type": "Uint",
       "startbyte": 6,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Min_Temperature_ID": {
       "type": "Uint",
       "startbyte": 7,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x442": {
@@ -822,25 +1310,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Tractive_System_Current": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Tractive_System_Current_Transient": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_State_of_Charge": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x443": {
@@ -848,7 +1352,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x444": {
@@ -856,7 +1364,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x445": {
@@ -864,13 +1376,21 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Voltage_Sum_of_Cells": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x44A": {
@@ -878,19 +1398,31 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_max_isoSPI_fails_Slave_ID": {
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_max_isoSPI_fails_Register_ID": {
       "type": "Uint",
       "startbyte": 2,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x450": {
@@ -898,19 +1430,31 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Torque_Allocation": {
       "type": "Uint",
       "startbyte": 2,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Vehicle_State": {
       "type": "Uint",
       "startbyte": 3,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x451": {
@@ -918,25 +1462,41 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Slip_ratio_FR": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Slip_ratio_RL": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Slip_ratio_RR": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x452": {
@@ -944,25 +1504,41 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fx_div_Fz_FR": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fx_div_Fz_RL": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fx_div_Fz_RR": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x453": {
@@ -970,25 +1546,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fz_damper_estimate_FR": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fz_damper_estimate_RL": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fz_damper_estimate_RR": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x454": {
@@ -996,7 +1588,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 8,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x456": {
@@ -1004,13 +1600,21 @@
       "type": "Float",
       "startbyte": 0,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_Latitude": {
       "type": "Float",
       "startbyte": 4,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x457": {
@@ -1018,7 +1622,11 @@
       "type": "Float",
       "startbyte": 0,
       "length": 4,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x458": {
@@ -1026,19 +1634,31 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_Yaw_acceleration": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_Roll_angle": {
       "type": "Float",
       "startbyte": 4,
       "length": 4,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x459": {
@@ -1046,25 +1666,41 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_AY": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_VX": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_VY": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x45A": {
@@ -1072,13 +1708,21 @@
       "type": "UInt",
       "startbyte": 0,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_Status_INS": {
       "type": "UInt",
       "startbyte": 2,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x45B": {
@@ -1086,13 +1730,21 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_INS_Tracked_satelites": {
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x45C": {
@@ -1100,25 +1752,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fx_estimate_FR": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fx_estimate_RL": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Fx_estimate_RR": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x45D": {
@@ -1126,25 +1794,41 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_RPM_derivative_FR": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_RPM_derivative_RL": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_RPM_derivative_RR": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x45E": {
@@ -1152,7 +1836,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x45F": {
@@ -1160,13 +1848,21 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_Filtered_Steering_Rate": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x460": {
@@ -1174,25 +1870,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Cell_Voltage_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Cell_Voltage_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Cell_Voltage_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x461": {
@@ -1200,13 +1912,21 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Cell_Voltage_5": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x462": {
@@ -1214,25 +1934,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Cell_Temperature_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Cell_Temperature_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Cell_Temperature_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x463": {
@@ -1240,7 +1976,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x465": {
@@ -1248,19 +1988,31 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Max_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Tot_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 4,
       "length": 4,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x466": {
@@ -1268,13 +2020,21 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Max_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x467": {
@@ -1282,13 +2042,21 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "GLV_Battery_Charge_Capacity": {
       "type": "Uint",
       "startbyte": 1,
       "length": 4,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x470": {
@@ -1296,7 +2064,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x472": {
@@ -1304,7 +2076,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x475": {
@@ -1312,7 +2088,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x47F": {
@@ -1320,7 +2100,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x490": {
@@ -1328,7 +2112,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x491": {
@@ -1336,7 +2124,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x4C0": {
@@ -1344,7 +2136,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x500": {
@@ -1352,25 +2148,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x501": {
@@ -1378,25 +2190,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_5": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_6": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_7": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x502": {
@@ -1404,25 +2232,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_9": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_10": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_11": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x503": {
@@ -1430,25 +2274,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_13": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_14": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_15": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x504": {
@@ -1456,25 +2316,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_17": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_18": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_19": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x505": {
@@ -1482,25 +2358,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_21": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_22": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_23": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x506": {
@@ -1508,25 +2400,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_25": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_26": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_27": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x507": {
@@ -1534,25 +2442,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_29": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_30": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_31": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x508": {
@@ -1560,25 +2484,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_33": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_34": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_35": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x509": {
@@ -1586,25 +2526,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_37": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_38": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_39": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x50A": {
@@ -1612,25 +2568,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_41": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_42": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_43": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x50B": {
@@ -1638,25 +2610,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_45": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_46": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_47": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x50C": {
@@ -1664,25 +2652,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_49": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_50": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_51": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x50D": {
@@ -1690,25 +2694,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_53": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_54": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_55": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x50E": {
@@ -1716,25 +2736,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_57": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_58": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_59": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x50F": {
@@ -1742,25 +2778,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_61": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_62": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_63": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x510": {
@@ -1768,25 +2820,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_65": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_66": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_67": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x511": {
@@ -1794,25 +2862,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_69": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_70": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_71": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x512": {
@@ -1820,25 +2904,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_73": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_74": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_75": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x513": {
@@ -1846,25 +2946,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_77": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_78": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_79": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x514": {
@@ -1872,25 +2988,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_81": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_82": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_83": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x515": {
@@ -1898,25 +3030,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_85": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_86": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_87": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x516": {
@@ -1924,25 +3072,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_89": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_90": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_91": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x517": {
@@ -1950,25 +3114,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_93": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_94": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_95": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x518": {
@@ -1976,25 +3156,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_97": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_98": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_99": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x519": {
@@ -2002,25 +3198,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_101": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_102": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_103": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x51A": {
@@ -2028,25 +3240,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_105": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_106": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_107": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x51B": {
@@ -2054,25 +3282,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_109": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_110": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_111": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x51C": {
@@ -2080,25 +3324,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_113": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_114": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_115": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x51D": {
@@ -2106,25 +3366,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_117": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_118": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_119": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x51E": {
@@ -2132,25 +3408,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_121": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_122": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_123": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x51F": {
@@ -2158,25 +3450,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_125": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_126": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_127": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x520": {
@@ -2184,25 +3492,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_129": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_130": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Voltage_131": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.0001
+      "factor": 0.0001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x540": {
@@ -2210,25 +3534,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x541": {
@@ -2236,25 +3576,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_5": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_6": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_7": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x542": {
@@ -2262,25 +3618,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_9": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_10": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_11": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x543": {
@@ -2288,25 +3660,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_13": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_14": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_15": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x544": {
@@ -2314,25 +3702,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_17": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_18": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_19": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x545": {
@@ -2340,25 +3744,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_21": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_22": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_23": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x546": {
@@ -2366,25 +3786,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_25": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_26": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_27": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x547": {
@@ -2392,25 +3828,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_29": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_30": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_31": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x548": {
@@ -2418,25 +3870,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_33": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_34": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_35": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x549": {
@@ -2444,25 +3912,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_37": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_38": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_39": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x54A": {
@@ -2470,25 +3954,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_41": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_42": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_43": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x54B": {
@@ -2496,25 +3996,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_45": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_46": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_47": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x54C": {
@@ -2522,25 +4038,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_49": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_50": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_51": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x54D": {
@@ -2548,25 +4080,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_53": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_54": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_55": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x54E": {
@@ -2574,25 +4122,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_57": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_58": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_59": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x54F": {
@@ -2600,25 +4164,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_61": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_62": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_63": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x550": {
@@ -2626,25 +4206,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_65": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_66": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_67": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x551": {
@@ -2652,25 +4248,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_69": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_70": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_71": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x552": {
@@ -2678,25 +4290,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_73": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_74": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_75": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x553": {
@@ -2704,25 +4332,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_77": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_78": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_79": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x554": {
@@ -2730,25 +4374,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_81": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_82": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_83": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x555": {
@@ -2756,25 +4416,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_85": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_86": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_87": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x556": {
@@ -2782,25 +4458,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_89": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_90": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_91": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x557": {
@@ -2808,25 +4500,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_93": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_94": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_95": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x558": {
@@ -2834,25 +4542,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_97": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_98": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_99": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x559": {
@@ -2860,25 +4584,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_101": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_102": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_103": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x55A": {
@@ -2886,25 +4626,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_105": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_106": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_107": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x55B": {
@@ -2912,25 +4668,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_109": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_110": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_111": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x55C": {
@@ -2938,25 +4710,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_113": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_114": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_115": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x55D": {
@@ -2964,25 +4752,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_117": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_118": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_119": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x55E": {
@@ -2990,25 +4794,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_121": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_122": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_123": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x55F": {
@@ -3016,25 +4836,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_125": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_126": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_127": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x560": {
@@ -3042,25 +4878,41 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_129": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_130": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "BMS_Cell_Temperature_131": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x650": {
@@ -3068,25 +4920,41 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_TV_Max_motor_torque_FR": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_TV_Max_motor_torque_RL": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_TV_Max_motor_torque_RR": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.01
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x653": {
@@ -3094,31 +4962,51 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.001
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_TV_Mz_ref": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_TV_Mz_reserved": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.1
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_TV_Driver_torque_request": {
       "type": "Int",
       "startbyte": 6,
       "length": 1,
-      "factor": 2.0
+      "factor": 2.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "ECU_TV_Percentage_of_req_torque_allocated": {
       "type": "Int",
       "startbyte": 6,
       "length": 1,
-      "factor": 2.0
+      "factor": 2.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x654": {
@@ -3126,7 +5014,11 @@
       "type": "Uint",
       "startbyte": 0,
       "length": 8,
-      "factor": 1.0
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   }
 }
