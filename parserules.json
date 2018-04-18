@@ -1341,10 +1341,10 @@
       "startbyte": 6,
       "length": 2,
       "factor": 0.01,
-      "displayname": "",
-      "unit": "",
+      "displayname": "Battery percentage",
+      "unit": "%",
       "expectedmin": 0.0,
-      "expectedmax": 0.0
+      "expectedmax": 100.0
     }
   },
   "0x443": {
