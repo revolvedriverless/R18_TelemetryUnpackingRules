@@ -2310,7 +2310,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     }
-  }
+  },
   "0x460": {
     "GLV_Cell_Voltage_0": {
       "type": "Uint",
