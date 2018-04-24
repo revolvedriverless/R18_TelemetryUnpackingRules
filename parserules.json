@@ -1999,6 +1999,80 @@
 	  "expectedmax": 1.0
 	}
  },
+  "0x401": {
+    "SBS_FL_APPS1_Sensor": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Throttle 1",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.0
+    },
+    "SBS_FL_APPS2_Sensor": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Throttle 2",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.0
+    },
+    "SBS_FL_brakePressure1_Sensor": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Brake Pressure Front",
+	  "unit": "Bar",
+	  "expectedmin": 0.0,
+	  "expectedmax": 20.0
+    },
+    "SBS_FL_brakePressure2_Sensor": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Brake Pressure Rear",
+	  "unit": "Bar",
+	  "expectedmin": 0.0,
+	  "expectedmax": 20.0
+    }
+  },
+  "0x402": {
+    "SBS_FL_A4_KERS_Sensor": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Kers pos",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.0
+    },
+    "SBS_FL_A2_SWPS_Sensor": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Steering Wheel Angle",
+	  "unit": "rad",
+	  "expectedmin": -10.0,
+	  "expectedmax": 10.0
+    },
+    "SBS_FL_brakePressure1_Sensor": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Steering Wheel Speed",
+	  "unit": "rad&s",
+	  "expectedmin": -20.0,
+	  "expectedmax":  20.0
+    }
+  },
   "0x40D": {
     "ADC_FL_DamperFL": {
       "type": "Uint",
@@ -2051,6 +2125,90 @@
       "startbyte": 0,
       "length": 1,
       "factor": 1.0
+    }
+  },
+  "0x411": {
+    "SBS_FR_Damper_pos_FL": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Damper pos FL",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+    "SBS_FR_Damper_Rate_FL": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+	  "displayname": "Damper rate FL",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
+    },
+    "SBS_FR_Damper_pos_FR": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Damper pos FR",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+    "SBS_FR_Damper_Rate_FR": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+	  "displayname": "Damper rate FR",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
+    }
+  },
+  "0x412": {
+    "SBS_FR_Acc_Upright_FL": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Acc Upright FL",
+	  "unit": "m/s^2",
+	  "expectedmin": -60.0,
+	  "expectedmax": 60.0
+    },
+    "SBS_FR_Acc_Upright_FR": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Acc Upright FR",
+	  "unit": "m/s^2",
+	  "expectedmin": -60.0,
+	  "expectedmax": 60.0
+    },
+    "SBS_FR_Gear_Temp_FL": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Gear Temp FL",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+    "SBS_FR_Gear_Temp_FR": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Gear Temp FR",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
     }
   },
   "0x41D": {
@@ -2107,6 +2265,90 @@
       "factor": 1.0
     }
   },
+  "0x421": {
+	"SBS_R1_Damper_pos_RL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Damper pos RL",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+    "SBS_R1_Damper_Rate_RL": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+	  "displayname": "Damper rate RL",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
+    },
+    "SBS_R1_Damper_pos_RR": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Damper pos RR",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+    "SBS_R1_Damper_Rate_RR": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+	  "displayname": "Damper rate RR",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
+    }
+  },
+  "0x422": {
+    "SBS_R1_Acc_Upright_RL": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Acc Upright FL",
+	  "unit": "m/s^2",
+	  "expectedmin": -60.0,
+	  "expectedmax": 60.0
+    },
+    "SBS_R1_Acc_Upright_RR": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Acc Upright RR",
+	  "unit": "m/s^2",
+	  "expectedmin": -60.0,
+	  "expectedmax": 60.0
+    },
+    "SBS_R1_Gear_Temp_RL": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Gear Temp RL",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+    "SBS_R1_Gear_Temp_RR": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Gear Temp RR",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    }
+  },
   "0x42E": {
     "ADC_REAR_DamperRL": {
       "type": "Uint",
@@ -2157,6 +2399,48 @@
       "startbyte": 6,
       "length": 2,
       "factor": 0.01
+    }
+  },
+  "0x431": {
+    "SBS_R2_Acc_Upright_RL": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Acc Upright FL",
+	  "unit": "m/s^2",
+	  "expectedmin": -60.0,
+	  "expectedmax": 60.0
+    },
+    "SBS_R2_Acc_Upright_RR": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Acc Upright RR",
+	  "unit": "m/s^2",
+	  "expectedmin": -60.0,
+	  "expectedmax": 60.0
+    },
+    "SBS_R2_Gear_Temp_RL": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Gear Temp RL",
+	  "unit": "C",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+    "SBS_R2_Gear_Temp_RR": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+	  "displayname": "Gear Temp RR",
+	  "unit": "C",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
     }
   },
   "0x440": {
