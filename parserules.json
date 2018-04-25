@@ -1587,6 +1587,18 @@
 	  "expectedmax": 1.5
 	}
   },
+  "0x3E0": {
+    "ECU_Sensor_Status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 8,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x3E1": {
 	"VCU_FZ_FL": {
 	  "type": "Uint",
@@ -2581,18 +2593,6 @@
       "startbyte": 2,
       "length": 1,
       "factor": 1.0
-    }
-  },
-  "0x454": {
-    "ECU_Sensor_Status": {
-      "type": "Uint",
-      "startbyte": 0,
-      "length": 8,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
     }
   },
   "0x460": {
