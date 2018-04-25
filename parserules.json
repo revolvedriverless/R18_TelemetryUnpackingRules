@@ -486,7 +486,7 @@
     }
   },
   "0x351": {
-    "ECU_DRIVE_ENABLE": {
+    "VCU_DRIVE_ENABLE": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
@@ -510,37 +510,37 @@
     }
   },
   "0x358": {
-    "ECU_INS_GPStime_year": {
+    "INS_GPStime_year": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
       "factor": 1.0
     },
-    "ECU_INS_GPStime_month": {
+    "INS_GPStime_month": {
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
       "factor": 1.0
     },
-    "ECU_INS_GPStime_day": {
+    "INS_GPStime_day": {
       "type": "Uint",
       "startbyte": 2,
       "length": 1,
       "factor": 1.0
     },
-    "ECU_INS_GPStime_hour": {
+    "INS_GPStime_hour": {
       "type": "Uint",
       "startbyte": 3,
       "length": 1,
       "factor": 1.0
     },
-    "ECU_INS_GPStime_min": {
+    "INS_GPStime_min": {
       "type": "Uint",
       "startbyte": 4,
       "length": 1,
       "factor": 1.0
     },
-    "ECU_INS_GPStime_sec": {
+    "INS_GPStime_sec": {
       "type": "Uint",
       "startbyte": 5,
       "length": 1,
