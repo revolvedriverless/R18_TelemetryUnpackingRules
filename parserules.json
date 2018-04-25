@@ -909,7 +909,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x400": {
+  "0x40D": {
     "ADC_FL_DamperFL": {
       "type": "Uint",
       "startbyte": 0,
@@ -951,7 +951,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x401": {
+  "0x40E": {
     "ADC_FL_BrakePressure_1": {
       "type": "Uint",
       "startbyte": 0,
@@ -983,7 +983,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x402": {
+  "0x40F": {
     "BSPD_Trigger": {
       "type": "Uint",
       "startbyte": 0,
@@ -995,7 +995,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x410": {
+  "0x41D": {
     "ADC_FR_DamperFR": {
       "type": "Uint",
       "startbyte": 0,
@@ -1037,7 +1037,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x411": {
+  "0x41E": {
     "ADC_FR_TPS_left": {
       "type": "Uint",
       "startbyte": 0,
@@ -1059,7 +1059,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x412": {
+  "0x41F": {
     "ADC_FR_SteeringAngle": {
       "type": "Int",
       "startbyte": 0,
@@ -1081,7 +1081,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x420": {
+  "0x42E": {
     "ADC_REAR_DamperRL": {
       "type": "Uint",
       "startbyte": 0,
@@ -1123,7 +1123,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x421": {
+  "0x42F": {
     "ADC_REAR_GearTempRL": {
       "type": "Uint",
       "startbyte": 0,
