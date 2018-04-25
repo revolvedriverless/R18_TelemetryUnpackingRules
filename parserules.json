@@ -2307,6 +2307,48 @@
 	  "expectedmax": 100.0
     }
   },
+  "0x422": {
+	"SBS_R1_Acc_Upright_RL": {
+		"type": "Int",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright FL",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_R1_Acc_Upright_RR": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright RR",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_R1_Gear_Temp_RL": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp RL",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_R1_Gear_Temp_RR": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp RR",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
   "0x42E": {
     "ADC_REAR_DamperRL": {
       "type": "Uint",
