@@ -2150,7 +2150,7 @@
     },
 	"SBS_F2_Damper_pos_FR": {
 		"type": "Uint",
-		"startbyte": 0,
+		"startbyte": 4,
 		"length": 2,
 		"factor": 0.01,
 		"displayname": "Damper pos FR",
@@ -2160,7 +2160,7 @@
     },
 	"SBS_F2_Damper_Rate_FR": {
 		"type": "Int",
-		"startbyte": 2,
+		"startbyte": 6,
 		"length": 2,
 		"factor": 1.0,
 		"displayname": "Damper rate FR",
