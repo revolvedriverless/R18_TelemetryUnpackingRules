@@ -2572,31 +2572,31 @@
     }
   },
   "0x620": {
-    "BMS_Max_Cell_Voltage": {
+    "AMS_Max_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Average_Cell_Voltage": {
+    "AMS_Average_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Min_Cell_Voltage": {
+    "AMS_Min_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Max_Voltage_ID": {
+    "AMS_Max_Voltage_ID": {
       "type": "Uint",
       "startbyte": 6,
       "length": 1,
       "factor": 1.0
     },
-    "BMS_Min_Voltage_ID": {
+    "AMS_Min_Voltage_ID": {
       "type": "Uint",
       "startbyte": 7,
       "length": 1,
@@ -2604,31 +2604,31 @@
     }
   },
   "0x621": {
-    "BMS_Max_Cell_Temperature": {
+    "AMS_Max_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Average_Cell_Temperature": {
+    "AMS_Average_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Min_Cell_Temperature": {
+    "AMS_Min_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Max_Temperature_ID": {
+    "AMS_Max_Temperature_ID": {
       "type": "Uint",
       "startbyte": 6,
       "length": 1,
       "factor": 1.0
     },
-    "BMS_Min_Temperature_ID": {
+    "AMS_Min_Temperature_ID": {
       "type": "Uint",
       "startbyte": 7,
       "length": 1,
@@ -2636,25 +2636,25 @@
     }
   },
   "0x622": {
-    "BMS_Tractive_System_Voltage": {
+    "AMS_Tractive_System_Voltage": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Tractive_System_Current": {
+    "AMS_Tractive_System_Current": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Tractive_System_Current_Transient": {
+    "AMS_Tractive_System_Current_Transient": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_State_of_Charge": {
+    "AMS_State_of_Charge": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -2662,7 +2662,7 @@
     }
   },
   "0x623": {
-    "BMS_Error_Flags": {
+    "AMS_Error_Flags": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
@@ -2670,7 +2670,7 @@
     }
   },
   "0x624": {
-    "BMS_State": {
+    "AMS_State": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
@@ -2678,13 +2678,13 @@
     }
   },
   "0x625": {
-    "BMS_Tractive_System_Power": {
+    "AMS_Tractive_System_Power": {
       "type": "Int",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Voltage_Sum_of_Cells": {
+    "AMS_Voltage_Sum_of_Cells": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
@@ -2692,19 +2692,19 @@
     }
   },
   "0x626": {
-    "BMS_max_isoSPI_fails": {
+    "AMS_max_isoSPI_fails": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
       "factor": 1.0
     },
-    "BMS_max_isoSPI_fails_Slave_ID": {
+    "AMS_max_isoSPI_fails_Slave_ID": {
       "type": "Uint",
       "startbyte": 1,
       "length": 1,
       "factor": 1.0
     },
-    "BMS_max_isoSPI_fails_Register_ID": {
+    "AMS_max_isoSPI_fails_Register_ID": {
       "type": "Uint",
       "startbyte": 2,
       "length": 1,
@@ -2866,7 +2866,7 @@
     }
   },
   "0x490": {
-    "BMS_IMD_Shutdown_open": {
+    "AMS_IMD_Shutdown_open": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
@@ -2874,7 +2874,7 @@
     }
   },
   "0x491": {
-    "BMS_IMD_State": {
+    "AMS_IMD_State": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
@@ -2890,25 +2890,25 @@
     }
   },
   "0x660": {
-    "BMS_Cell_Voltage_0": {
+    "AMS_Cell_Voltage_0": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_1": {
+    "AMS_Cell_Voltage_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_2": {
+    "AMS_Cell_Voltage_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_3": {
+    "AMS_Cell_Voltage_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -2916,25 +2916,25 @@
     }
   },
   "0x661": {
-    "BMS_Cell_Voltage_4": {
+    "AMS_Cell_Voltage_4": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_5": {
+    "AMS_Cell_Voltage_5": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_6": {
+    "AMS_Cell_Voltage_6": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_7": {
+    "AMS_Cell_Voltage_7": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -2942,25 +2942,25 @@
     }
   },
   "0x662": {
-    "BMS_Cell_Voltage_8": {
+    "AMS_Cell_Voltage_8": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_9": {
+    "AMS_Cell_Voltage_9": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_10": {
+    "AMS_Cell_Voltage_10": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_11": {
+    "AMS_Cell_Voltage_11": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -2968,25 +2968,25 @@
     }
   },
   "0x663": {
-    "BMS_Cell_Voltage_12": {
+    "AMS_Cell_Voltage_12": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_13": {
+    "AMS_Cell_Voltage_13": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_14": {
+    "AMS_Cell_Voltage_14": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_15": {
+    "AMS_Cell_Voltage_15": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -2994,25 +2994,25 @@
     }
   },
   "0x664": {
-    "BMS_Cell_Voltage_16": {
+    "AMS_Cell_Voltage_16": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_17": {
+    "AMS_Cell_Voltage_17": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_18": {
+    "AMS_Cell_Voltage_18": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_19": {
+    "AMS_Cell_Voltage_19": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3020,25 +3020,25 @@
     }
   },
   "0x665": {
-    "BMS_Cell_Voltage_20": {
+    "AMS_Cell_Voltage_20": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_21": {
+    "AMS_Cell_Voltage_21": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_22": {
+    "AMS_Cell_Voltage_22": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_23": {
+    "AMS_Cell_Voltage_23": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3046,25 +3046,25 @@
     }
   },
   "0x666": {
-    "BMS_Cell_Voltage_24": {
+    "AMS_Cell_Voltage_24": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_25": {
+    "AMS_Cell_Voltage_25": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_26": {
+    "AMS_Cell_Voltage_26": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_27": {
+    "AMS_Cell_Voltage_27": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3072,25 +3072,25 @@
     }
   },
   "0x667": {
-    "BMS_Cell_Voltage_28": {
+    "AMS_Cell_Voltage_28": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_29": {
+    "AMS_Cell_Voltage_29": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_30": {
+    "AMS_Cell_Voltage_30": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_31": {
+    "AMS_Cell_Voltage_31": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3098,25 +3098,25 @@
     }
   },
   "0x668": {
-    "BMS_Cell_Voltage_32": {
+    "AMS_Cell_Voltage_32": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_33": {
+    "AMS_Cell_Voltage_33": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_34": {
+    "AMS_Cell_Voltage_34": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_35": {
+    "AMS_Cell_Voltage_35": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3124,25 +3124,25 @@
     }
   },
   "0x669": {
-    "BMS_Cell_Voltage_36": {
+    "AMS_Cell_Voltage_36": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_37": {
+    "AMS_Cell_Voltage_37": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_38": {
+    "AMS_Cell_Voltage_38": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_39": {
+    "AMS_Cell_Voltage_39": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3150,25 +3150,25 @@
     }
   },
   "0x66A": {
-    "BMS_Cell_Voltage_40": {
+    "AMS_Cell_Voltage_40": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_41": {
+    "AMS_Cell_Voltage_41": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_42": {
+    "AMS_Cell_Voltage_42": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_43": {
+    "AMS_Cell_Voltage_43": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3176,25 +3176,25 @@
     }
   },
   "0x66B": {
-    "BMS_Cell_Voltage_44": {
+    "AMS_Cell_Voltage_44": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_45": {
+    "AMS_Cell_Voltage_45": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_46": {
+    "AMS_Cell_Voltage_46": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_47": {
+    "AMS_Cell_Voltage_47": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3202,25 +3202,25 @@
     }
   },
   "0x66C": {
-    "BMS_Cell_Voltage_48": {
+    "AMS_Cell_Voltage_48": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_49": {
+    "AMS_Cell_Voltage_49": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_50": {
+    "AMS_Cell_Voltage_50": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_51": {
+    "AMS_Cell_Voltage_51": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3228,25 +3228,25 @@
     }
   },
   "0x66D": {
-    "BMS_Cell_Voltage_52": {
+    "AMS_Cell_Voltage_52": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_53": {
+    "AMS_Cell_Voltage_53": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_54": {
+    "AMS_Cell_Voltage_54": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_55": {
+    "AMS_Cell_Voltage_55": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3254,25 +3254,25 @@
     }
   },
   "0x66E": {
-    "BMS_Cell_Voltage_56": {
+    "AMS_Cell_Voltage_56": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_57": {
+    "AMS_Cell_Voltage_57": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_58": {
+    "AMS_Cell_Voltage_58": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_59": {
+    "AMS_Cell_Voltage_59": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3280,25 +3280,25 @@
     }
   },
   "0x66F": {
-    "BMS_Cell_Voltage_60": {
+    "AMS_Cell_Voltage_60": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_61": {
+    "AMS_Cell_Voltage_61": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_62": {
+    "AMS_Cell_Voltage_62": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_63": {
+    "AMS_Cell_Voltage_63": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3306,25 +3306,25 @@
     }
   },
   "0x670": {
-    "BMS_Cell_Voltage_64": {
+    "AMS_Cell_Voltage_64": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_65": {
+    "AMS_Cell_Voltage_65": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_66": {
+    "AMS_Cell_Voltage_66": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_67": {
+    "AMS_Cell_Voltage_67": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3332,25 +3332,25 @@
     }
   },
   "0x671": {
-    "BMS_Cell_Voltage_68": {
+    "AMS_Cell_Voltage_68": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_69": {
+    "AMS_Cell_Voltage_69": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_70": {
+    "AMS_Cell_Voltage_70": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_71": {
+    "AMS_Cell_Voltage_71": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3358,25 +3358,25 @@
     }
   },
   "0x672": {
-    "BMS_Cell_Voltage_72": {
+    "AMS_Cell_Voltage_72": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_73": {
+    "AMS_Cell_Voltage_73": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_74": {
+    "AMS_Cell_Voltage_74": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_75": {
+    "AMS_Cell_Voltage_75": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3384,25 +3384,25 @@
     }
   },
   "0x673": {
-    "BMS_Cell_Voltage_76": {
+    "AMS_Cell_Voltage_76": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_77": {
+    "AMS_Cell_Voltage_77": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_78": {
+    "AMS_Cell_Voltage_78": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_79": {
+    "AMS_Cell_Voltage_79": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3410,25 +3410,25 @@
     }
   },
   "0x674": {
-    "BMS_Cell_Voltage_80": {
+    "AMS_Cell_Voltage_80": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_81": {
+    "AMS_Cell_Voltage_81": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_82": {
+    "AMS_Cell_Voltage_82": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_83": {
+    "AMS_Cell_Voltage_83": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3436,25 +3436,25 @@
     }
   },
   "0x675": {
-    "BMS_Cell_Voltage_84": {
+    "AMS_Cell_Voltage_84": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_85": {
+    "AMS_Cell_Voltage_85": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_86": {
+    "AMS_Cell_Voltage_86": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_87": {
+    "AMS_Cell_Voltage_87": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3462,25 +3462,25 @@
     }
   },
   "0x676": {
-    "BMS_Cell_Voltage_88": {
+    "AMS_Cell_Voltage_88": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_89": {
+    "AMS_Cell_Voltage_89": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_90": {
+    "AMS_Cell_Voltage_90": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_91": {
+    "AMS_Cell_Voltage_91": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3488,25 +3488,25 @@
     }
   },
   "0x677": {
-    "BMS_Cell_Voltage_92": {
+    "AMS_Cell_Voltage_92": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_93": {
+    "AMS_Cell_Voltage_93": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_94": {
+    "AMS_Cell_Voltage_94": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_95": {
+    "AMS_Cell_Voltage_95": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3514,25 +3514,25 @@
     }
   },
   "0x678": {
-    "BMS_Cell_Voltage_96": {
+    "AMS_Cell_Voltage_96": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_97": {
+    "AMS_Cell_Voltage_97": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_98": {
+    "AMS_Cell_Voltage_98": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_99": {
+    "AMS_Cell_Voltage_99": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3540,25 +3540,25 @@
     }
   },
   "0x679": {
-    "BMS_Cell_Voltage_100": {
+    "AMS_Cell_Voltage_100": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_101": {
+    "AMS_Cell_Voltage_101": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_102": {
+    "AMS_Cell_Voltage_102": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_103": {
+    "AMS_Cell_Voltage_103": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3566,25 +3566,25 @@
     }
   },
   "0x67A": {
-    "BMS_Cell_Voltage_104": {
+    "AMS_Cell_Voltage_104": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_105": {
+    "AMS_Cell_Voltage_105": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_106": {
+    "AMS_Cell_Voltage_106": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_107": {
+    "AMS_Cell_Voltage_107": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3592,25 +3592,25 @@
     }
   },
   "0x67B": {
-    "BMS_Cell_Voltage_108": {
+    "AMS_Cell_Voltage_108": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_109": {
+    "AMS_Cell_Voltage_109": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_110": {
+    "AMS_Cell_Voltage_110": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_111": {
+    "AMS_Cell_Voltage_111": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3618,25 +3618,25 @@
     }
   },
   "0x67C": {
-    "BMS_Cell_Voltage_112": {
+    "AMS_Cell_Voltage_112": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_113": {
+    "AMS_Cell_Voltage_113": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_114": {
+    "AMS_Cell_Voltage_114": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_115": {
+    "AMS_Cell_Voltage_115": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3644,25 +3644,25 @@
     }
   },
   "0x67D": {
-    "BMS_Cell_Voltage_116": {
+    "AMS_Cell_Voltage_116": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_117": {
+    "AMS_Cell_Voltage_117": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_118": {
+    "AMS_Cell_Voltage_118": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_119": {
+    "AMS_Cell_Voltage_119": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3670,25 +3670,25 @@
     }
   },
   "0x67E": {
-    "BMS_Cell_Voltage_120": {
+    "AMS_Cell_Voltage_120": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_121": {
+    "AMS_Cell_Voltage_121": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_122": {
+    "AMS_Cell_Voltage_122": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_123": {
+    "AMS_Cell_Voltage_123": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3696,25 +3696,25 @@
     }
   },
   "0x67F": {
-    "BMS_Cell_Voltage_124": {
+    "AMS_Cell_Voltage_124": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_125": {
+    "AMS_Cell_Voltage_125": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_126": {
+    "AMS_Cell_Voltage_126": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_127": {
+    "AMS_Cell_Voltage_127": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3722,25 +3722,25 @@
     }
   },
   "0x680": {
-    "BMS_Cell_Voltage_128": {
+    "AMS_Cell_Voltage_128": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_129": {
+    "AMS_Cell_Voltage_129": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_130": {
+    "AMS_Cell_Voltage_130": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.0001
     },
-    "BMS_Cell_Voltage_131": {
+    "AMS_Cell_Voltage_131": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3748,25 +3748,25 @@
     }
   },
   "0x630": {
-    "BMS_Cell_Temperature_0": {
+    "AMS_Cell_Temperature_0": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_1": {
+    "AMS_Cell_Temperature_1": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_2": {
+    "AMS_Cell_Temperature_2": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_3": {
+    "AMS_Cell_Temperature_3": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3774,25 +3774,25 @@
     }
   },
   "0x631": {
-    "BMS_Cell_Temperature_4": {
+    "AMS_Cell_Temperature_4": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_5": {
+    "AMS_Cell_Temperature_5": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_6": {
+    "AMS_Cell_Temperature_6": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_7": {
+    "AMS_Cell_Temperature_7": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3800,25 +3800,25 @@
     }
   },
   "0x632": {
-    "BMS_Cell_Temperature_8": {
+    "AMS_Cell_Temperature_8": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_9": {
+    "AMS_Cell_Temperature_9": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_10": {
+    "AMS_Cell_Temperature_10": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_11": {
+    "AMS_Cell_Temperature_11": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3826,25 +3826,25 @@
     }
   },
   "0x633": {
-    "BMS_Cell_Temperature_12": {
+    "AMS_Cell_Temperature_12": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_13": {
+    "AMS_Cell_Temperature_13": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_14": {
+    "AMS_Cell_Temperature_14": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_15": {
+    "AMS_Cell_Temperature_15": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3852,25 +3852,25 @@
     }
   },
   "0x634": {
-    "BMS_Cell_Temperature_16": {
+    "AMS_Cell_Temperature_16": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_17": {
+    "AMS_Cell_Temperature_17": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_18": {
+    "AMS_Cell_Temperature_18": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_19": {
+    "AMS_Cell_Temperature_19": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3878,25 +3878,25 @@
     }
   },
   "0x635": {
-    "BMS_Cell_Temperature_20": {
+    "AMS_Cell_Temperature_20": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_21": {
+    "AMS_Cell_Temperature_21": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_22": {
+    "AMS_Cell_Temperature_22": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_23": {
+    "AMS_Cell_Temperature_23": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3904,25 +3904,25 @@
     }
   },
   "0x636": {
-    "BMS_Cell_Temperature_24": {
+    "AMS_Cell_Temperature_24": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_25": {
+    "AMS_Cell_Temperature_25": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_26": {
+    "AMS_Cell_Temperature_26": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_27": {
+    "AMS_Cell_Temperature_27": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3930,25 +3930,25 @@
     }
   },
   "0x637": {
-    "BMS_Cell_Temperature_28": {
+    "AMS_Cell_Temperature_28": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_29": {
+    "AMS_Cell_Temperature_29": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_30": {
+    "AMS_Cell_Temperature_30": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_31": {
+    "AMS_Cell_Temperature_31": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3956,25 +3956,25 @@
     }
   },
   "0x638": {
-    "BMS_Cell_Temperature_32": {
+    "AMS_Cell_Temperature_32": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_33": {
+    "AMS_Cell_Temperature_33": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_34": {
+    "AMS_Cell_Temperature_34": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_35": {
+    "AMS_Cell_Temperature_35": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -3982,25 +3982,25 @@
     }
   },
   "0x639": {
-    "BMS_Cell_Temperature_36": {
+    "AMS_Cell_Temperature_36": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_37": {
+    "AMS_Cell_Temperature_37": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_38": {
+    "AMS_Cell_Temperature_38": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_39": {
+    "AMS_Cell_Temperature_39": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4008,25 +4008,25 @@
     }
   },
   "0x63A": {
-    "BMS_Cell_Temperature_40": {
+    "AMS_Cell_Temperature_40": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_41": {
+    "AMS_Cell_Temperature_41": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_42": {
+    "AMS_Cell_Temperature_42": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_43": {
+    "AMS_Cell_Temperature_43": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4034,25 +4034,25 @@
     }
   },
   "0x63B": {
-    "BMS_Cell_Temperature_44": {
+    "AMS_Cell_Temperature_44": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_45": {
+    "AMS_Cell_Temperature_45": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_46": {
+    "AMS_Cell_Temperature_46": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_47": {
+    "AMS_Cell_Temperature_47": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4060,25 +4060,25 @@
     }
   },
   "0x63C": {
-    "BMS_Cell_Temperature_48": {
+    "AMS_Cell_Temperature_48": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_49": {
+    "AMS_Cell_Temperature_49": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_50": {
+    "AMS_Cell_Temperature_50": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_51": {
+    "AMS_Cell_Temperature_51": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4086,25 +4086,25 @@
     }
   },
   "0x63D": {
-    "BMS_Cell_Temperature_52": {
+    "AMS_Cell_Temperature_52": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_53": {
+    "AMS_Cell_Temperature_53": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_54": {
+    "AMS_Cell_Temperature_54": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_55": {
+    "AMS_Cell_Temperature_55": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4112,25 +4112,25 @@
     }
   },
   "0x63E": {
-    "BMS_Cell_Temperature_56": {
+    "AMS_Cell_Temperature_56": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_57": {
+    "AMS_Cell_Temperature_57": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_58": {
+    "AMS_Cell_Temperature_58": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_59": {
+    "AMS_Cell_Temperature_59": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4138,25 +4138,25 @@
     }
   },
   "0x63F": {
-    "BMS_Cell_Temperature_60": {
+    "AMS_Cell_Temperature_60": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_61": {
+    "AMS_Cell_Temperature_61": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_62": {
+    "AMS_Cell_Temperature_62": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_63": {
+    "AMS_Cell_Temperature_63": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4164,25 +4164,25 @@
     }
   },
   "0x640": {
-    "BMS_Cell_Temperature_64": {
+    "AMS_Cell_Temperature_64": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_65": {
+    "AMS_Cell_Temperature_65": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_66": {
+    "AMS_Cell_Temperature_66": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_67": {
+    "AMS_Cell_Temperature_67": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4190,25 +4190,25 @@
     }
   },
   "0x641": {
-    "BMS_Cell_Temperature_68": {
+    "AMS_Cell_Temperature_68": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_69": {
+    "AMS_Cell_Temperature_69": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_70": {
+    "AMS_Cell_Temperature_70": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_71": {
+    "AMS_Cell_Temperature_71": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4216,25 +4216,25 @@
     }
   },
   "0x642": {
-    "BMS_Cell_Temperature_72": {
+    "AMS_Cell_Temperature_72": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_73": {
+    "AMS_Cell_Temperature_73": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_74": {
+    "AMS_Cell_Temperature_74": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_75": {
+    "AMS_Cell_Temperature_75": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4242,25 +4242,25 @@
     }
   },
   "0x643": {
-    "BMS_Cell_Temperature_76": {
+    "AMS_Cell_Temperature_76": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_77": {
+    "AMS_Cell_Temperature_77": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_78": {
+    "AMS_Cell_Temperature_78": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_79": {
+    "AMS_Cell_Temperature_79": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4268,25 +4268,25 @@
     }
   },
   "0x644": {
-    "BMS_Cell_Temperature_80": {
+    "AMS_Cell_Temperature_80": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_81": {
+    "AMS_Cell_Temperature_81": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_82": {
+    "AMS_Cell_Temperature_82": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_83": {
+    "AMS_Cell_Temperature_83": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4294,25 +4294,25 @@
     }
   },
   "0x645": {
-    "BMS_Cell_Temperature_84": {
+    "AMS_Cell_Temperature_84": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_85": {
+    "AMS_Cell_Temperature_85": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_86": {
+    "AMS_Cell_Temperature_86": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_87": {
+    "AMS_Cell_Temperature_87": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4320,25 +4320,25 @@
     }
   },
   "0x646": {
-    "BMS_Cell_Temperature_88": {
+    "AMS_Cell_Temperature_88": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_89": {
+    "AMS_Cell_Temperature_89": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_90": {
+    "AMS_Cell_Temperature_90": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_91": {
+    "AMS_Cell_Temperature_91": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4346,25 +4346,25 @@
     }
   },
   "0x647": {
-    "BMS_Cell_Temperature_92": {
+    "AMS_Cell_Temperature_92": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_93": {
+    "AMS_Cell_Temperature_93": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_94": {
+    "AMS_Cell_Temperature_94": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_95": {
+    "AMS_Cell_Temperature_95": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4372,25 +4372,25 @@
     }
   },
   "0x648": {
-    "BMS_Cell_Temperature_96": {
+    "AMS_Cell_Temperature_96": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_97": {
+    "AMS_Cell_Temperature_97": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_98": {
+    "AMS_Cell_Temperature_98": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_99": {
+    "AMS_Cell_Temperature_99": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4398,25 +4398,25 @@
     }
   },
   "0x649": {
-    "BMS_Cell_Temperature_100": {
+    "AMS_Cell_Temperature_100": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_101": {
+    "AMS_Cell_Temperature_101": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_102": {
+    "AMS_Cell_Temperature_102": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_103": {
+    "AMS_Cell_Temperature_103": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4424,25 +4424,25 @@
     }
   },
   "0x64A": {
-    "BMS_Cell_Temperature_104": {
+    "AMS_Cell_Temperature_104": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_105": {
+    "AMS_Cell_Temperature_105": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_106": {
+    "AMS_Cell_Temperature_106": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_107": {
+    "AMS_Cell_Temperature_107": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4450,25 +4450,25 @@
     }
   },
   "0x64B": {
-    "BMS_Cell_Temperature_108": {
+    "AMS_Cell_Temperature_108": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_109": {
+    "AMS_Cell_Temperature_109": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_110": {
+    "AMS_Cell_Temperature_110": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_111": {
+    "AMS_Cell_Temperature_111": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4476,25 +4476,25 @@
     }
   },
   "0x64C": {
-    "BMS_Cell_Temperature_112": {
+    "AMS_Cell_Temperature_112": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_113": {
+    "AMS_Cell_Temperature_113": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_114": {
+    "AMS_Cell_Temperature_114": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_115": {
+    "AMS_Cell_Temperature_115": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4502,25 +4502,25 @@
     }
   },
   "0x64D": {
-    "BMS_Cell_Temperature_116": {
+    "AMS_Cell_Temperature_116": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_117": {
+    "AMS_Cell_Temperature_117": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_118": {
+    "AMS_Cell_Temperature_118": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_119": {
+    "AMS_Cell_Temperature_119": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4528,25 +4528,25 @@
     }
   },
   "0x64E": {
-    "BMS_Cell_Temperature_120": {
+    "AMS_Cell_Temperature_120": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_121": {
+    "AMS_Cell_Temperature_121": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_122": {
+    "AMS_Cell_Temperature_122": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_123": {
+    "AMS_Cell_Temperature_123": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4554,25 +4554,25 @@
     }
   },
   "0x64F": {
-    "BMS_Cell_Temperature_124": {
+    "AMS_Cell_Temperature_124": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_125": {
+    "AMS_Cell_Temperature_125": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_126": {
+    "AMS_Cell_Temperature_126": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_127": {
+    "AMS_Cell_Temperature_127": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
@@ -4580,25 +4580,25 @@
     }
   },
   "0x650": {
-    "BMS_Cell_Temperature_128": {
+    "AMS_Cell_Temperature_128": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_129": {
+    "AMS_Cell_Temperature_129": {
       "type": "Uint",
       "startbyte": 2,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_130": {
+    "AMS_Cell_Temperature_130": {
       "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 0.1
     },
-    "BMS_Cell_Temperature_131": {
+    "AMS_Cell_Temperature_131": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
