@@ -1588,16 +1588,16 @@
 	}
   },
   "0x3E0": {
-    "ECU_Sensor_Status": {
-      "type": "Uint",
-      "startbyte": 0,
-      "length": 8,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    }
+	"ECU_Sensor_Status": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 8,
+		"factor": 1.0,
+		"displayname": "",
+		"unit": "",
+		"expectedmin": 0.0,
+		"expectedmax": 0.0
+	}
   },
   "0x3E1": {
 	"VCU_FZ_FL": {
@@ -2020,7 +2020,7 @@
 		"displayname": "Throttle 1",
 		"unit": "",
 		"expectedmin": 0.0,
-		"expectedmax": 1.0
+		"expectedmax": 100.0
     },
 	"SBS_F1_APPS2_Sensor": {
 		"type": "Uint",
@@ -2030,7 +2030,7 @@
 		"displayname": "Throttle 2",
 		"unit": "",
 		"expectedmin": 0.0,
-		"expectedmax": 1.0
+		"expectedmax": 100.0
     },
 	"SBS_F1_brakePressure1_Sensor": {
 		"type": "Uint",
@@ -2040,7 +2040,7 @@
 		"displayname": "Brake Pressure Front",
 		"unit": "Bar",
 		"expectedmin": 0.0,
-		"expectedmax": 20.0
+		"expectedmax": 40.0
     },
 	"SBS_F1_brakePressure2_Sensor": {
 		"type": "Uint",
@@ -2050,7 +2050,7 @@
 		"displayname": "Brake Pressure Rear",
 		"unit": "Bar",
 		"expectedmin": 0.0,
-		"expectedmax": 20.0
+		"expectedmax": 40.0
     }
   },
   "0x402": {
@@ -2414,7 +2414,7 @@
     }
   },
   "0x431": {
-	"SBS_R2_Colling_temp_left_H": {
+	"SBS_MID_Colling_temp_left_H": {
 		"type": "Int",
 		"startbyte": 0,
 		"length": 2,
@@ -2424,7 +2424,7 @@
 		"expectedmin": 0.0,
 		"expectedmax": 80.0
     },
-	"SBS_R2_Colling_temp_left_L": {
+	"SBS_MID_Colling_temp_left_L": {
 		"type": "Int",
 		"startbyte": 2,
 		"length": 2,
@@ -2434,7 +2434,7 @@
 		"expectedmin": 0.0,
 		"expectedmax": 80.0
     },
-	"SBS_R2_Colling_temp_right_H": {
+	"SBS_MID_Colling_temp_right_H": {
 		"type": "Int",
 		"startbyte": 4,
 		"length": 2,
@@ -2444,7 +2444,7 @@
 		"expectedmin": 0.0,
 		"expectedmax": 80.0
     },
-	"SBS_R2_Colling_temp_right_L": {
+	"SBS_MID_Colling_temp_right_L": {
 		"type": "Int",
 		"startbyte": 6,
 		"length": 2,
