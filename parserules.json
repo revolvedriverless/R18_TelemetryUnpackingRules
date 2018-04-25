@@ -1999,6 +1999,48 @@
 	  "expectedmax": 1.0
 	}
  },
+  "0x401": {
+	"SBS_FL_APPS1_Sensor": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Throttle 1",
+		"unit": "",
+		"expectedmin": 0.0,
+		"expectedmax": 1.0
+    },
+	"SBS_FL_APPS2_Sensor": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Throttle 2",
+		"unit": "",
+		"expectedmin": 0.0,
+		"expectedmax": 1.0
+    },
+	"SBS_FL_brakePressure1_Sensor": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Brake Pressure Front",
+		"unit": "Bar",
+		"expectedmin": 0.0,
+		"expectedmax": 20.0
+    },
+	"SBS_FL_brakePressure2_Sensor": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Brake Pressure Rear",
+		"unit": "Bar",
+		"expectedmin": 0.0,
+		"expectedmax": 20.0
+    }
+  },
   "0x40D": {
     "ADC_FL_DamperFL": {
       "type": "Uint",
