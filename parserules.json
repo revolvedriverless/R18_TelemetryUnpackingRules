@@ -2348,7 +2348,7 @@
 		"expectedmin": 0.0,
 		"expectedmax": 80.0
     }
-  },
+  }, 
   "0x42E": {
     "ADC_REAR_DamperRL": {
       "type": "Uint",
@@ -2401,6 +2401,48 @@
       "factor": 0.01
     }
   },
+  "0x431": {
+	"SBS_R2_Colling_temp_left_H": {
+		"type": "Int",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp L High",
+		"unit": "C",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_R2_Colling_temp_left_L"": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp L Low",
+		"unit": "C",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_R2_Colling_temp_right_H"": {
+		"type": "Int",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp R High",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_R2_Colling_temp_right_L"": {
+		"type": "Int",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp R Low",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  }, 
   "0x440": {
     "BMS_Max_Cell_Voltage": {
       "type": "Uint",
