@@ -2571,7 +2571,7 @@
 		"expectedmax": 80.0
     }
   },
-  "0x440": {
+  "0x630": {
     "BMS_Max_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 0,
@@ -2603,7 +2603,7 @@
       "factor": 1.0
     }
   },
-  "0x441": {
+  "0x631": {
     "BMS_Max_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 0,
@@ -2635,7 +2635,7 @@
       "factor": 1.0
     }
   },
-  "0x442": {
+  "0x632": {
     "BMS_Tractive_System_Voltage": {
       "type": "Uint",
       "startbyte": 0,
@@ -2661,7 +2661,7 @@
       "factor": 0.01
     }
   },
-  "0x443": {
+  "0x633": {
     "BMS_Error_Flags": {
       "type": "Uint",
       "startbyte": 0,
@@ -2669,7 +2669,7 @@
       "factor": 1.0
     }
   },
-  "0x444": {
+  "0x634": {
     "BMS_State": {
       "type": "Uint",
       "startbyte": 0,
@@ -2677,7 +2677,7 @@
       "factor": 1.0
     }
   },
-  "0x445": {
+  "0x635": {
     "BMS_Tractive_System_Power": {
       "type": "Int",
       "startbyte": 0,
@@ -2691,7 +2691,7 @@
       "factor": 0.1
     }
   },
-  "0x44A": {
+  "0x636": {
     "BMS_max_isoSPI_fails": {
       "type": "Uint",
       "startbyte": 0,
