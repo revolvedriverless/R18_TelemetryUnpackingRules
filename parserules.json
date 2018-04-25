@@ -2052,7 +2052,7 @@
 		"expectedmin": 0.0,
 		"expectedmax": 1.0
     },
-	"SBS_FL_SWPS_Sensor": {
+	"SBS_FL_Stering_Angle": {
 		"type": "Int",
 		"startbyte": 2,
 		"length": 2,
@@ -2062,7 +2062,7 @@
 		"expectedmin": -10.0,
 		"expectedmax": 10.0
 		},
-	"SBS_FL_SWS_Sensor": {
+	"SBS_FL_Steering_Speed": {
 		"type": "Uint",
 		"startbyte": 4,
 		"length": 2,
