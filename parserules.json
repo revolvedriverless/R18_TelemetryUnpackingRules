@@ -2042,7 +2042,7 @@
     }
   },
   "0x402": {
-	"SBS_FL_A4_KERS_Sensor": {
+	"SBS_FL_KERS_Sensor": {
 		"type": "Uint",
 		"startbyte": 0,
 		"length": 2,
@@ -2052,7 +2052,7 @@
 		"expectedmin": 0.0,
 		"expectedmax": 1.0
     },
-	"SBS_FL_A2_SWPS_Sensor": {
+	"SBS_FL_SWPS_Sensor": {
 		"type": "Int",
 		"startbyte": 2,
 		"length": 2,
@@ -2062,7 +2062,7 @@
 		"expectedmin": -10.0,
 		"expectedmax": 10.0
 		},
-	"SBS_FL_brakePressure1_Sensor": {
+	"SBS_FL_SWS_Sensor": {
 		"type": "Uint",
 		"startbyte": 4,
 		"length": 2,
