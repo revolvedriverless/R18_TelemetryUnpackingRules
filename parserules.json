@@ -2196,7 +2196,7 @@
 		"length": 2,
 		"factor": 0.01,
 		"displayname": "Gear Temp FL",
-		"unit": "mm",
+		"unit": "C",
 		"expectedmin": 0.0,
 		"expectedmax": 80.0
     },
@@ -2206,7 +2206,7 @@
 		"length": 2,
 		"factor": 0.01,
 		"displayname": "Gear Temp FR",
-		"unit": "mm",
+		"unit": "C",
 		"expectedmin": 0.0,
 		"expectedmax": 80.0
     }
@@ -2263,6 +2263,48 @@
       "startbyte": 4,
       "length": 4,
       "factor": 1.0
+    }
+  },
+  "0x421": {
+	"SBS_R1_Damper_pos_RL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Damper pos RL",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+        "SBS_R1_Damper_Rate_RL": {
+          "type": "Int",
+          "startbyte": 2,
+          "length": 2,
+          "factor": 1.0,
+	  "displayname": "Damper rate RL",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
+    },
+        "SBS_R1_Damper_pos_RR": {
+          "type": "Uint",
+          "startbyte": 4,
+          "length": 2,
+          "factor": 0.01,
+	  "displayname": "Damper pos RR",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+        "SBS_R1_Damper_Rate_RR": {
+          "type": "Int",
+          "startbyte": 6,
+          "length": 2,
+          "factor": 1.0,
+	  "displayname": "Damper rate RR",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
     }
   },
   "0x42E": {
