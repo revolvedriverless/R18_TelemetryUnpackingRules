@@ -2169,6 +2169,48 @@
 		"expectedmax": 100.0
     }
   },
+  "0x412": {
+	"SBS_FR_Acc_Upright_FL": {
+		"type": "Int",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright FL",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_FR_Acc_Upright_FR": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright FR",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_FR_Gear_Temp_FL": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp FL",
+		"unit": "mm",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_FR_Gear_Temp_FR": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp FR",
+		"unit": "mm",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
   "0x41D": {
     "ADC_FR_DamperFR": {
       "type": "Uint",
