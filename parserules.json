@@ -2070,19 +2070,19 @@
 		"length": 2,
 		"factor": 0.01,
 		"displayname": "Steering Wheel Angle",
-		"unit": "rad",
-		"expectedmin": -10.0,
-		"expectedmax": 10.0
+		"unit": "deg",
+		"expectedmin": -120.0,
+		"expectedmax": 120.0
 		},
 	"SBS_F1_Steering_Speed": {
-		"type": "Uint",
+		"type": "Int",
 		"startbyte": 4,
 		"length": 2,
-		"factor": 0.01,
+		"factor": 0.1,
 		"displayname": "Steering Wheel Speed",
-		"unit": "rad/s",
-		"expectedmin": -20.0,
-		"expectedmax":  20.0
+		"unit": "deg/s",
+		"expectedmin": -3000.0,
+		"expectedmax":  3000.0
     }
   },
   "0x40D": {
