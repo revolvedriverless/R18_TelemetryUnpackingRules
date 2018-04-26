@@ -1305,7 +1305,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x442": {
+  "0x620": {
     "BMS_Tractive_System_Voltage": {
       "type": "Uint",
       "startbyte": 0,
@@ -1347,7 +1347,7 @@
       "expectedmax": 100.0
     }
   },
-  "0x443": {
+  "0x623": {
     "BMS_Error_Flags": {
       "type": "Uint",
       "startbyte": 0,
@@ -1359,7 +1359,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x444": {
+  "0x624": {
     "BMS_State": {
       "type": "Uint",
       "startbyte": 0,
@@ -1371,7 +1371,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x445": {
+  "0x625": {
     "BMS_Tractive_System_Power": {
       "type": "Int",
       "startbyte": 0,
@@ -1393,7 +1393,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x44A": {
+  "0x62A": {
     "BMS_max_isoSPI_fails": {
       "type": "Uint",
       "startbyte": 0,
