@@ -4674,8 +4674,8 @@
       "length": 2,
       "factor": 0.1
     }
-
   },
+
   "0x681": {
     "GLVBMS_Cell_Temperature_4": {
       "type": "Uint",
@@ -4689,6 +4689,50 @@
       "length": 2,
       "factor": 0.1
     }
-  }
+  },
 
+    "0x661": {
+    "GLVBMS_KILL_ID": {
+      "type": "Uint", 
+      "startbyte": 0, 
+      "length": 1, 
+      "factor": 1 
+    }
+  },
+
+  "0x662": {
+    "GLVBMS_RESET_ERROR_FLAGS": {
+      "type": "Uint", 
+      "startbyte": 0, 
+      "length": 1, 
+      "factor": 1 
+    }
+  },
+
+    "0x663": {
+    "GLVBMS_COLOMB_COUNT": {
+      "type": "Uint", 
+      "startbyte": 0, 
+      "length": 4, 
+      "factor": 0.01 // Temporary
+    }
+  },
+
+    "0x664": {
+    "GLVBMS_LV_DATA": {
+      "type": "Uint", 
+      "startbyte": 0,
+      "length": 8, // Temporary
+      "factor": 1 // Temporary
+    }
+  },
+
+  "0x665": {
+    "GLVBMS_ERROR_FLAGS": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1 
+    }
+  }
 }
