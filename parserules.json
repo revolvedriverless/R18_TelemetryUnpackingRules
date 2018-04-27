@@ -477,6 +477,14 @@
       "factor": 0.01
     }
   },
+  "0x2C0": {
+    "Alive_message": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
   "0x350": {
     "ECU_PLAY_RTDS": {
       "type": "Uint",
@@ -2759,14 +2767,6 @@
   },
   "0x491": {
     "BMS_IMD_State": {
-      "type": "Uint",
-      "startbyte": 0,
-      "length": 1,
-      "factor": 1.0
-    }
-  },
-  "0x4C0": {
-    "Alive_message": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
