@@ -2125,6 +2125,16 @@
 	  "unit": "rad",
 	  "expectedmin": -0.0,
 	  "expectedmax": 1.0
+	},
+		"VCU_Vx_est": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Vx est",
+	  "unit": "rad",
+	  "expectedmin": -1.0,
+	  "expectedmax": 35.0
 	}
  },
   "0x401": {
