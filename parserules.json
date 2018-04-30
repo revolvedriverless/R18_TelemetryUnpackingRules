@@ -2931,7 +2931,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x440": {
+  "0x640": {
     "BMS_Max_Cell_Voltage": {
       "type": "Uint",
       "startbyte": 0,
@@ -2983,7 +2983,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x441": {
+  "0x641": {
     "BMS_Max_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 0,
@@ -3421,7 +3421,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x500": {
+  "0x600": {
     "BMS_Cell_Voltage_0": {
       "type": "Uint",
       "startbyte": 0,
@@ -3463,7 +3463,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x501": {
+  "0x661": {
     "BMS_Cell_Voltage_4": {
       "type": "Uint",
       "startbyte": 0,
@@ -3505,7 +3505,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x502": {
+  "0x602": {
     "BMS_Cell_Voltage_8": {
       "type": "Uint",
       "startbyte": 0,
@@ -3547,7 +3547,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x503": {
+  "0x663": {
     "BMS_Cell_Voltage_12": {
       "type": "Uint",
       "startbyte": 0,
@@ -3589,7 +3589,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x504": {
+  "0x664": {
     "BMS_Cell_Voltage_16": {
       "type": "Uint",
       "startbyte": 0,
@@ -3631,7 +3631,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x505": {
+  "0x665": {
     "BMS_Cell_Voltage_20": {
       "type": "Uint",
       "startbyte": 0,
@@ -3673,7 +3673,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x506": {
+  "0x666": {
     "BMS_Cell_Voltage_24": {
       "type": "Uint",
       "startbyte": 0,
@@ -3715,7 +3715,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x507": {
+  "0x667": {
     "BMS_Cell_Voltage_28": {
       "type": "Uint",
       "startbyte": 0,
@@ -3757,7 +3757,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x508": {
+  "0x668": {
     "BMS_Cell_Voltage_32": {
       "type": "Uint",
       "startbyte": 0,
@@ -3799,7 +3799,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x509": {
+  "0x669": {
     "BMS_Cell_Voltage_36": {
       "type": "Uint",
       "startbyte": 0,
@@ -3841,7 +3841,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x50A": {
+  "0x66A": {
     "BMS_Cell_Voltage_40": {
       "type": "Uint",
       "startbyte": 0,
@@ -3883,7 +3883,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x50B": {
+  "0x66B": {
     "BMS_Cell_Voltage_44": {
       "type": "Uint",
       "startbyte": 0,
@@ -3925,7 +3925,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x50C": {
+  "0x66C": {
     "BMS_Cell_Voltage_48": {
       "type": "Uint",
       "startbyte": 0,
@@ -3967,7 +3967,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x50D": {
+  "0x66D": {
     "BMS_Cell_Voltage_52": {
       "type": "Uint",
       "startbyte": 0,
@@ -4009,7 +4009,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x50E": {
+  "0x66E": {
     "BMS_Cell_Voltage_56": {
       "type": "Uint",
       "startbyte": 0,
@@ -4051,7 +4051,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x50F": {
+  "0x66F": {
     "BMS_Cell_Voltage_60": {
       "type": "Uint",
       "startbyte": 0,
@@ -4093,7 +4093,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x510": {
+  "0x670": {
     "BMS_Cell_Voltage_64": {
       "type": "Uint",
       "startbyte": 0,
@@ -4135,7 +4135,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x511": {
+  "0x671": {
     "BMS_Cell_Voltage_68": {
       "type": "Uint",
       "startbyte": 0,
@@ -4177,7 +4177,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x512": {
+  "0x672": {
     "BMS_Cell_Voltage_72": {
       "type": "Uint",
       "startbyte": 0,
@@ -4219,7 +4219,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x513": {
+  "0x673": {
     "BMS_Cell_Voltage_76": {
       "type": "Uint",
       "startbyte": 0,
@@ -4261,7 +4261,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x514": {
+  "0x674": {
     "BMS_Cell_Voltage_80": {
       "type": "Uint",
       "startbyte": 0,
@@ -4303,7 +4303,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x515": {
+  "0x675": {
     "BMS_Cell_Voltage_84": {
       "type": "Uint",
       "startbyte": 0,
@@ -4345,7 +4345,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x516": {
+  "0x676": {
     "BMS_Cell_Voltage_88": {
       "type": "Uint",
       "startbyte": 0,
@@ -4387,7 +4387,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x517": {
+  "0x677": {
     "BMS_Cell_Voltage_92": {
       "type": "Uint",
       "startbyte": 0,
@@ -4429,7 +4429,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x518": {
+  "0x678": {
     "BMS_Cell_Voltage_96": {
       "type": "Uint",
       "startbyte": 0,
@@ -4471,7 +4471,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x519": {
+  "0x679": {
     "BMS_Cell_Voltage_100": {
       "type": "Uint",
       "startbyte": 0,
@@ -4513,7 +4513,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x51A": {
+  "0x67A": {
     "BMS_Cell_Voltage_104": {
       "type": "Uint",
       "startbyte": 0,
@@ -4555,7 +4555,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x51B": {
+  "0x67B": {
     "BMS_Cell_Voltage_108": {
       "type": "Uint",
       "startbyte": 0,
@@ -4597,7 +4597,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x51C": {
+  "0x67C": {
     "BMS_Cell_Voltage_112": {
       "type": "Uint",
       "startbyte": 0,
@@ -4639,7 +4639,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x51D": {
+  "0x67D": {
     "BMS_Cell_Voltage_116": {
       "type": "Uint",
       "startbyte": 0,
@@ -4681,7 +4681,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x51E": {
+  "0x67E": {
     "BMS_Cell_Voltage_120": {
       "type": "Uint",
       "startbyte": 0,
@@ -4723,7 +4723,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x51F": {
+  "0x67F": {
     "BMS_Cell_Voltage_124": {
       "type": "Uint",
       "startbyte": 0,
@@ -4765,7 +4765,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x520": {
+  "0x680": {
     "BMS_Cell_Voltage_128": {
       "type": "Uint",
       "startbyte": 0,
@@ -4807,7 +4807,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x540": {
+  "0x630": {
     "BMS_Cell_Temperature_0": {
       "type": "Uint",
       "startbyte": 0,
@@ -4849,7 +4849,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x541": {
+  "0x631": {
     "BMS_Cell_Temperature_4": {
       "type": "Uint",
       "startbyte": 0,
@@ -4891,7 +4891,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x542": {
+  "0x632": {
     "BMS_Cell_Temperature_8": {
       "type": "Uint",
       "startbyte": 0,
@@ -4933,7 +4933,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x543": {
+  "0x633": {
     "BMS_Cell_Temperature_12": {
       "type": "Uint",
       "startbyte": 0,
@@ -4975,7 +4975,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x544": {
+  "0x634": {
     "BMS_Cell_Temperature_16": {
       "type": "Uint",
       "startbyte": 0,
@@ -5017,7 +5017,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x545": {
+  "0x635": {
     "BMS_Cell_Temperature_20": {
       "type": "Uint",
       "startbyte": 0,
@@ -5059,7 +5059,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x546": {
+  "0x636": {
     "BMS_Cell_Temperature_24": {
       "type": "Uint",
       "startbyte": 0,
@@ -5101,7 +5101,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x547": {
+  "0x637": {
     "BMS_Cell_Temperature_28": {
       "type": "Uint",
       "startbyte": 0,
@@ -5143,7 +5143,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x548": {
+  "0x638": {
     "BMS_Cell_Temperature_32": {
       "type": "Uint",
       "startbyte": 0,
@@ -5185,7 +5185,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x549": {
+  "0x639": {
     "BMS_Cell_Temperature_36": {
       "type": "Uint",
       "startbyte": 0,
@@ -5227,7 +5227,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x54A": {
+  "0x63A": {
     "BMS_Cell_Temperature_40": {
       "type": "Uint",
       "startbyte": 0,
@@ -5269,7 +5269,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x54B": {
+  "0x63B": {
     "BMS_Cell_Temperature_44": {
       "type": "Uint",
       "startbyte": 0,
@@ -5311,7 +5311,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x54C": {
+  "0x63C": {
     "BMS_Cell_Temperature_48": {
       "type": "Uint",
       "startbyte": 0,
@@ -5353,7 +5353,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x54D": {
+  "0x63D": {
     "BMS_Cell_Temperature_52": {
       "type": "Uint",
       "startbyte": 0,
@@ -5395,7 +5395,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x54E": {
+  "0x63E": {
     "BMS_Cell_Temperature_56": {
       "type": "Uint",
       "startbyte": 0,
@@ -5437,7 +5437,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x54F": {
+  "0x63F": {
     "BMS_Cell_Temperature_60": {
       "type": "Uint",
       "startbyte": 0,
@@ -5479,7 +5479,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x550": {
+  "0x640": {
     "BMS_Cell_Temperature_64": {
       "type": "Uint",
       "startbyte": 0,
@@ -5521,7 +5521,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x551": {
+  "0x641": {
     "BMS_Cell_Temperature_68": {
       "type": "Uint",
       "startbyte": 0,
@@ -5563,7 +5563,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x552": {
+  "0x642": {
     "BMS_Cell_Temperature_72": {
       "type": "Uint",
       "startbyte": 0,
@@ -5605,7 +5605,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x553": {
+  "0x643": {
     "BMS_Cell_Temperature_76": {
       "type": "Uint",
       "startbyte": 0,
@@ -5647,7 +5647,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x554": {
+  "0x644": {
     "BMS_Cell_Temperature_80": {
       "type": "Uint",
       "startbyte": 0,
@@ -5689,7 +5689,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x555": {
+  "0x645": {
     "BMS_Cell_Temperature_84": {
       "type": "Uint",
       "startbyte": 0,
@@ -5731,7 +5731,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x556": {
+  "0x646": {
     "BMS_Cell_Temperature_88": {
       "type": "Uint",
       "startbyte": 0,
@@ -5773,7 +5773,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x557": {
+  "0x647": {
     "BMS_Cell_Temperature_92": {
       "type": "Uint",
       "startbyte": 0,
@@ -5815,7 +5815,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x558": {
+  "0x648": {
     "BMS_Cell_Temperature_96": {
       "type": "Uint",
       "startbyte": 0,
@@ -5857,7 +5857,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x559": {
+  "0x649": {
     "BMS_Cell_Temperature_100": {
       "type": "Uint",
       "startbyte": 0,
@@ -5899,7 +5899,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x55A": {
+  "0x64A": {
     "BMS_Cell_Temperature_104": {
       "type": "Uint",
       "startbyte": 0,
@@ -5941,7 +5941,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x55B": {
+  "0x64B": {
     "BMS_Cell_Temperature_108": {
       "type": "Uint",
       "startbyte": 0,
@@ -5983,7 +5983,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x55C": {
+  "0x64C": {
     "BMS_Cell_Temperature_112": {
       "type": "Uint",
       "startbyte": 0,
@@ -6025,7 +6025,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x55D": {
+  "0x64D": {
     "BMS_Cell_Temperature_116": {
       "type": "Uint",
       "startbyte": 0,
@@ -6067,7 +6067,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x55E": {
+  "0x64E": {
     "BMS_Cell_Temperature_120": {
       "type": "Uint",
       "startbyte": 0,
@@ -6109,7 +6109,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x55F": {
+  "0x64F": {
     "BMS_Cell_Temperature_124": {
       "type": "Uint",
       "startbyte": 0,
@@ -6151,7 +6151,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x560": {
+  "0x650": {
     "BMS_Cell_Temperature_128": {
       "type": "Uint",
       "startbyte": 0,
