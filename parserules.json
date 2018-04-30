@@ -2983,7 +2983,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x641": {
+  "0x621": {
     "BMS_Max_Cell_Temperature": {
       "type": "Uint",
       "startbyte": 0,
@@ -3035,7 +3035,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x620": {
+  "0x622": {
     "BMS_Tractive_System_Voltage": {
       "type": "Uint",
       "startbyte": 0,
