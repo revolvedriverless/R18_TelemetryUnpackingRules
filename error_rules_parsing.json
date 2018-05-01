@@ -1,72 +1,538 @@
 {
-  "0x420": {
-    "A4_DamperRearL_Sensor_low": {
-      "bitnumber": "16",
-      "description": "low"
-    },
-    "A4_DamperRearL_Sensor_high": {
-      "bitnumber": "17",
-      "description": "High"
-    },
-    "A4_DamperRearL_Sensor_TVlow": {
-      "bitnumber": "18",
-      "description": "low"
-    },
-    "A4_DamperRearL_Sensor_TVhigh": {
-      "bitnumber": "19",
-      "description": "high"
-    },
-    "A4_DamperRearR_Sensor_low": {
-      "bitnumber": "20",
-      "description": "low"
-    },
-    "A4_DamperRearR_Sensor_high": {
-      "bitnumber": "21",
-      "description": "high"
-    },
-    "A4_DamperRearR_Sensor_TVlow": {
-      "bitnumber": "22",
-      "description": "low"
-    },
-    "A4_DamperRearR_Sensor_TVhigh": {
-      "bitnumber": "23",
-      "description": "high"
-    },
-    "A2_GearTempRearL_Sensor": {
-      "bitnumber": "8",
-      "description": "High"
-    },
-    "A2_GearTempRearL_Sensor2": {
-      "bitnumber": "9",
-      "description": "HighHigh"
-    },
-    "A2_GearTempRearL_Sensor3": {
-      "bitnumber": "10",
-      "description": "Low"
-    },
-    "A2_GearTempRearL_Sensor4": {
-      "bitnumber": "11",
-      "description": "LowLow"
-    }
-  },
-  "0x654": {
-    "Undercurrent": {
-      "bitnumber": "1",
-      "description": "not enough current"
-    },
-    "Overvoltage": {
-      "bitnumber": "1",
-      "description": "too much voltage"
-    }
-  },
-  "0x650": {
-    "Batteryfire": {
-      "bitnumber": "1",
-      "description": "burning"
-    },
-    "Crash": {
-      "bitnumber": "1",
-      "description": "driver crash"
-    }
-  }
+	"0x400": {
+		"A0_BrakePressure1_Sensor_low": {
+			"bitnumber": "0",
+			"description": "Low voltage reading"
+		},
+		"A0_BrakePressure1_Sensor_high": {
+			"bitnumber": "1",
+			"description": "High voltage reading"
+		},
+		"A0_BrakePressure1_Sensor_TVlow": {
+			"bitnumber": "2",
+			"description": "Low pressure"
+		},
+		"A0_BrakePressure1_Sensor_TVhigh": {
+			"bitnumber": "3",
+			"description": "Critical high pressure"
+		},
+		"A0_BrakePressure1_Sensor_TVlowlow": {
+			"bitnumber": "4",
+			"description": "Critical low pressuer"
+		},
+		"A0_BrakePressure1_Sensor_TVhighhigh": {
+			"bitnumber": "5",
+			"description": "Critical high pressuer"
+		},
+		"A1_BrakePressure2_Sensor_low": {
+			"bitnumber": "8",
+			"description": "Low voltage reading"
+		},
+		"A1_BrakePressure2_Sensor_high": {
+			"bitnumber": "9",
+			"description": "High voltage reading"
+		},
+		"A1_BrakePressure2_Sensor_TVlow": {
+			"bitnumber": "10",
+			"description": "Low"
+		},
+		"A1_BrakePressure2_Sensor_TVhigh": {
+			"bitnumber": "11",
+			"description": "High"
+		},
+		"A1_BrakePressure2_Sensor_TVlowlow": {
+			"bitnumber": "12",
+			"description": "LowLow"
+		},
+		"A1_BrakePressure2_Sensor_TVhighhigh": {
+			"bitnumber": "13",
+			"description": "HighHigh"
+		},
+		"A2_SWPS_Sensor_low": {
+			"bitnumber": "16",
+			"description": "Low voltage reading"
+		},
+		"A2_SWPS_Sensor_high": {
+			"bitnumber": "17",
+			"description": "High voltage reading"
+		},
+		"A2_SWPS_Sensor_TVlow": {
+			"bitnumber": "18",
+			"description": "Low"
+		},
+		"A2_SWPS_Sensor_TVhigh": {
+			"bitnumber": "19",
+			"description": "High"
+		},
+		"A2_SWPS_Sensor_TVLowLow": {
+			"bitnumber": "20",
+			"description": "LowLow"
+		},
+		"A2_SWPS_Sensor_TVHighHigh": {
+			"bitnumber": "21",
+			"description": "HighHigh"
+		},
+		"A4_KERS_Sensor_low": {
+			"bitnumber": "32",
+			"description": "Low voltage reading"
+		},
+		"A4_KERS_Sensor_High": {
+			"bitnumber": "33",
+			"description": "High voltage reading"
+		},
+		"A4_KERS_Sensor_TVlow": {
+			"bitnumber": "34",
+			"description": "Low"
+		},
+		"A4_KERS_Sensor_TVhigh": {
+			"bitnumber": "35",
+			"description": "High"
+		},
+		"A4_KERS_Sensor_TVLowLow": {
+			"bitnumber": "36",
+			"description": "LowLow"
+		},
+		"A4_KERS_Sensor_TVHighHigh": {
+			"bitnumber": "37",
+			"description": "HighHigh"
+		},
+		"A5_APPS1_Sensor_low": {
+			"bitnumber": "40",
+			"description": "Low voltage reading"
+		},
+		"A5_APPS1_Sensor_high": {
+			"bitnumber": "41",
+			"description": "High voltage reading"
+		},
+		"A5_APPS1_Sensor_TVlow": {
+			"bitnumber": "42",
+			"description": "Low"
+		},
+		"A5_APPS1_Sensor_TVhigh": {
+			"bitnumber": "43",
+			"description": "High"
+		},
+		"A5_APPS1_Sensor_TVLowLow": {
+			"bitnumber": "44",
+			"description": "LowLow"
+		},
+		"A5_APPS1_Sensor_TVHighHigh": {
+			"bitnumber": "45",
+			"description": "HighHigh"
+		},
+		"A6_APPS2_Sensor_low": {
+			"bitnumber": "48",
+			"description": "Low voltage reading"
+		},
+		"A6_APPS2_Sensor_high": {
+			"bitnumber": "49",
+			"description": "High voltage reading"
+		},
+		"A6_APPS2_Sensor_TVlow": {
+			"bitnumber": "50",
+			"description": "Low"
+		},
+		"A6_APPS2_Sensor_TVhigh": {
+			"bitnumber": "51",
+			"description": "High"
+		},
+		"A6_APPS2_Sensor_TVLowLow": {
+			"bitnumber": "52",
+			"description": "LowLow"
+		},
+		"A6_APPS2_Sensor_TVHighHig": {
+			"bitnumber": "53",
+			"description": "HighHigh"
+		}
+	},
+	"0x410": {
+		"A0_AccUprightFrontL_Sensor_low": {
+			"bitnumber": "0",
+			"description": "Low voltage reading"
+		},
+		"A0_AccUprightFrontL_Sensor_high": {
+			"bitnumber": "1",
+			"description": "High voltage reading"
+		},
+		"A0_AccUprightFrontL_Sensor_TVlow": {
+			"bitnumber": "2",
+			"description": "Low"
+		},
+		"A0_AccUprightFrontL_Sensor_TVhigh": {
+			"bitnumber": "3",
+			"description": "High"
+		},
+		"A0_AccUprightFrontL_Sensor_TVlowlow": {
+			"bitnumber": "4",
+			"description": "Low"
+		},
+		"A0_AccUprightFrontL_Sensor_TVhighhigh": {
+			"bitnumber": "5",
+			"description": "High"
+		},
+		"A1_AccUprightFrontR_Sensor_low": {
+			"bitnumber": "8",
+			"description": "Low voltage reading"
+		},
+		"A1_AccUprightFrontR_Sensor_high": {
+			"bitnumber": "9",
+			"description": "High voltage reading"
+		},
+		"A1_AccUprightFrontR_Sensor_TVlow": {
+			"bitnumber": "10",
+			"description": "Low temperature"
+		},
+		"A1_AccUprightFrontR_Sensor_TVhigh": {
+			"bitnumber": "11",
+			"description": "HighHigh"
+		},
+		"A1_AccUprightFrontR_Sensor_TVlowlow": {
+			"bitnumber": "12",
+			"description": "Low"
+		},
+		"A1_AccUprightFrontR_Sensor_TVhighhigh": {
+			"bitnumber": "13",
+			"description": "LowLow"
+		},
+		"A2_GearTempFrontL_Sensor_low": {
+			"bitnumber": "16",
+			"description": "High voltage reading"
+		},
+		"A2_GearTempFrontL_Sensor_high": {
+			"bitnumber": "17",
+			"description": "Low voltage reading"
+		},
+		"A2_GearTempFrontL_Sensor_TVlow": {
+			"bitnumber": "18",
+			"description": "Low temperature"
+		},
+		"A2_GearTempFrontL_Sensor_TVhigh": {
+			"bitnumber": "19",
+			"description": "High temperature"
+		},
+		"A2_GearTempFrontL_Sensor_TVLowLow": {
+			"bitnumber": "20",
+			"description": "Critiacal low temperature"
+		},
+		"A2_GearTempFrontL_Sensor_TVHighHigh": {
+			"bitnumber": "21",
+			"description": "Critiacal high temperature"
+		},
+		"A3_GearTempFrontR_Sensor_low": {
+			"bitnumber": "24",
+			"description": "High voltage reading"
+		},
+		"A3_GearTempFrontR_Sensor_high": {
+			"bitnumber": "25",
+			"description": "Low voltage reading"
+		},
+		"A3_GearTempFrontR_Sensor_TVlow": {
+			"bitnumber": "26",
+			"description": "Low temperature"
+		},
+		"A3_GearTempFrontR_Sensor_TVhigh": {
+			"bitnumber": "27",
+			"description": "High temperature"
+		},
+		"A3_GearTempFrontR_Sensor_TVLowLow": {
+			"bitnumber": "28",
+			"description": "Critiacal low temperature"
+		},
+		"A3_GearTempFrontR_Sensor_TVHighHigh": {
+			"bitnumber": "29",
+			"description": "Critiacal high temperature"
+		},
+		"A4_DamperFrontL_Sensor_low": {
+			"bitnumber": "32",
+			"description": "Low voltage reading"
+		},
+		"A4_DamperFrontL_Sensor_High": {
+			"bitnumber": "33",
+			"description": "High"
+		},
+		"A4_DamperFrontL_Sensor_TVlow": {
+			"bitnumber": "34",
+			"description": "High"
+		},
+		"A4_DamperFrontL_Sensor_TVhigh": {
+			"bitnumber": "35",
+			"description": "HighHigh"
+		},
+		"A4_DamperFrontL_Sensor_TVLowLow": {
+			"bitnumber": "36",
+			"description": "Low"
+		},
+		"A4_DamperFrontL_Sensor_TVHighHigh": {
+			"bitnumber": "37",
+			"description": "LowLow"
+		},
+		"A5_DamperFrontR_Sensor_low": {
+			"bitnumber": "40",
+			"description": "Low voltage reading"
+		},
+		"A5_DamperFrontR_Sensor_high": {
+			"bitnumber": "41",
+			"description": "High"
+		},
+		"A5_DamperFrontR_Sensor_TVlow": {
+			"bitnumber": "42",
+			"description": "High"
+		},
+		"A5_DamperFrontR_Sensor_TVhigh": {
+			"bitnumber": "43",
+			"description": "HighHigh"
+		},
+		"A5_DamperFrontR_Sensor_TVLowLow": {
+			"bitnumber": "44",
+			"description": "Low"
+		},
+		"A5_DamperFrontR_Sensor_TVHighHigh": {
+			"bitnumber": "45",
+			"description": "LowLow"
+		}
+	},
+	"0x420": {
+		"A0_AccUprightRearL_Sensor_low": {
+			"bitnumber": "0",
+			"description": "Low voltage reading"
+		},
+		"A0_AccUprightRearL_Sensor_high": {
+			"bitnumber": "1",
+			"description": "High voltage reading"
+		},
+		"A0_AccUprightRearL_Sensor_TVlow": {
+			"bitnumber": "2",
+			"description": "Low"
+		},
+		"A0_AccUprightRearL_Sensor_TVhigh": {
+			"bitnumber": "3",
+			"description": "High"
+		},
+		"A0_AccUprightRearL_Sensor_TVlowlow": {
+			"bitnumber": "4",
+			"description": "Low"
+		},
+		"A0_AccUprightRearL_Sensor_TVhighhigh": {
+			"bitnumber": "5",
+			"description": "High"
+		},
+		"A1_AccUprightRearR_Sensor_low": {
+			"bitnumber": "8",
+			"description": "Low voltage reading"
+		},
+		"A1_AccUprightRearR_Sensor_high": {
+			"bitnumber": "9",
+			"description": "High voltage reading"
+		},
+		"A1_AccUprightRearR_Sensor_TVlow": {
+			"bitnumber": "10",
+			"description": "High"
+		},
+		"A1_AccUprightRearR_Sensor_TVhigh": {
+			"bitnumber": "11",
+			"description": "HighHigh"
+		},
+		"A1_AccUprightRearR_Sensor_TVlowlow": {
+			"bitnumber": "12",
+			"description": "Low"
+		},
+		"A1_AccUprightRearR_Sensor_TVhighhigh": {
+			"bitnumber": "13",
+			"description": "LowLow"
+		},
+		"A2_GearTempRearL_Sensor_low": {
+			"bitnumber": "16",
+			"description": "High voltage reading"
+		},
+		"A2_GearTempRearL_Sensor_high": {
+			"bitnumber": "17",
+			"description": "Low voltage reading"
+		},
+		"A2_GearTempRearL_Sensor_TVlow": {
+			"bitnumber": "18",
+			"description": "Low temperature"
+		},
+		"A2_GearTempRearL_Sensor_TVhigh": {
+			"bitnumber": "19",
+			"description": "High temperature"
+		},
+		"A2_GearTempRearL_Sensor_TVLowLow": {
+			"bitnumber": "20",
+			"description": "Critiacal low temperature"
+		},
+		"A2_GearTempRearL_Sensor_TVHighHigh": {
+			"bitnumber": "21",
+			"description": "Critiacal high temperature"
+		},
+		"A3_GearTempRearR_Sensor_low": {
+			"bitnumber": "24",
+			"description": "High voltage reading"
+		},
+		"A3_GearTempRearR_Sensor_high": {
+			"bitnumber": "25",
+			"description": "Low voltage reading"
+		},
+		"A3_GearTempRearR_Sensor_TVlow": {
+			"bitnumber": "26",
+			"description": "Low temperature"
+		},
+		"A3_GearTempRearR_Sensor_TVhigh": {
+			"bitnumber": "27",
+			"description": "High temperature"
+		},
+		"A3_GearTempRearR_Sensor_TVLowLow": {
+			"bitnumber": "28",
+			"description": "Critiacal low temperature"
+		},
+		"A3_GearTempRearR_Sensor_TVHighHigh": {
+			"bitnumber": "29",
+			"description": "Critiacal high temperature"
+		},
+		"A4_DamperRearL_Sensor_low": {
+			"bitnumber": "32",
+			"description": "Low voltage reading"
+		},
+		"A4_DamperRearL_Sensor_High": {
+			"bitnumber": "33",
+			"description": "High voltage reading"
+		},
+		"A4_DamperRearL_Sensor_TVlow": {
+			"bitnumber": "34",
+			"description": "High"
+		},
+		"A4_DamperRearL_Sensor_TVhigh": {
+			"bitnumber": "35",
+			"description": "HighHigh"
+		},
+		"A4_DamperRearL_Sensor_TVLowLow": {
+			"bitnumber": "36",
+			"description": "Low"
+		},
+		"A4_DamperRearL_Sensor_TVHighHigh": {
+			"bitnumber": "37",
+			"description": "LowLow"
+		},
+		"A5_DamperRearR_Sensor_low": {
+			"bitnumber": "40",
+			"description": "Low voltage reading"
+		},
+		"A5_DamperRearR_Sensor_high": {
+			"bitnumber": "41",
+			"description": "High voltage reading"
+		},
+		"A5_DamperRearR_Sensor_TVlow": {
+			"bitnumber": "42",
+			"description": "High"
+		},
+		"A5_DamperRearR_Sensor_TVhigh": {
+			"bitnumber": "43",
+			"description": "HighHigh"
+		},
+		"A5_DamperRearR_Sensor_TVLowLow": {
+			"bitnumber": "44",
+			"description": "Low"
+		},
+		"A5_DamperRearR_Sensor_TVHighHigh": {
+			"bitnumber": "45",
+			"description": "LowLow"
+		}
+	},
+	"0x430": {
+		"A0_CoolingTempLHigh_Sensor_low": {
+			"bitnumber": "0",
+			"description": "High voltage reading"
+		},
+		"A0_CoolingTempLHigh_Sensor_high": {
+			"bitnumber": "1",
+			"description": "Low voltage reading"
+		},
+		"A0_CoolingTempLHigh_Sensor_TVlow": {
+			"bitnumber": "2",
+			"description": "Low temperature"
+		},
+		"A0_CoolingTempLHigh_Sensor_TVhigh": {
+			"bitnumber": "3",
+			"description": "High temperature"
+		},
+		"A0_CoolingTempLHigh_Sensor_TVlowlow": {
+			"bitnumber": "4",
+			"description": "Critiacal low temperature"
+		},
+		"A0_CoolingTempLHigh_Sensor_TVhighhigh": {
+			"bitnumber": "5",
+			"description": "Critiacal high temperature"
+		},
+		"A1_CoolingTempLLow_Sensor_low": {
+			"bitnumber": "8",
+			"description": "High voltage reading"
+		},
+		"A1_CoolingTempLLow_Sensor_high": {
+			"bitnumber": "9",
+			"description": "Low voltage reading"
+		},
+		"A1_CoolingTempLLow_Sensor_TVlow": {
+			"bitnumber": "10",
+			"description": "Low temperature"
+		},
+		"A1_CoolingTempLLow_Sensor_TVhigh": {
+			"bitnumber": "11",
+			"description": "High temperature"
+		},
+		"A1_CoolingTempLLow_Sensor_TVlowlow": {
+			"bitnumber": "12",
+			"description": "Critiacal low temperature"
+		},
+		"A1_CoolingTempLLow_Sensor_TVhighhigh": {
+			"bitnumber": "13",
+			"description": "Critiacal high temperature"
+		},
+		"A2_CoolingTempRHigh_Sensor_low": {
+			"bitnumber": "16",
+			"description": "High voltage reading"
+		},
+		"A2_CoolingTempRHigh_Sensor_high": {
+			"bitnumber": "17",
+			"description": "Low voltage reading"
+		},
+		"A2_CoolingTempRHigh_Sensor_TVlow": {
+			"bitnumber": "18",
+			"description": "Low temperature"
+		},
+		"A2_CoolingTempRHigh_Sensor_TVhigh": {
+			"bitnumber": "19",
+			"description": "High temperature"
+		},
+		"A2_CoolingTempRHigh_Sensor_TVLowLow": {
+			"bitnumber": "20",
+			"description": "Critiacal low temperature"
+		},
+		"A2_CoolingTempRHigh_Sensor_TVHighHigh": {
+			"bitnumber": "21",
+			"description": "Critiacal high temperature"
+		},
+		"A3_CoolingTempRLow_Sensor_low": {
+			"bitnumber": "24",
+			"description": "High voltage reading"
+		},
+		"A3_CoolingTempRLow_Sensor_high": {
+			"bitnumber": "25",
+			"description": "Low voltage reading"
+		},
+		"A3_CoolingTempRLow_Sensor_TVlow": {
+			"bitnumber": "26",
+			"description": "Low temperature"
+		},
+		"A3_CoolingTempRLow_Sensor_TVhigh": {
+			"bitnumber": "27",
+			"description": "High temperature"
+		},
+		"A3_CoolingTempRLow_Sensor_TVLowLow": {
+			"bitnumber": "28",
+			"description": "Critical low temperature"
+		},
+		"A3_CoolingTempRLow_Sensor_TVHighHigh": {
+			"bitnumber": "29",
+			"description": "Critical high temperature"
+		}
+	}
 }
