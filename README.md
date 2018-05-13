@@ -1,7 +1,10 @@
 # Telemetry Unpacking Rules
-Rules for parsing of telemetry data
+This repository contains three files for parsing:
+- Parserules.json: Rules for the parsing of telemetry data in Analyze
+- Error_rules_parsing.json: Rules for channels that send errorflags to be parsed in the ErrorLogger plugin in Analyze
+- Canstructure.txt: Grouping of channels for CanReader
 
-### JSON format
+### JSON format for parserules
 
     {
         "<ID>": {
@@ -29,36 +32,3 @@ Rules for parsing of telemetry data
         },
         ...
     }
-
-<s>
-    
-### C# Format
-    
-```cs
-{
-    <ID> , data => {
-        { "<NAME>", <Data unpacing function> },
-        { "<ANOTHER_NAME>", <Another data unpacing function> }
-    }
-},
-```
-
-</s>
-The unpacking function takes argument string data, in the form of a hex string of the data value sent from the telemetry module.
-
-<s>
-    
-### Available functions
-
->hexToUint(string message)
-
->hexToInt(string message)
-
->getByte(string data, int index)
-
->Int(string message, int radix)
-
->All of Math lib
-
-</s>
-
