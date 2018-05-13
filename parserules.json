@@ -593,6 +593,14 @@
       "factor": 0.01
     }
   },
+  "0x2C0": {
+	"VCU_ALIVE":{
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 1,
+		"factor": 1.0	
+	}
+  },
   "0x350": {
     "ECU_PLAY_RTDS": {
       "type": "Uint",
