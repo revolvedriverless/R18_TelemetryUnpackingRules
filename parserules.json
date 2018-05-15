@@ -598,7 +598,7 @@
 		"type": "Uint",
 		"startbyte": 0,
 		"length": 1,
-		"factor": 1.0	
+		"factor": 1.0
 	}
   },
   "0x350": {
@@ -3765,6 +3765,58 @@
       "factor": 0.0001
     }
   },
+  "0x681": {
+    "BMS_Cell_Voltage_132": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_133": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_134": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_135": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x682": {
+    "BMS_Cell_Voltage_136": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_137": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_138": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_139": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
   "0x630": {
     "BMS_Cell_Temperature_0": {
       "type": "Uint",
@@ -4617,6 +4669,58 @@
       "factor": 0.1
     },
     "BMS_Cell_Temperature_131": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x651": {
+    "BMS_Cell_Temperature_132": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_133": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_134": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_135": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x652": {
+    "BMS_Cell_Temperature_136": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_137": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_138": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_139": {
       "type": "Uint",
       "startbyte": 6,
       "length": 2,
