@@ -689,7 +689,7 @@
     "ECU_System_Status": {
       "type": "Uint",
       "startbyte": 0,
-      "length": 1,
+      "length": 2,
       "factor": 1.0
     },
     "ECU_Torque_Allocation": {
@@ -702,6 +702,12 @@
       "type": "Uint",
       "startbyte": 3,
       "length": 1,
+      "factor": 1.0
+    },
+	"ECU_INS_State": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
       "factor": 1.0
     }
   },
