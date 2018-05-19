@@ -2942,7 +2942,7 @@
         "unit": "",
         "expectedmin": 0.0,
         "expectedmax": 0.0
-      }
+      },
       "INS_DV_Roll_rate": {
         "type": "Float",
         "startbyte": 4,
@@ -2966,7 +2966,7 @@
         "unit": "",
         "expectedmin": 0.0,
         "expectedmax": 0.0
-      }
+      },
       "INS_DV_Yaw_rate": {
         "type": "Float",
         "startbyte": 4,
@@ -2989,7 +2989,7 @@
         "unit": "",
         "expectedmin": 0.0,
         "expectedmax": 0.0
-      }
+      },
       "INS_DV_Pitch_rate": {
         "type": "Float",
         "startbyte": 4,
@@ -3012,7 +3012,7 @@
         "unit": "",
         "expectedmin": 0.0,
         "expectedmax": 0.0
-      }
+      },
       "INS_DV_Ax": {
         "type": "Float",
         "startbyte": 4,
@@ -3035,7 +3035,7 @@
         "unit": "",
         "expectedmin": 0.0,
         "expectedmax": 0.0
-      }
+      },
       "INS_DV_Ay": {
         "type": "Float",
         "startbyte": 4,
@@ -3058,7 +3058,7 @@
         "unit": "",
         "expectedmin": 0.0,
         "expectedmax": 0.0
-      }
+      },
       "INS_DV_Az": {
         "type": "Float",
         "startbyte": 4,
