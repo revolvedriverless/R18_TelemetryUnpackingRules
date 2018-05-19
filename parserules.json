@@ -2931,32 +2931,28 @@
       "expectedmax": 0.0
     }
   },
-
-      "0x561": {
-      "INS_DV_Yaw_angle": {
-        "type": "Float",
-        "startbyte": 0,
-        "length": 4,
-        "factor": 1.0,
-        "displayname": "",
-        "unit": "",
-        "expectedmin": 0.0,
-        "expectedmax": 0.0
-      },
+  "0x561": {
+    "INS_DV_Yaw_angle": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
       "INS_DV_Yaw_rate": {
-        "type": "Float",
-        "startbyte": 4,
-        "length": 4,
-        "factor": 1.0,
-        "displayname": "",
-        "unit": "",
-        "expectedmin": 0.0,
-        "expectedmax": 0.0
-      }
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+     }
   },
-    
-
-
   "0x620": {
     "BMS_Max_Cell_Voltage": {
       "type": "Uint",
