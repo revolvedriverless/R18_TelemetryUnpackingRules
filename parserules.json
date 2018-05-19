@@ -2931,6 +2931,186 @@
       "expectedmax": 0.0
     }
   },
+  
+    "0x560": {
+      "INS_DV_Roll_angle": {
+        "type": "Float",
+        "startbyte": 0,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+      "INS_DV_Roll_rate": {
+        "type": "Float",
+        "startbyte": 4,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+
+
+    "0x561": {
+      "INS_DV_Yaw_angle": {
+        "type": "Float",
+        "startbyte": 0,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+      "INS_DV_Yaw_rate": {
+        "type": "Float",
+        "startbyte": 4,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+
+    "0x562": {
+      "INS_DV_Pitch_angle": {
+        "type": "Float",
+        "startbyte": 0,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+      "INS_DV_Pitch_rate": {
+        "type": "Float",
+        "startbyte": 4,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+
+    "0x563": {
+      "INS_DV_Vx": {
+        "type": "Float",
+        "startbyte": 0,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+      "INS_DV_Ax": {
+        "type": "Float",
+        "startbyte": 4,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+
+    "0x564": {
+      "INS_DV_Vy": {
+        "type": "Float",
+        "startbyte": 0,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+      "INS_DV_Ay": {
+        "type": "Float",
+        "startbyte": 4,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+  
+    "0x565": {
+      "INS_DV_Vz": {
+        "type": "Float",
+        "startbyte": 0,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+      "INS_DV_Az": {
+        "type": "Float",
+        "startbyte": 4,
+        "length": 4,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+
+    "0x566": {
+      "INS_DV_Latitude": {
+        "type": "Double",
+        "startbyte": 0,
+        "length": 8,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+    "0x567": {
+      "INS_DV_Longitude": {
+        "type": "Double",
+        "startbyte": 0,
+        "length": 8,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+    
+    "0x568": {
+      "INS_DV_Altitude": {
+        "type": "Double",
+        "startbyte": 0,
+        "length": 8,
+        "factor": 1.0,
+        "displayname": "",
+        "unit": "",
+        "expectedmin": 0.0,
+        "expectedmax": 0.0
+      }
+  },
+    
+
+
   "0x620": {
     "BMS_Max_Cell_Voltage": {
       "type": "Uint",
