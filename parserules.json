@@ -3030,7 +3030,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-      "INS_DV_Vy": {
+      "INS_DV_Ay": {
       "type": "Float",
       "startbyte": 4,
       "length": 4,
