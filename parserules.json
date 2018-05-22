@@ -3063,6 +3063,51 @@
       "expectedmax": 0.0
      }
   },
+"0x56A": {
+    "INS_DV_Magnetometer_x": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+      "INS_DV_Magnetometer_y": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+     }
+  },
+"0x56B": {
+    "INS_DV_Magnetometer_z": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+      "INS_DV_Pressure": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+     }
+  },
+  
 
   "0x620": {
     "BMS_Max_Cell_Voltage": {
