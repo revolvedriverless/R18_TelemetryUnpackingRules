@@ -2595,6 +2595,342 @@
 		"expectedmax": 80.0
     }
   },
+  "0x4B0": {
+	"Tire_temp_FR_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x4B1": {
+	"Tire_temp_FR_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FR_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x4B4": {
+	"Tire_temp_FL_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x4B5": {
+	"Tire_temp_FL_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_FL_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x4B8": {
+	"Tire_temp_RL_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x4B9": {
+	"Tire_temp_RL_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RL_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x4BC": {
+	"Tire_temp_RR_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x4BD": {
+	"Tire_temp_RR_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Tire_temp_RR_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },  
   "0x620": {
     "BMS_Max_Cell_Voltage": {
       "type": "Uint",
