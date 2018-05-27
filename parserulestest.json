@@ -3,7 +3,7 @@
     "Simian_dataLogger_playback_Ia": {
       "type": "Int",
       "startbyte": 1,
-      "length": 2,
+      "length": 2, //Test
       "factor": 0.01
     },
     "Simian_dataLogger_playback_Ib": {
