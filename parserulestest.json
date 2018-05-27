@@ -2,35 +2,5407 @@
   "0x010": {
     "Simian_dataLogger_playback_Ia": {
       "type": "Int",
-      "startbyte": 2,
-      "length": -2, //Test
-      "factor": 0.01
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_dataLogger_playback_Ib": {
       "type": "Int",
-      "startbyte": 4,
-      "length": -2,
-      "factor": 0.01
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x011": {
     "Simian_dataLogger_playback_Id": {
       "type": "Int",
-      "startbyte": 2,
-      "length": -2,
-      "factor": 0.01
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_dataLogger_playback_Iq": {
       "type": "Int",
-      "startbyte": 4,
-      "length": -2,
-      "factor": 0.01
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     },
     "Simian_dataLogger_playback_rpm": {
       "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x012": {
+    "Simian_dataLogger_playback_encoder_pos": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x013": {
+    "Simian_dataLogger_playback_encoder_raw": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x185": {
+    "AMK_FL_Setpoint_control_word": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_FL_Setpoint_RPM_request": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_FL_Setpoint_positive_torque_limit": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_FL_Setpoint_negative_torque_limit": {
+      "type": "Int",
       "startbyte": 6,
-      "length": -2,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x186": {
+    "AMK_FR_Setpoint_control_word": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_FR_Setpoint_RPM_request": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_FR_Setpoint_positive_torque_limit": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_FR_Setpoint_negative_torque_limit": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x189": {
+    "AMK_RL_Setpoint_control_word": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_RL_Setpoint_RPM_request": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_RL_Setpoint_positive_torque_limit": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_RL_Setpoint_negative_torque_limit": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x18A": {
+    "AMK_RR_Setpoint_control_word": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_RR_Setpoint_RPM_request": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_RR_Setpoint_positive_torque_limit": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "AMK_RR_Setpoint_negative_torque_limit": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0098,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x200": {
+    "Simian_current_a": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_current_b": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_current_d": {
+      "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_current_q": {
+      "type": "Int",
+      "startbyte": 7,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x201": {
+    "Simian_current_dc": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Simian_voltage_dc": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x202": {
+    "Simian_speed_rpm": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
       "factor": 1.0
+    },
+    "Simian_speed_max_rpm": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 1.0
+    },
+    "Simian_speed_min_rpm": {
+      "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 1.0
+    }
+  },
+  "0x203": {
+    "Simian_current_a_rms": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_current_b_rms": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x284": {
+    "AMK_FL_Status_": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0
+    },
+    "AMK_FL_Actual_velocity": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_FL_Torque_current": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 6.54296875
+    },
+    "AMK_FL_Magnetizing_current": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 6.54296875
+    }
+  },
+  "0x285": {
+    "AMK_FR_Status": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0
+    },
+    "AMK_FR_Actual_velocity": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_FR_Torque_current": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 6.54296875
+    },
+    "AMK_FR_Magnetizing_current": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 6.54296875
+    }
+  },
+  "0x286": {
+    "AMK_FL_Temp_Motor": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_FL_Temp_Inverter": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_FL_Error_Info": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_FL_Temp_IGBT": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x287": {
+    "AMK_FR_Temp_Motor": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_FR_Temp_Inverter": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_FR_Error_Info": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_FR_Temp_IGBT": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x288": {
+    "AMK_RL_Status": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0
+    },
+    "AMK_RL_Actual_velocity": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_RL_Torque_current": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 6.54296875
+    },
+    "AMK_RL_Magnetizing_current": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 6.54296875
+    }
+  },
+  "0x289": {
+    "AMK_RR_Status": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0
+    },
+    "AMK_RR_Actual_velocity": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_RR_Torque_current": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 6.54296875
+    },
+    "AMK_RR_Magnetizing_current": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 6.54296875
+    }
+  },
+  "0x28A": {
+    "AMK_RL_Temp_Motor": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_RL_Temp_Inverter": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_RL_Error_Info": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_RL_Temp_IGBT": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x28B": {
+    "AMK_RR_Temp_Motor": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_RR_Temp_Inverter": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "AMK_RR_Error_Info": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0
+    },
+    "AMK_RR_Temp_IGBT": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x290": {
+    "Simian_encoder_pos": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 4,
+      "factor": 1.0
+    }
+  },
+  "0x294": {
+    "Simian_voltage_d": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_voltage_q": {
+      "type": "Int",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_voltage_a": {
+      "type": "Int",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 0.1
+    },
+    "Simian_voltage_b": {
+      "type": "Int",
+      "startbyte": 7,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x295": {
+    "Simian_torque_request": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x2C0": {
+	"VCU_ALIVE":{
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 1,
+		"factor": 1.0
+	}
+  },
+  "0x350": {
+    "ECU_PLAY_RTDS": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x351": {
+    "VCU_DRIVE_ENABLE": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x352": {
+    "ECU_DRIVE_DISABLE": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x353": {
+    "ECU_RESET_AMK_INVERTER_ERROR": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x358": {
+    "INS_GPStime_year": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    },
+    "INS_GPStime_month": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0
+    },
+    "INS_GPStime_day": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 1,
+      "factor": 1.0
+    },
+    "INS_GPStime_hour": {
+      "type": "Uint",
+      "startbyte": 3,
+      "length": 1,
+      "factor": 1.0
+    },
+    "INS_GPStime_min": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 1,
+      "factor": 1.0
+    },
+    "INS_GPStime_sec": {
+      "type": "Uint",
+      "startbyte": 5,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x359": {
+    "ECU_Parameter_ID": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    },
+    "ECU_Parameter_value": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1.0
+    }
+  },
+  "0x35C": {
+    "ECU_System_Status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1.0
+    },
+    "ECU_Torque_Allocation": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 1,
+      "factor": 1.0
+    },
+    "ECU_Vehicle_State": {
+      "type": "Uint",
+      "startbyte": 3,
+      "length": 1,
+      "factor": 1.0
+    },
+	"ECU_INS_State": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0
+    }
+  },
+  "0x45D": {
+    "ECU_Soft_BSPD_status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x360": {
+    "VCU_INS_Attutude_Status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "Attitude status",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "VCU_INS_Status": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "INS status",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x361": {
+	"INS_GPS_fix": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 1,
+	  "factor": 1.0,
+	  "displayname": "Attitude status",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 0.0
+	},
+	"INS_tracked_satellites": {
+	  "type": "Uint",
+	  "startbyte": 1,
+	  "length": 1,
+	  "factor": 1.0,
+	  "displayname": "Satellites",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 0.0
+	}
+	},
+  "0x362": {
+	"INS_Vx": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Vx",
+	  "unit": "m/s",
+	  "expectedmin": 0.0,
+	  "expectedmax": 36.0
+	},
+	"INS_Vy": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Vy",
+	  "unit": "m/s",
+	  "expectedmin": -20.0,
+	  "expectedmax": 20.0
+	},
+	"INS_Vz": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Vz",
+	  "unit": "m/s",
+	  "expectedmin": -40.0,
+	  "expectedmax": 40.0
+	}
+  },
+  "0x363": {
+	"INS_Ax": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Ax",
+	  "unit": "m/s^2",
+	  "expectedmin": -40.0,
+	  "expectedmax": 40.0
+	},
+	"INS_Ay": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Ay",
+	  "unit": "m/s^2",
+	  "expectedmin": -40.0,
+	  "expectedmax": 40.0
+	},
+	"INS_Az": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Az",
+	  "unit": "m/s",
+	  "expectedmin": -40.0,
+	  "expectedmax": 40.0
+	}
+  },
+  "0x364": {
+	"INS_Roll_rate": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Roll rate",
+	  "unit": "deg/s",
+	  "expectedmin": -7.0,
+	  "expectedmax": 7.0
+	},
+	"INS_Pitch_rate": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Pitch rate",
+	  "unit": "deg/s",
+	  "expectedmin": -7.0,
+	  "expectedmax": 7.0
+	},
+	"INS_Yaw_rate": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.091,
+	  "displayname": "Yaw rate",
+	  "unit": "m/s",
+	  "expectedmin": -7.0,
+	  "expectedmax": 7.0
+	}
+  },
+  "0x365": {
+	"INS_Roll_angle": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Roll angle",
+	  "unit": "deg",
+	  "expectedmin": -0.5,
+	  "expectedmax": 0.5
+	},
+	"INS_Pitch_angle": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Pitch angle",
+	  "unit": "deg",
+	  "expectedmin": -0.5,
+	  "expectedmax": 0.5
+	},
+	"INS_Yaw_angle": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.091,
+	  "displayname": "Yaw angle",
+	  "unit": "m/s",
+	  "expectedmin": -20.0,
+	  "expectedmax": 20.0
+	}
+  },
+  "0x366": {
+	"INS_longitude": {
+	  "type": "Float",
+	  "startbyte": 0,
+	  "length": 4,
+	  "factor": 1.0,
+	  "displayname": "Longitude",
+	  "unit": "m",
+	  "expectedmin": -1.0,
+	  "expectedmax": 1.0
+	},
+	"INS_latitude": {
+	  "type": "Float",
+	  "startbyte": 4,
+	  "length": 4,
+	  "factor": 1.0,
+	  "displayname": "Latitude",
+	  "unit": "deg",
+	  "expectedmin": -1.0,
+	  "expectedmax": 1.0
+	}
+  },
+  "0x367": {
+	"INS_altitude": {
+	  "type": "Float",
+	  "startbyte": 0,
+	  "length": 4,
+	  "factor": 1.0,
+	  "displayname": "Altitude",
+	  "unit": "m",
+	  "expectedmin": -1.0,
+	  "expectedmax": 1.0
+	}
+  },
+  "0x368": {
+	"INS_Yaw_rate_der": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Yaw Acc",
+	  "unit": "rad/s^2",
+	  "expectedmin": -20.0,
+	  "expectedmax": 20.0
+	}
+  },
+  "0x3C0": {
+	"VCU_LC_torque_setoint_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque FL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_LC_torque_setoint_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque FR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_LC_torque_setoint_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque RL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_LC_torque_setoint_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque RR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	}
+  },
+  "0x3C1": {
+	"VCU_LC_slip_ratio_error_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio error FL",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_error_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio error FR",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_error_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio error RL",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_error_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio error RR",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	}
+  },
+  "0x3C2": {
+	"VCU_LC_slip_ratio_error_der_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip Ratio error der FL",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_error_der_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip Ratio error der FR",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_error_der_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip Ratio error der RL",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_error_der_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip Ratio error der RR",
+	  "unit": "",
+	  "expectedmin": -2.0,
+	  "expectedmax": 2.0
+	}
+  },
+  "0x3C3": {
+	"VCU_LC_slip_ratio_ref_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.0001,
+	  "displayname": "Slip Ratio ref FL",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_ref_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.0001,
+	  "displayname": "Slip Ratio ref FR",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_ref_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.0001,
+	  "displayname": "Slip Ratio ref RL",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_ref_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.0001,
+	  "displayname": "Slip Ratio ref RR",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	}
+  },
+  "0x3C4": {
+	"VCU_LC_slip_ratio_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio FL",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio FR",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio RL",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_slip_ratio_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio RR",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	}
+  },
+  "0x3C5": {
+	"VCU_LC_P_term_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip P term FL",
+	  "unit": "Nm",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_P_term_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip P term FR",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_P_term_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip P term RL",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_P_term_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip P term RR",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	}
+  },
+  "0x3C6": {
+	"VCU_LC_I_term_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip I term FL",
+	  "unit": "Nm",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_I_term_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip I term FR",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_I_term_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip I term RL",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_I_term_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip I term RR",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	}
+  },
+  "0x3C7": {
+	"VCU_LC_D_term_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip D term FL",
+	  "unit": "Nm",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_D_term_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip D term FR",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_D_term_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip D term RL",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_D_term_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Slip D term RR",
+	  "unit": "Nm",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	}
+  },
+  "0x3C8": {
+	"VCU_LC_Kp": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "LC Kp",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_Ki": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "LC Ki",
+	  "unit": "",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_Kd": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "LC Kd",
+	  "unit": "",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	},
+	"VCU_LC_T_req": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque Request",
+	  "unit": "",
+	  "expectedmin": -18.5,
+	  "expectedmax": 20.0
+	}
+  },
+  "0x3C9": {
+	"VCU_LC_Launch_Mode": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 1,
+	  "factor": 1.0,
+	  "displayname": "Launch Mode",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 2.0
+	},
+	"VCU_LC_Launching": {
+	  "type": "Int",
+	  "startbyte": 1,
+	  "length": 1,
+	  "factor": 1.0,
+	  "displayname": "Launching",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 2.0
+	}
+  },
+  "0x3CA": {
+	"VCU_LC_power_limit_torque_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque Reduction FL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_LC_power_limit_torque_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque Reduction FR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_LC_power_limit_torque_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque Reduction RL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_LC_power_limit_torque_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Torque Reduction RR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	}
+  },
+  "0x3D0": {
+	"VCU_TV_MMT_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max Torque FL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_TV_MMT_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max Torque FR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_TV_MMT_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max Torque RL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_TV_MMT_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max Torque RR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	}
+  },
+  "0x3D1": {
+	"VCU_TV_T_req": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Required Torque",
+	  "unit": "Nm",
+	  "expectedmin": -85.5,
+	  "expectedmax": 85.5
+	},
+	"VCU_TV_Mz_error": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Mz error ",
+	  "unit": "Nm",
+	  "expectedmin": -1000.0,
+	  "expectedmax": 1000.0
+	},
+	"VCU_TV_percentage_torque_delivered": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Delivered Torque Percent",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 100.5
+	}
+  },
+  "0x3D3": {
+	"VCU_TV_Mz_ref_controller": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Mz ref",
+	  "unit": "Nm",
+	  "expectedmin": -2000.0,
+	  "expectedmax": 2000.0
+	},
+	"VCU_TV_Mz_ref_controller_unsaturated": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Mz ref unsat",
+	  "unit": "Nm",
+	  "expectedmin": -2000.0,
+	  "expectedmax": 2000.0
+	}
+  },
+  "0x3D5": {
+	"VCU_TV_r_ref": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Yaw rate ref",
+	  "unit": "rad/s",
+	  "expectedmin": -6.5,
+	  "expectedmax": 6.5
+	},
+	"VCU_TV_YMR_PID_error": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Yaw rate error ",
+	  "unit": "rad/s",
+	  "expectedmin": -4.5,
+	  "expectedmax": 4.5
+	},
+	"VCU_TV_YMR_PID_error_der": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Yaw rate der error",
+	  "unit": "rad/s^2",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	}
+  },
+  "0x3D6": {
+	"VCU_TV_YMG_P_term": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "P term YMG",
+	  "unit": "Nm",
+	  "expectedmin": -1000.0,
+	  "expectedmax": 1000.0
+	},
+	"VCU_TV_YMG_D_term": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "D term YMG ",
+	  "unit": "Nm",
+	  "expectedmin": -1000.0,
+	  "expectedmax": 1000.0
+	},
+	"VCU_TV_YMG_Mz_ref": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Mz ref YMG",
+	  "unit": "Nm",
+	  "expectedmin": -2000.0,
+	  "expectedmax": 2000.0
+	},
+	"VCU_TV_YMG_Mz_ref_unsat": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Mz ref unsat YMG",
+	  "unit": "Nm",
+	  "expectedmin": -2000.0,
+	  "expectedmax": 2000.0
+	}
+  },
+  "0x3D7": {
+	"VCU_TV_YMR_P_term": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "P term YMR",
+	  "unit": "Nm",
+	  "expectedmin": -1000.0,
+	  "expectedmax": 1000.0
+	},
+	"VCU_TV_YMR_I_term": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "D term YMR ",
+	  "unit": "Nm",
+	  "expectedmin": -1000.0,
+	  "expectedmax": 1000.0
+	},
+	"VCU_TV_YMR_D_term": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "D term YMR ",
+	  "unit": "Nm",
+	  "expectedmin": -1000.0,
+	  "expectedmax": 1000.0
+	},
+	"VCU_TV_YMR_Backstepping_term": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "Backstepping YMR ",
+	  "unit": "Nm",
+	  "expectedmin": -1000.0,
+	  "expectedmax": 1000.0
+	}
+  },
+  "0x3D8": {
+	"VCU_TV_MMT_tire_force_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max tire torque FL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_TV_MMT_tire_force_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max tire torque FR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_TV_MMT_tire_force_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max tire torque RL",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	},
+	"VCU_TV_MMT_tire_force_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Max tire torque RR",
+	  "unit": "Nm",
+	  "expectedmin": -21.5,
+	  "expectedmax": 21.5
+	}
+  },
+  "0x3D9": {
+	"VCU_TV_MMT_SA_scaling_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SA scaling FL",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	},
+	"VCU_TV_MMT_SA_scaling_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SA scaling FR",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	},
+	"VCU_TV_MMT_SA_scaling_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SA scaling RL",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	},
+	"VCU_TV_MMT_SA_scaling_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SA scaling RR",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	}
+  },
+  "0x3DA": {
+	"VCU_TV_MMT_SR_scaling_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SR scaling FL",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	},
+	"VCU_TV_MMT_SR_scaling_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SR scaling FR",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	},
+	"VCU_TV_MMT_SR_scaling_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SR scaling RL",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	},
+	"VCU_TV_MMT_SR_scaling_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "SR scaling RR",
+	  "unit": "",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1.5
+	}
+  },
+  "0x3E0": {
+	"ECU_Sensor_Status": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 8,
+		"factor": 1.0,
+		"displayname": "",
+		"unit": "",
+		"expectedmin": 0.0,
+		"expectedmax": 0.0
+	}
+  },
+  "0x3E1": {
+	"VCU_FZ_FL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz FL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_FR": {
+	  "type": "Uint",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz FR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_RL": {
+	  "type": "Uint",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz RL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_RR": {
+	  "type": "Uint",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz RR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	}
+  },
+  "0x3E2": {
+	"VCU_FZ_damp_FL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz damp FL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_damp_FR": {
+	  "type": "Uint",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz damp FR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_damp_RL": {
+	  "type": "Uint",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz damp RL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_damp_RR": {
+	  "type": "Uint",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz damp RR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	}
+  },
+  "0x3E3": {
+	"VCU_FZ_acc_FL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz acc FL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_acc_FR": {
+	  "type": "Uint",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz acc FR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_acc_RL": {
+	  "type": "Uint",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz acc RL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_acc_RR": {
+	  "type": "Uint",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz acc RR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	}
+  },
+  "0x3E4": {
+	"VCU_FZ_ekf_FL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz ekf FL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_ekf_FR": {
+	  "type": "Uint",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz ekf FR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_ekf_RL": {
+	  "type": "Uint",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz ekf RL",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	},
+	"VCU_FZ_ekf_RR": {
+	  "type": "Uint",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fz ekf RR",
+	  "unit": "N",
+	  "expectedmin": 0.0,
+	  "expectedmax": 1800.0
+	}
+  },
+  "0x3E5": {
+	"VCU_R_eff_FL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.00001,
+	  "displayname": "Tire Radius FL",
+	  "unit": "m",
+	  "expectedmin": 0.2,
+	  "expectedmax": 0.4
+	},
+	"VCU_R_eff_FR": {
+	  "type": "Uint",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.00001,
+	  "displayname": "Tire Radius FR",
+	  "unit": "m",
+	  "expectedmin": 0.2,
+	  "expectedmax": 0.4
+	},
+	"VCU_R_eff_RL": {
+	  "type": "Uint",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.00001,
+	  "displayname": "Tire Radius RL",
+	  "unit": "m",
+	  "expectedmin": 0.2,
+	  "expectedmax": 0.4
+	},
+	"VCU_R_eff_RR": {
+	  "type": "Uint",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.00001,
+	  "displayname": "Tire Radius RR",
+	  "unit": "m",
+	  "expectedmin": 0.2,
+	  "expectedmax": 0.4
+	}
+  },
+  "0x3E6": {
+	"VCU_Fx_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fx FL",
+	  "unit": "N",
+	  "expectedmin": -3000.0,
+	  "expectedmax": 3000.0
+	},
+	"VCU_Fx_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fx FR",
+	  "unit": "N",
+	  "expectedmin": -3000.0,
+	  "expectedmax": 3000.0
+	},
+	"VCU_Fx_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fx RL",
+	  "unit": "N",
+	  "expectedmin": -3000.0,
+	  "expectedmax": 3000.0
+	},
+	"VCU_Fx_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.1,
+	  "displayname": "Fx RR",
+	  "unit": "N",
+	  "expectedmin": -3000.0,
+	  "expectedmax": 3000.0
+	}
+  },
+  "0x3E7": {
+	"VCU_slip_ratio_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio FL",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_slip_ratio_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio FR",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_slip_ratio_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio RL",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	},
+	"VCU_slip_ratio_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Ratio RR",
+	  "unit": "",
+	  "expectedmin": -1.5,
+	  "expectedmax": 2.0
+	}
+  },
+  "0x3E8": {
+	"VCU_slip_angle_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Angle FL",
+	  "unit": "deg",
+	  "expectedmin": -0.5,
+	  "expectedmax": 0.5
+	},
+	"VCU_slip_angle_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Angle FR",
+	  "unit": "deg",
+	  "expectedmin": -0.5,
+	  "expectedmax": 0.5
+	},
+	"VCU_slip_angle_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Angle RL",
+	  "unit": "deg",
+	  "expectedmin": -0.5,
+	  "expectedmax": 0.5
+	},
+	"VCU_slip_angle_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Slip Angle RR",
+	  "unit": "deg",
+	  "expectedmin": -0.5,
+	  "expectedmax": 0.5
+	}
+  },
+  "0x3E9": {
+	"VCU_RPM_der_FL": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 10.0,
+	  "displayname": "RPM derivative FL",
+	  "unit": "1/s^2",
+	  "expectedmin": -30000.0,
+	  "expectedmax": 30000.0
+	},
+	"VCU_RPM_der_FR": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 10.0,
+	  "displayname": "RPM derivative FR",
+	  "unit": "1/s^2",
+	  "expectedmin": -30000.0,
+	  "expectedmax": 30000.0
+	},
+	"VCU_RPM_der_RL": {
+	  "type": "Int",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 10.0,
+	  "displayname": "RPM derivative RL",
+	  "unit": "1/s^2",
+	  "expectedmin": -30000.0,
+	  "expectedmax": 30000.0
+	},
+	"VCU_RPM_der_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 10.0,
+	  "displayname": "RPM derivative RR",
+	  "unit": "1/s^2",
+	  "expectedmin": -30000.0,
+	  "expectedmax": 30000.0
+	}
+  },
+  "0x3EA": {
+	"VCU_Filtered_Steering_wheel_angle": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.0573,
+	  "displayname": "Steering Angle",
+	  "unit": "rad",
+	  "expectedmin": -3.0,
+	  "expectedmax": 3.0
+	},
+	"VCU_Filtered_Steering_wheel_vel": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.573,
+	  "displayname": "Steering Velocity",
+	  "unit": "rad/s",
+	  "expectedmin": -10.0,
+	  "expectedmax": 10.0
+	}
+ },
+  "0x3EB": {
+	"VCU_TV_alpha": {
+	  "type": "Int",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.001,
+	  "displayname": "Alpha",
+	  "unit": "rad",
+	  "expectedmin": -0.0,
+	  "expectedmax": 1.0
+	},
+		"VCU_Vx_est": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Vx est",
+	  "unit": "rad",
+	  "expectedmin": -1.0,
+	  "expectedmax": 35.0
+	}
+ },
+  "0x401": {
+	"SBS_F1_APPS1_Sensor": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Throttle 1",
+		"unit": "",
+		"expectedmin": 0.0,
+		"expectedmax": 100.0
+    },
+	"SBS_F1_APPS2_Sensor": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Throttle 2",
+		"unit": "",
+		"expectedmin": 0.0,
+		"expectedmax": 100.0
+    },
+	"SBS_F1_brakePressure1_Sensor": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Brake Pressure Front",
+		"unit": "Bar",
+		"expectedmin": 0.0,
+		"expectedmax": 40.0
+    },
+	"SBS_F1_brakePressure2_Sensor": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Brake Pressure Rear",
+		"unit": "Bar",
+		"expectedmin": 0.0,
+		"expectedmax": 40.0
+    }
+  },
+  "0x402": {
+	"SBS_F1_KERS_Sensor": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Kers pos",
+		"unit": "",
+		"expectedmin": 0.0,
+		"expectedmax": 1.0
+    },
+	"SBS_F1_Stering_Angle": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Steering Wheel Angle",
+		"unit": "rad",
+		"expectedmin": -120.0,
+		"expectedmax": 120.0
+		},
+	"SBS_F1_Steering_Speed": {
+		"type": "Int",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Steering Wheel Speed",
+		"unit": "rad/s",
+		"expectedmin": -500.0,
+		"expectedmax":  500.0
+    }
+  },
+  "0x40D": {
+    "ADC_FL_DamperFL": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_FL_DamperRateFL": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0
+    },
+    "ADC_FL_GearTempFL": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_FL_CoolingTempFL": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x40E": {
+    "ADC_FL_BrakePressure_1": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.001
+    },
+    "ADC_FL_BrakePressure_2": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.001
+    },
+    "ADC_FL_KERS": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x40F": {
+    "BSPD_Trigger": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x411": {
+	"SBS_F2_Damper_pos_FL": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Damper pos FL",
+		"unit": "mm",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_F2_Damper_Rate_FL": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Damper rate FL",
+		"unit": "mm/s",
+		"expectedmin": -100.0,
+		"expectedmax": 100.0
+    },
+	"SBS_F2_Damper_pos_FR": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Damper pos FR",
+		"unit": "mm",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_F2_Damper_Rate_FR": {
+		"type": "Int",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 1.0,
+		"displayname": "Damper rate FR",
+		"unit": "mm/s",
+		"expectedmin": -100.0,
+		"expectedmax": 100.0
+    }
+  },
+  "0x412": {
+	"SBS_FR_Acc_Upright_FL": {
+		"type": "Int",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright FL",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_FR_Acc_Upright_FR": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright FR",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_FR_Gear_Temp_FL": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp FL",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_FR_Gear_Temp_FR": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp FR",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x41D": {
+    "ADC_FR_DamperFR": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_FR_DamperRateFR": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0
+    },
+    "ADC_FR_GearTempFR": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_FR_CoolingTempFR": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x41E": {
+    "ADC_FR_TPS_left": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "ADC_FR_TPS_right": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x41F": {
+    "ADC_FR_SteeringAngle": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1.0
+    },
+    "ADC_FR_SteeringSpeed": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1.0
+    }
+  },
+  "0x421": {
+	"SBS_R1_Damper_pos_RL": {
+	  "type": "Uint",
+	  "startbyte": 0,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Damper pos RL",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+	"SBS_R1_Damper_Rate_RL": {
+	  "type": "Int",
+	  "startbyte": 2,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "Damper rate RL",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
+    },
+	"SBS_R1_Damper_pos_RR": {
+	  "type": "Uint",
+	  "startbyte": 4,
+	  "length": 2,
+	  "factor": 0.01,
+	  "displayname": "Damper pos RR",
+	  "unit": "mm",
+	  "expectedmin": 0.0,
+	  "expectedmax": 80.0
+    },
+	"SBS_R1_Damper_Rate_RR": {
+	  "type": "Int",
+	  "startbyte": 6,
+	  "length": 2,
+	  "factor": 1.0,
+	  "displayname": "Damper rate RR",
+	  "unit": "mm/s",
+	  "expectedmin": -100.0,
+	  "expectedmax": 100.0
+    }
+  },
+  "0x422": {
+	"SBS_R1_Acc_Upright_RL": {
+		"type": "Int",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright FL",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_R1_Acc_Upright_RR": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Acc Upright RR",
+		"unit": "m/s^2",
+		"expectedmin": -60.0,
+		"expectedmax": 60.0
+    },
+	"SBS_R1_Gear_Temp_RL": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp RL",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_R1_Gear_Temp_RR": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Gear Temp RR",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x42E": {
+    "ADC_REAR_DamperRL": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_REAR_DamperRateRL": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0
+    },
+    "ADC_REAR_DamperRR": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_REAR_DamperRateRR": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 1.0
+    }
+  },
+  "0x42F": {
+    "ADC_REAR_GearTempRL": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_REAR_GearTempRR": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_REAR_CoolingTempRL": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01
+    },
+    "ADC_REAR_CoolingTempRR": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x431": {
+	"SBS_MID_Colling_temp_left_H": {
+		"type": "Int",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp L High",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_MID_Colling_temp_left_L": {
+		"type": "Int",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp L Low",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_MID_Colling_temp_right_H": {
+		"type": "Int",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp R High",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"SBS_MID_Colling_temp_right_L": {
+		"type": "Int",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Cooling Temp R Low",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x604": {
+	"Tire_temp_FL_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x605": {
+	"Tire_temp_FL_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x606": {
+	"Tire_temp_FL_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x607": {
+	"Tire_temp_FL_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FL_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": -2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x608": {
+	"Tire_temp_RL_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x609": {
+	"Tire_temp_RL_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x60A": {
+	"Tire_temp_RL_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x60B": {
+	"Tire_temp_RL_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RL_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },  
+  "0x60C": {
+	"Tire_temp_RR_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x60D": {
+	"Tire_temp_RR_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x60E": {
+	"Tire_temp_RR_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x60F": {
+	"Tire_temp_RR_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_RR_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },  
+  "0x610": {
+	"Tire_temp_FR_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x611": {
+	"Tire_temp_FR_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x612": {
+	"Tire_temp_FR_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
+  "0x613": {
+	"Tire_temp_FR_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    },
+	"Tire_temp_FR_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },  
+  "0x620": {
+    "BMS_Max_Cell_Voltage": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Average_Cell_Voltage": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Min_Cell_Voltage": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Max_Voltage_ID": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 1,
+      "factor": 1.0
+    },
+    "BMS_Min_Voltage_ID": {
+      "type": "Uint",
+      "startbyte": 7,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x621": {
+    "BMS_Max_Cell_Temperature": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Average_Cell_Temperature": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Min_Cell_Temperature": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Max_Temperature_ID": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 1,
+      "factor": 1.0
+    },
+    "BMS_Min_Temperature_ID": {
+      "type": "Uint",
+      "startbyte": 7,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x622": {
+    "BMS_Tractive_System_Voltage": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Tractive_System_Current": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Tractive_System_Current_Transient": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_State_of_Charge": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x623": {
+    "BMS_Error_Flags": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1.0
+    }
+  },
+  "0x624": {
+    "BMS_State": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x625": {
+    "BMS_Tractive_System_Power": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Voltage_Sum_of_Cells": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x626": {
+    "BMS_max_isoSPI_fails": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    },
+    "BMS_max_isoSPI_fails_Slave_ID": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0
+    },
+    "BMS_max_isoSPI_fails_Register_ID": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x6B0": {
+    "GLV_Cell_Voltage_0": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "GLV_Cell_Voltage_1": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "GLV_Cell_Voltage_2": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "GLV_Cell_Voltage_3": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x6B1": {
+    "GLV_Cell_Voltage_4": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "GLV_Cell_Voltage_5": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x6A0": {
+    "GLV_Cell_Temperature_0": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01
+    },
+    "GLV_Cell_Temperature_1": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01
+    },
+    "GLV_Cell_Temperature_2": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01
+    },
+    "GLV_Cell_Temperature_3": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x6A1": {
+    "GLV_Cell_Temperature_4": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x465": {
+    "GLV_Min_Cell_Voltage": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "GLV_Max_Cell_Voltage": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "GLV_Tot_Cell_Voltage": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 0.0001
+    }
+  },
+  "0x466": {
+    "GLV_Min_Cell_Temperature": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01
+    },
+    "GLV_Max_Cell_Temperature": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01
+    }
+  },
+  "0x467": {
+    "GLV_State_of_Charge": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    },
+    "GLV_Battery_Charge_Capacity": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 4,
+      "factor": 0.001
+    }
+  },
+  "0x470": {
+    "DASH_REQUEST_DRIVE_ENABLE": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x472": {
+    "DASH_RTDS_FINISHED": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x475": {
+    "DASH_REQUEST_KERS_ACTIVATION": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x47F": {
+    "DASH_ALIVE_STATUS_BITS": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1.0
+    }
+  },
+  "0x490": {
+    "BMS_IMD_Shutdown_open": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x491": {
+    "BMS_IMD_State": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x4C0": {
+    "Alive_message": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0
+    }
+  },
+  "0x660": {
+    "BMS_Cell_Voltage_0": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_1": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_2": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_3": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x661": {
+    "BMS_Cell_Voltage_4": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_5": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_6": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_7": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x662": {
+    "BMS_Cell_Voltage_8": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_9": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_10": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_11": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x663": {
+    "BMS_Cell_Voltage_12": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_13": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_14": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_15": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x664": {
+    "BMS_Cell_Voltage_16": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_17": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_18": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_19": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x665": {
+    "BMS_Cell_Voltage_20": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_21": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_22": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_23": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x666": {
+    "BMS_Cell_Voltage_24": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_25": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_26": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_27": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x667": {
+    "BMS_Cell_Voltage_28": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_29": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_30": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_31": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x668": {
+    "BMS_Cell_Voltage_32": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_33": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_34": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_35": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x669": {
+    "BMS_Cell_Voltage_36": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_37": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_38": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_39": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x66A": {
+    "BMS_Cell_Voltage_40": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_41": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_42": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_43": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x66B": {
+    "BMS_Cell_Voltage_44": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_45": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_46": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_47": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x66C": {
+    "BMS_Cell_Voltage_48": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_49": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_50": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_51": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x66D": {
+    "BMS_Cell_Voltage_52": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_53": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_54": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_55": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x66E": {
+    "BMS_Cell_Voltage_56": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_57": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_58": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_59": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x66F": {
+    "BMS_Cell_Voltage_60": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_61": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_62": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_63": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x670": {
+    "BMS_Cell_Voltage_64": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_65": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_66": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_67": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x671": {
+    "BMS_Cell_Voltage_68": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_69": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_70": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_71": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x672": {
+    "BMS_Cell_Voltage_72": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_73": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_74": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_75": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x673": {
+    "BMS_Cell_Voltage_76": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_77": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_78": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_79": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x674": {
+    "BMS_Cell_Voltage_80": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_81": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_82": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_83": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x675": {
+    "BMS_Cell_Voltage_84": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_85": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_86": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_87": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x676": {
+    "BMS_Cell_Voltage_88": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_89": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_90": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_91": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x677": {
+    "BMS_Cell_Voltage_92": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_93": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_94": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_95": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x678": {
+    "BMS_Cell_Voltage_96": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_97": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_98": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_99": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x679": {
+    "BMS_Cell_Voltage_100": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_101": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_102": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_103": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x67A": {
+    "BMS_Cell_Voltage_104": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_105": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_106": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_107": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x67B": {
+    "BMS_Cell_Voltage_108": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_109": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_110": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_111": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x67C": {
+    "BMS_Cell_Voltage_112": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_113": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_114": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_115": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x67D": {
+    "BMS_Cell_Voltage_116": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_117": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_118": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_119": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x67E": {
+    "BMS_Cell_Voltage_120": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_121": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_122": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_123": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x67F": {
+    "BMS_Cell_Voltage_124": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_125": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_126": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_127": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x680": {
+    "BMS_Cell_Voltage_128": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_129": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_130": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_131": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x681": {
+    "BMS_Cell_Voltage_132": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_133": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_134": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_135": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x682": {
+    "BMS_Cell_Voltage_136": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_137": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_138": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.0001
+    },
+    "BMS_Cell_Voltage_139": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.0001
+    }
+  },
+  "0x630": {
+    "BMS_Cell_Temperature_0": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_1": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_2": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_3": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x631": {
+    "BMS_Cell_Temperature_4": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_5": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_6": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_7": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x632": {
+    "BMS_Cell_Temperature_8": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_9": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_10": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_11": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x633": {
+    "BMS_Cell_Temperature_12": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_13": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_14": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_15": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x634": {
+    "BMS_Cell_Temperature_16": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_17": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_18": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_19": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x635": {
+    "BMS_Cell_Temperature_20": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_21": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_22": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_23": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x636": {
+    "BMS_Cell_Temperature_24": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_25": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_26": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_27": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x637": {
+    "BMS_Cell_Temperature_28": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_29": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_30": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_31": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x638": {
+    "BMS_Cell_Temperature_32": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_33": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_34": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_35": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x639": {
+    "BMS_Cell_Temperature_36": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_37": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_38": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_39": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x63A": {
+    "BMS_Cell_Temperature_40": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_41": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_42": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_43": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x63B": {
+    "BMS_Cell_Temperature_44": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_45": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_46": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_47": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x63C": {
+    "BMS_Cell_Temperature_48": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_49": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_50": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_51": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x63D": {
+    "BMS_Cell_Temperature_52": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_53": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_54": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_55": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x63E": {
+    "BMS_Cell_Temperature_56": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_57": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_58": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_59": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x63F": {
+    "BMS_Cell_Temperature_60": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_61": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_62": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_63": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x640": {
+    "BMS_Cell_Temperature_64": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_65": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_66": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_67": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x641": {
+    "BMS_Cell_Temperature_68": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_69": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_70": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_71": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x642": {
+    "BMS_Cell_Temperature_72": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_73": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_74": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_75": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x643": {
+    "BMS_Cell_Temperature_76": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_77": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_78": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_79": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x644": {
+    "BMS_Cell_Temperature_80": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_81": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_82": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_83": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x645": {
+    "BMS_Cell_Temperature_84": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_85": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_86": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_87": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x646": {
+    "BMS_Cell_Temperature_88": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_89": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_90": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_91": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x647": {
+    "BMS_Cell_Temperature_92": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_93": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_94": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_95": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x648": {
+    "BMS_Cell_Temperature_96": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_97": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_98": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_99": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x649": {
+    "BMS_Cell_Temperature_100": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_101": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_102": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_103": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x64A": {
+    "BMS_Cell_Temperature_104": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_105": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_106": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_107": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x64B": {
+    "BMS_Cell_Temperature_108": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_109": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_110": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_111": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x64C": {
+    "BMS_Cell_Temperature_112": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_113": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_114": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_115": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x64D": {
+    "BMS_Cell_Temperature_116": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_117": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_118": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_119": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x64E": {
+    "BMS_Cell_Temperature_120": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_121": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_122": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_123": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x64F": {
+    "BMS_Cell_Temperature_124": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_125": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_126": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_127": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x650": {
+    "BMS_Cell_Temperature_128": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_129": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_130": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_131": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x651": {
+    "BMS_Cell_Temperature_132": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_133": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_134": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_135": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
+    }
+  },
+  "0x652": {
+    "BMS_Cell_Temperature_136": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_137": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_138": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.1
+    },
+    "BMS_Cell_Temperature_139": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.1
     }
   }
 }
