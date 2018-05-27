@@ -2,34 +2,34 @@
   "0x010": {
     "Simian_dataLogger_playback_Ia": {
       "type": "Int",
-      "startbyte": 1,
-      "length": 2, //Test
+      "startbyte": 2,
+      "length": -2, //Test
       "factor": 0.01
     },
     "Simian_dataLogger_playback_Ib": {
       "type": "Int",
-      "startbyte": 3,
-      "length": 2,
+      "startbyte": 4,
+      "length": -2,
       "factor": 0.01
     }
   },
   "0x011": {
     "Simian_dataLogger_playback_Id": {
       "type": "Int",
-      "startbyte": 1,
-      "length": 2,
+      "startbyte": 2,
+      "length": -2,
       "factor": 0.01
     },
     "Simian_dataLogger_playback_Iq": {
       "type": "Int",
-      "startbyte": 3,
-      "length": 2,
+      "startbyte": 4,
+      "length": -2,
       "factor": 0.01
     },
     "Simian_dataLogger_playback_rpm": {
       "type": "Int",
-      "startbyte": 5,
-      "length": 2,
+      "startbyte": 6,
+      "length": -2,
       "factor": 1.0
     }
   }
