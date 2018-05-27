@@ -2682,7 +2682,7 @@
   "0x606": {
 	"Tire_temp_FL_ch_9": {
 		"type": "Uint",
-		"startbyte": 0,
+		"startbyte": 1,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_9",
@@ -2692,7 +2692,7 @@
     },
 	"Tire_temp_FL_ch_10": {
 		"type": "Uint",
-		"startbyte": 2,
+		"startbyte": 3,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_10",
@@ -2702,7 +2702,7 @@
     },
 	"Tire_temp_FL_ch_11": {
 		"type": "Uint",
-		"startbyte": 4,
+		"startbyte": 5,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_11",
@@ -2712,7 +2712,7 @@
     },
 	"Tire_temp_FL_ch_12": {
 		"type": "Uint",
-		"startbyte": 6,
+		"startbyte": 7,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_12",
@@ -2724,7 +2724,7 @@
   "0x607": {
 	"Tire_temp_FL_ch_13": {
 		"type": "Uint",
-		"startbyte": 0,
+		"startbyte": 1,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_13",
@@ -2734,7 +2734,7 @@
     },
 	"Tire_temp_FL_ch_14": {
 		"type": "Uint",
-		"startbyte": 2,
+		"startbyte": 3,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_14",
@@ -2744,7 +2744,7 @@
     },
 	"Tire_temp_FL_ch_15": {
 		"type": "Uint",
-		"startbyte": 4,
+		"startbyte": 5,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_15",
@@ -2754,7 +2754,7 @@
     },
 	"Tire_temp_FL_ch_16": {
 		"type": "Uint",
-		"startbyte": 6,
+		"startbyte": 7,
 		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FL_ch_16",
