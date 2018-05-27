@@ -2766,8 +2766,8 @@
   "0x608": {
 	"Tire_temp_RL_ch_1": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_1",
 		"unit": "C",
@@ -2776,8 +2776,8 @@
     },
 	"Tire_temp_RL_ch_2": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_2",
 		"unit": "C",
@@ -2786,8 +2786,8 @@
     },
 	"Tire_temp_RL_ch_3": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_3",
 		"unit": "C",
@@ -2796,8 +2796,8 @@
     },
 	"Tire_temp_RL_ch_4": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_4",
 		"unit": "C",
@@ -2808,8 +2808,8 @@
   "0x609": {
 	"Tire_temp_RL_ch_5": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_5",
 		"unit": "C",
@@ -2818,8 +2818,8 @@
     },
 	"Tire_temp_RL_ch_6": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_6",
 		"unit": "C",
@@ -2828,8 +2828,8 @@
     },
 	"Tire_temp_RL_ch_7": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_7",
 		"unit": "C",
@@ -2838,8 +2838,8 @@
     },
 	"Tire_temp_RL_ch_8": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_8",
 		"unit": "C",
@@ -2850,8 +2850,8 @@
   "0x60A": {
 	"Tire_temp_RL_ch_9": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_9",
 		"unit": "C",
@@ -2860,8 +2860,8 @@
     },
 	"Tire_temp_RL_ch_10": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_10",
 		"unit": "C",
@@ -2870,8 +2870,8 @@
     },
 	"Tire_temp_RL_ch_11": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_11",
 		"unit": "C",
@@ -2880,8 +2880,8 @@
     },
 	"Tire_temp_RL_ch_12": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_12",
 		"unit": "C",
@@ -2892,8 +2892,8 @@
   "0x60B": {
 	"Tire_temp_RL_ch_13": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_13",
 		"unit": "C",
@@ -2902,8 +2902,8 @@
     },
 	"Tire_temp_RL_ch_14": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_14",
 		"unit": "C",
@@ -2912,8 +2912,8 @@
     },
 	"Tire_temp_RL_ch_15": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_15",
 		"unit": "C",
@@ -2922,8 +2922,8 @@
     },
 	"Tire_temp_RL_ch_16": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RL_ch_16",
 		"unit": "C",
@@ -2934,8 +2934,8 @@
   "0x60C": {
 	"Tire_temp_RR_ch_1": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_1",
 		"unit": "C",
@@ -2944,8 +2944,8 @@
     },
 	"Tire_temp_RR_ch_2": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_2",
 		"unit": "C",
@@ -2954,8 +2954,8 @@
     },
 	"Tire_temp_RR_ch_3": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_3",
 		"unit": "C",
@@ -2964,8 +2964,8 @@
     },
 	"Tire_temp_RR_ch_4": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_4",
 		"unit": "C",
@@ -2976,8 +2976,8 @@
   "0x60D": {
 	"Tire_temp_RR_ch_5": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_5",
 		"unit": "C",
@@ -2986,8 +2986,8 @@
     },
 	"Tire_temp_RR_ch_6": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_6",
 		"unit": "C",
@@ -2996,8 +2996,8 @@
     },
 	"Tire_temp_RR_ch_7": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_7",
 		"unit": "C",
@@ -3006,8 +3006,8 @@
     },
 	"Tire_temp_RR_ch_8": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_8",
 		"unit": "C",
@@ -3018,8 +3018,8 @@
   "0x60E": {
 	"Tire_temp_RR_ch_9": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_9",
 		"unit": "C",
@@ -3028,8 +3028,8 @@
     },
 	"Tire_temp_RR_ch_10": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_10",
 		"unit": "C",
@@ -3038,8 +3038,8 @@
     },
 	"Tire_temp_RR_ch_11": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_11",
 		"unit": "C",
@@ -3048,8 +3048,8 @@
     },
 	"Tire_temp_RR_ch_12": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_12",
 		"unit": "C",
@@ -3060,8 +3060,8 @@
   "0x60F": {
 	"Tire_temp_RR_ch_13": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_13",
 		"unit": "C",
@@ -3070,8 +3070,8 @@
     },
 	"Tire_temp_RR_ch_14": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_14",
 		"unit": "C",
@@ -3080,8 +3080,8 @@
     },
 	"Tire_temp_RR_ch_15": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_15",
 		"unit": "C",
@@ -3090,8 +3090,8 @@
     },
 	"Tire_temp_RR_ch_16": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_RR_ch_16",
 		"unit": "C",
@@ -3102,8 +3102,8 @@
   "0x610": {
 	"Tire_temp_FR_ch_1": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_1",
 		"unit": "C",
@@ -3112,8 +3112,8 @@
     },
 	"Tire_temp_FR_ch_2": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_2",
 		"unit": "C",
@@ -3122,8 +3122,8 @@
     },
 	"Tire_temp_FR_ch_3": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_3",
 		"unit": "C",
@@ -3132,8 +3132,8 @@
     },
 	"Tire_temp_FR_ch_4": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_4",
 		"unit": "C",
@@ -3144,8 +3144,8 @@
   "0x611": {
 	"Tire_temp_FR_ch_5": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_5",
 		"unit": "C",
@@ -3154,8 +3154,8 @@
     },
 	"Tire_temp_FR_ch_6": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_6",
 		"unit": "C",
@@ -3164,8 +3164,8 @@
     },
 	"Tire_temp_FR_ch_7": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_7",
 		"unit": "C",
@@ -3174,8 +3174,8 @@
     },
 	"Tire_temp_FR_ch_8": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_8",
 		"unit": "C",
@@ -3186,8 +3186,8 @@
   "0x612": {
 	"Tire_temp_FR_ch_9": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_9",
 		"unit": "C",
@@ -3196,8 +3196,8 @@
     },
 	"Tire_temp_FR_ch_10": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_10",
 		"unit": "C",
@@ -3206,8 +3206,8 @@
     },
 	"Tire_temp_FR_ch_11": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_11",
 		"unit": "C",
@@ -3216,8 +3216,8 @@
     },
 	"Tire_temp_FR_ch_12": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_12",
 		"unit": "C",
@@ -3228,8 +3228,8 @@
   "0x613": {
 	"Tire_temp_FR_ch_13": {
 		"type": "Uint",
-		"startbyte": 0,
-		"length": 2,
+		"startbyte": 1,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_13",
 		"unit": "C",
@@ -3238,8 +3238,8 @@
     },
 	"Tire_temp_FR_ch_14": {
 		"type": "Uint",
-		"startbyte": 2,
-		"length": 2,
+		"startbyte": 3,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_14",
 		"unit": "C",
@@ -3248,8 +3248,8 @@
     },
 	"Tire_temp_FR_ch_15": {
 		"type": "Uint",
-		"startbyte": 4,
-		"length": 2,
+		"startbyte": 5,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_15",
 		"unit": "C",
@@ -3258,8 +3258,8 @@
     },
 	"Tire_temp_FR_ch_16": {
 		"type": "Uint",
-		"startbyte": 6,
-		"length": 2,
+		"startbyte": 7,
+		"length": -2,
 		"factor": 0.1,
 		"displayname": "Tire_temp_FR_ch_16",
 		"unit": "C",
