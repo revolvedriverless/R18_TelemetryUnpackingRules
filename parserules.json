@@ -5020,5 +5020,27 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     }
+  },
+  "0x6FF": {
+    "SOCTEST_Average_Cell_Voltage": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "SOCTEST_Tractive_System_Current": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
   }
 }
