@@ -5042,5 +5042,27 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     }
+  },
+  "0x700": {
+    "SOCTEST_SoC_mean": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "SOCTEST_SoC_std": {
+      "type": "Float",
+      "startbyte": 4,
+      "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
   }
 }
