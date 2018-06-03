@@ -4915,6 +4915,742 @@
       "expectedmax": 0.0
     }
   },
+  "0x604": {
+	"Tire_temp_FL_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    }
+  },
+  "0x605": {
+	"Tire_temp_FL_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    }
+  },
+  "0x606": {
+	"Tire_temp_FL_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    }
+  },
+  "0x607": {
+	"Tire_temp_FL_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_FL_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FL_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    }
+  },
+  "0x608": {
+	"Tire_temp_RL_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RL_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RL_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RL_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },
+  "0x609": {
+	"Tire_temp_RL_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RL_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RL_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RL_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },
+  "0x60A": {
+	"Tire_temp_RL_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RL_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RL_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RL_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },
+  "0x60B": {
+	"Tire_temp_RL_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RL_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RL_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RL_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RL_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },  
+  "0x60C": {
+	"Tire_temp_RR_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RR_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RR_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    }
+  },
+  "0x60D": {
+	"Tire_temp_RR_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RR_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    }
+  },
+  "0x60E": {
+	"Tire_temp_RR_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },
+  "0x60F": {
+	"Tire_temp_RR_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+        "reversebits": true
+    },
+	"Tire_temp_RR_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_RR_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_RR_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },  
+  "0x610": {
+	"Tire_temp_FR_ch_1": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_1",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_2": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_2",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_3": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_3",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_4": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_4",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },
+  "0x611": {
+	"Tire_temp_FR_ch_5": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_5",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_6": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_6",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_7": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_7",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true 
+    },
+	"Tire_temp_FR_ch_8": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_8",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },
+  "0x612": {
+	"Tire_temp_FR_ch_9": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_9",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_10": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_10",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_11": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_11",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_12": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_12",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },
+  "0x613": {
+	"Tire_temp_FR_ch_13": {
+		"type": "Uint",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_13",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_14": {
+		"type": "Uint",
+		"startbyte": 2,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_14",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_15": {
+		"type": "Uint",
+		"startbyte": 4,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_15",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    },
+	"Tire_temp_FR_ch_16": {
+		"type": "Uint",
+		"startbyte": 6,
+		"length": 2,
+		"factor": 0.1,
+		"displayname": "Tire_temp_FR_ch_16",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0, 
+    "reversebits": true
+    }
+  },  
   "0x650": {
     "ECU_TV_Max_motor_torque_FL": {
       "type": "Int",
