@@ -1344,7 +1344,7 @@
       "displayname": "Battery percentage",
       "unit": "%",
       "expectedmin": 0.0,
-      "expectedmax": 0.0
+      "expectedmax": 100.0
     }
   },
   "0x443": {
@@ -2096,7 +2096,7 @@
     }
   },
   "0x47F": {
-    "DASH_ALIVE_STATUS_bytes": {
+    "DASH_ALIVE_STATUS_BITS": {
       "type": "Uint",
       "startbyte": 0,
       "length": 2,
