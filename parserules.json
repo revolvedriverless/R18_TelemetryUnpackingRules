@@ -637,7 +637,7 @@
       "expectedmax": 0.0
     },
     "AMK_RL_Error_Info": {
-      "type": "Unt",
+      "type": "Uint",
       "startbyte": 4,
       "length": 2,
       "factor": 1.0,
