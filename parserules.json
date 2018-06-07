@@ -3671,6 +3671,125 @@
       "reversebytes": true
     }
   },
+
+  "0x305": {
+    "Charger_0_Status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 4.0
+    },
+    "Charger_0_Mains_Current": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 10.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Charger_0_DC_Current": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 10.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Charger_0_DC_Voltage": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 1,
+      "factor": 10.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Charger_0_Mains_Frequency": {
+      "type": "Uint",
+      "startbyte": 7,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+
+  "0x306": {
+    "Charger_0_Primary_Temp": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 30.0
+    },
+    "Charger_0_Secondary_Temp": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 30.0
+    },
+    "Charger_0_Mains_Voltage": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 600.0
+    },
+    "Charger_0_Max_Power": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 3000.0
+    },
+    "Charger_0_Available_Power": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100.0
+    }
+  },
+  "0x307": {
+    "Charger_0_Error": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 255.0
+    }
+  },
+
   "0x620": {
     "BMS_Max_Cell_Voltage": {
       "type": "Uint",
