@@ -3770,7 +3770,7 @@
       "type": "Uint",
       "startbyte": 6,
       "length": 1,
-      "factor": 1.0,
+      "factor": 0.5,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
@@ -3779,6 +3779,122 @@
   },
   "0x307": {
     "Charger_0_Error": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 255.0
+    }
+  },
+  "0x315": {
+    "Charger_1_Status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 4.0
+    },
+    "Charger_1_Mains_Current": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Charger_1_DC_Current": {
+      "type": "Uint",
+      "startbyte": 3,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Charger_1_DC_Voltage": {
+      "type": "Uint",
+      "startbyte": 5,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "Charger_1_Mains_Frequency": {
+      "type": "Uint",
+      "startbyte": 7,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x316": {
+    "Charger_1_Primary_Temp": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 30.0
+    },
+    "Charger_1_Secondary_Temp": {
+      "type": "Int",
+      "startbyte": 1,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 30.0
+    },
+    "Charger_1_Mains_Voltage": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 600.0
+    },
+    "Charger_1_Max_Power": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 3000.0
+    },
+    "Charger_1_Available_Power": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 1,
+      "factor": 0.5,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100.0
+    }
+  },
+  "0x317": {
+    "Charger_1_Error": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
