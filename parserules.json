@@ -5021,7 +5021,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x6FF": {
+  "0x655": {
     "SOCTEST_Average_Cell_Voltage": {
       "type": "Float",
       "startbyte": 0,
@@ -5043,7 +5043,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x700": {
+  "0x656": {
     "SOCTEST_SoC_mean": {
       "type": "Float",
       "startbyte": 0,
@@ -5065,7 +5065,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x701": {
+  "0x657": {
     "SOCTEST_volt_pred": {
       "type": "Float",
       "startbyte": 0,
@@ -5087,7 +5087,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x702": {
+  "0x658": {
     "SOCTEST_Meas_status": {
       "type": "Uint",
       "startbyte": 0,
