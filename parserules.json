@@ -2595,6 +2595,18 @@
 		"expectedmax": 80.0
     }
   },
+    "0x432": {
+	"SBS_MID_Inverter_Temp": {
+		"type": "Int",
+		"startbyte": 0,
+		"length": 2,
+		"factor": 0.01,
+		"displayname": "Inverter Temp",
+		"unit": "C",
+		"expectedmin": 0.0,
+		"expectedmax": 80.0
+    }
+  },
   "0x604": {
 	"Tire_temp_FL_ch_1": {
 		"type": "Uint",
