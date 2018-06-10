@@ -4110,7 +4110,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x626": {
+  "0x627": {
     "BMS_max_isoSPI_fails": {
       "type": "Uint",
       "startbyte": 0,
