@@ -1096,7 +1096,7 @@
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.091,
+      "factor": 0.001,
       "displayname": "Yaw rate",
       "unit": "m/s",
       "expectedmin": -7.0,
