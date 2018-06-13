@@ -1128,7 +1128,7 @@
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.091,
+      "factor": 0.001,
       "displayname": "Yaw angle",
       "unit": "m/s",
       "expectedmin": -20.0,
