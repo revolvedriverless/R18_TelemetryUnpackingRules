@@ -4502,6 +4502,18 @@
       "expectedmax": 0.0
     }
   },
+  "0x476": {
+    "DASH_REQUEST_TS_ACTIVATION": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x47F": {
     "DASH_ALIVE_STATUS_BITS": {
       "type": "Uint",
