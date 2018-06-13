@@ -977,7 +977,7 @@
     "VCU_INS_Status": {
       "type": "Uint",
       "startbyte": 2,
-      "length": 2,
+      "length": 3,
       "factor": 1.0,
       "displayname": "INS status",
       "unit": "",
