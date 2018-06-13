@@ -4466,6 +4466,30 @@
       "expectedmax": 0.0
     }
   },
+  "0x473": {
+    "DASH_REQUEST_LAUNCH_ACTIVATION": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x474": {
+    "DASH_REQUEST_LAUNCH_DEACTIVATION": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x475": {
     "DASH_REQUEST_KERS_ACTIVATION": {
       "type": "Uint",
