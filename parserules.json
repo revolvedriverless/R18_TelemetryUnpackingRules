@@ -5066,7 +5066,7 @@
     }
   },
   "0x657": {
-    "SOCTEST_volt_pred": {
+    "SOCTEST_volt_meas": {
       "type": "Float",
       "startbyte": 0,
       "length": 4,
@@ -5076,7 +5076,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "SOCTEST_R0_mean": {
+    "SOCTEST_volt_pred": {
       "type": "Float",
       "startbyte": 4,
       "length": 4,
@@ -5088,30 +5088,32 @@
     }
   },
   "0x658": {
-    "SOCTEST_Meas_status": {
-      "type": "Uint",
+    "SOCTEST_R0_mean": {
+      "type": "Float",
       "startbyte": 0,
-      "length": 2,
+      "length": 4,
       "factor": 1.0,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "SOCTEST_Kalman_status": {
-      "type": "Uint",
-      "startbyte": 2,
-      "length": 2,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "SOCTEST_Elapsed_time": {
-      "type": "Uint",
+    "SOCTEST_R0_std": {
+      "type": "Float",
       "startbyte": 4,
       "length": 4,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x659": {
+    "SOCTEST_Kalman_status": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
       "factor": 1.0,
       "displayname": "",
       "unit": "",
