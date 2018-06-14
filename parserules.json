@@ -5113,7 +5113,7 @@
     "SOCTEST_Kalman_status": {
       "type": "Uint",
       "startbyte": 0,
-      "length": 1,
+      "length": 2,
       "factor": 1.0,
       "displayname": "",
       "unit": "",
