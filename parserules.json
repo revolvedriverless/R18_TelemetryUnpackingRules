@@ -5044,7 +5044,7 @@
     }
   },
   "0x656": {
-    "SOCTEST_SoC_ref": {
+    "SOCTEST_SoC_meas": {
       "type": "Float",
       "startbyte": 0,
       "length": 4,
