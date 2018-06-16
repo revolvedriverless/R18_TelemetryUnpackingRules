@@ -5076,7 +5076,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "SOCTEST_SoC_std": {
+    "SOCTEST_SoC_ref": {
       "type": "Float",
       "startbyte": 4,
       "length": 4,
