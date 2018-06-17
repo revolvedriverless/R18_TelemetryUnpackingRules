@@ -2,7 +2,7 @@
   "0x00A": {
     "VCU_debug_message": {
       "type": "Uint",
-      "startbyte": 1,
+      "startbyte": 0,
       "length": 1,
       "factor": 1,
       "displayname": "",
