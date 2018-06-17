@@ -3,8 +3,8 @@
     "VCU_debug_message": {
       "type": "Uint",
       "startbyte": 0,
-      "length": 1,
-      "factor": 1,
+      "length": 4,
+      "factor": 0.01,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
