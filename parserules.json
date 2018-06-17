@@ -1,4 +1,16 @@
 {
+  "0x00A": {
+    "VCU_debug_message": {
+      "type": "Uint",
+      "startbyte": 1,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 10.0
+    }
+  },
   "0x010": {
     "Simian_dataLogger_playback_Ia": {
       "type": "Int",
