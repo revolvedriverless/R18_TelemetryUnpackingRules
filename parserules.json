@@ -1,4 +1,76 @@
 {
+  "0x00A": {
+    "VCU_debug_message1": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 10.0
+    }
+  },
+  "0x00B": {
+    "VCU_debug_message2": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 10.0
+    }
+  },
+  "0x00C": {
+    "VCU_debug_message3": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 10.0
+    }
+  },
+  "0x00D": {
+    "VCU_debug_message4": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 10.0
+    }
+  },
+  "0x00E": {
+    "VCU_debug_message5": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 10.0
+    }
+  },
+  "0x00F": {
+    "VCU_debug_message6": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 10.0
+    }
+  },
   "0x010": {
     "Simian_dataLogger_playback_Ia": {
       "type": "Int",
