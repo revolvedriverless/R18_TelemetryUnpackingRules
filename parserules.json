@@ -977,7 +977,7 @@
     "VCU_INS_Status": {
       "type": "Uint",
       "startbyte": 2,
-      "length": 2,
+      "length": 3,
       "factor": 1.0,
       "displayname": "INS status",
       "unit": "",
@@ -1966,7 +1966,7 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.001,
+      "factor": 0.01,
       "displayname": "Estimated Power",
       "unit": "",
       "expectedmin": -200000,
