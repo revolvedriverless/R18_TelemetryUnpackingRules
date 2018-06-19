@@ -2450,41 +2450,41 @@
       "type": "Int",
       "startbyte": 0,
       "length": 2,
-      "factor": 0.001,
+      "factor": 0.057296,
       "displayname": "Slip Angle FL",
       "unit": "deg",
-      "expectedmin": -0.5,
-      "expectedmax": 0.5
+      "expectedmin": -20.0,
+      "expectedmax": 20.0
     },
     "VCU_slip_angle_FR": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
-      "factor": 0.001,
+      "factor": 0.057296,
       "displayname": "Slip Angle FR",
       "unit": "deg",
-      "expectedmin": -0.5,
-      "expectedmax": 0.5
+      "expectedmin": -20.0,
+      "expectedmax": 20.0
     },
     "VCU_slip_angle_RL": {
       "type": "Int",
       "startbyte": 4,
       "length": 2,
-      "factor": 0.001,
+      "factor": 0.057296,
       "displayname": "Slip Angle RL",
       "unit": "deg",
-      "expectedmin": -0.5,
-      "expectedmax": 0.5
+      "expectedmin": -20.0,
+      "expectedmax": 20.0
     },
     "VCU_slip_angle_RR": {
       "type": "Int",
       "startbyte": 6,
       "length": 2,
-      "factor": 0.001,
+      "factor": 0.057296,
       "displayname": "Slip Angle RR",
       "unit": "deg",
-      "expectedmin": -0.5,
-      "expectedmax": 0.5
+      "expectedmin": -20.0,
+      "expectedmax": 20.0
     }
   },
   "0x3E9": {
