@@ -1023,7 +1023,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x45D": {
+  "0x35D": {
     "ECU_Soft_BSPD_status": {
       "type": "Uint",
       "startbyte": 0,
@@ -2573,6 +2573,18 @@
       "expectedmax": 35.0
     }
   },
+  "0x400": {
+    "SBS_F1_Error": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "SBS F1 Error",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100.0
+    }
+  },
   "0x401": {
     "SBS_F1_APPS1_Sensor": {
       "type": "Uint",
@@ -2626,7 +2638,7 @@
       "expectedmin": 0.0,
       "expectedmax": 1.0
     },
-    "SBS_F1_Stering_Angle": {
+    "SBS_F1_Steering_Angle": {
       "type": "Int",
       "startbyte": 2,
       "length": 2,
@@ -2731,6 +2743,18 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    }
+  },
+  "0x410": {
+    "SBS_F2_Error": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "SBS F2 Error",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100.0
     }
   },
   "0x411": {
@@ -2903,6 +2927,18 @@
       "expectedmax": 0.0
     }
   },
+  "0x420": {
+    "SBS_R1_Error": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "SBS R1 Error",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100.0
+    }
+  },
   "0x421": {
     "SBS_R1_Damper_pos_RL": {
       "type": "Uint",
@@ -3069,6 +3105,18 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    }
+  },
+  "0x430": {
+    "SBS_MID_Error": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "SBS MID Error",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 100.0
     }
   },
   "0x431": {
@@ -4288,6 +4336,18 @@
       "expectedmax": 0.0
     }
   },
+    "0x625": {
+    "BMS_Coloumb_count": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x627": {
     "BMS_max_isoSPI_fails": {
       "type": "Uint",
@@ -4526,6 +4586,18 @@
       "expectedmax": 0.0
     }
   },
+  "0x471": {
+    "DASH_REQUEST_DRIVE_DISABLE": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x472": {
     "DASH_RTDS_FINISHED": {
       "type": "Uint",
@@ -4576,6 +4648,18 @@
   },
   "0x476": {
     "DASH_REQUEST_TS_ACTIVATION": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+    "0x477": {
+    "DASH_FAN_CONTROL_SETTINGS": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
@@ -7568,6 +7652,18 @@
       "startbyte": 6,
       "length": 2,
       "factor": 0.1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x652": {
+    "GLVBMS_ERROR_FLAGS": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 1,
       "displayname": "",
       "unit": "",
       "expectedmin": 0.0,
