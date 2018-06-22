@@ -1059,7 +1059,7 @@
 	"VCU_INS_Mode": {
       "type": "Uint",
       "startbyte": 4,
-      "length": 2,
+      "length": 1,
       "factor": 1.0,
       "displayname": "INS Mode",
       "unit": "",
