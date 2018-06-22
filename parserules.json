@@ -2140,20 +2140,10 @@
     }
   },
   "0x3E0": {
-    "ECU_Sensor_Status1": {
+    "ECU_Sensor_Status": {
       "type": "Uint",
       "startbyte": 0,
-      "length": 4,
-      "factor": 1.0,
-      "displayname": "",
-      "unit": "",
-      "expectedmin": 0.0,
-      "expectedmax": 0.0
-    },
-    "ECU_Sensor_Status2": {
-      "type": "Uint",
-      "startbyte": 4,
-      "length": 4,
+      "length": 8,
       "factor": 1.0,
       "displayname": "",
       "unit": "",
