@@ -1065,6 +1065,26 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    },
+	"VCU_INS_gps_1": {
+      "type": "Uint",
+      "startbyte": 5,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "GPS fix bitfield",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+	"VCU_INS_gps_2": {
+      "type": "Uint",
+      "startbyte": 6,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "INS Mode",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x361": {
