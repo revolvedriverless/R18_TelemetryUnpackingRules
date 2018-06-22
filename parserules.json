@@ -1056,7 +1056,7 @@
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-	    "VCU_INS_Mode": {
+	"VCU_INS_Mode": {
       "type": "Uint",
       "startbyte": 4,
       "length": 1,
@@ -1068,19 +1068,39 @@
     }
   },
   "0x361": {
-    "INS_GPS_fix": {
+    "INS_GPS_fix_1": {
       "type": "Uint",
       "startbyte": 0,
       "length": 1,
       "factor": 1.0,
-      "displayname": "Attitude status",
+      "displayname": "GPS fix 1",
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
     },
-    "INS_tracked_satellites": {
+    "INS_tracked_satellites_1": {
       "type": "Uint",
       "startbyte": 1,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "Satellites",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "INS_GPS_fix_2": {
+      "type": "Uint",
+      "startbyte": 2,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "GPS fix 2",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "INS_tracked_satellites_2": {
+      "type": "Uint",
+      "startbyte": 3,
       "length": 1,
       "factor": 1.0,
       "displayname": "Satellites",
@@ -2163,7 +2183,7 @@
 	"ECU_Sensor_Status2": {
       "type": "Uint",
       "startbyte": 4,
-      "length": 8,
+      "length": 4,
       "factor": 1.0,
       "displayname": "",
       "unit": "",
