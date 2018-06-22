@@ -1055,6 +1055,16 @@
       "unit": "",
       "expectedmin": 0.0,
       "expectedmax": 0.0
+    },
+	    "VCU_INS_Mode": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 1,
+      "factor": 1.0,
+      "displayname": "INS Mode",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
     }
   },
   "0x361": {
