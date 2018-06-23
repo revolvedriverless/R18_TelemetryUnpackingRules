@@ -4440,7 +4440,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x6B0": {
+  "0x6F0": {
     "GLV_Cell_Voltage_0": {
       "type": "Uint",
       "startbyte": 0,
@@ -4482,7 +4482,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x6B1": {
+  "0x6F1": {
     "GLV_Cell_Voltage_4": {
       "type": "Uint",
       "startbyte": 0,
@@ -4504,7 +4504,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x6A0": {
+  "0x6E0": {
     "GLV_Cell_Temperature_0": {
       "type": "Uint",
       "startbyte": 0,
@@ -4546,7 +4546,7 @@
       "expectedmax": 0.0
     }
   },
-  "0x6A1": {
+  "0x6E1": {
     "GLV_Cell_Temperature_4": {
       "type": "Uint",
       "startbyte": 0,
