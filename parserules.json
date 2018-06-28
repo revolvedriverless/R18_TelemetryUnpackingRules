@@ -2189,6 +2189,132 @@
       "expectedmax": 21.5
     }
   },
+ "0x3DD": {
+    "VCU_TV_Torque_Efficiency_FL": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Efficiency Torque  FL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Efficiency_FR": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Efficiency Torque FR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Efficiency_RL": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Efficiency Torque  RL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Efficiency_RR": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Efficiency Torque RR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    }
+  },
+"0x3DE": {
+    "VCU_TV_Torque_Alloc_FL": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Alloc Torque  FL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Alloc_FR": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Alloc Torque FR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Alloc_RL": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Alloc Torque  RL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Alloc_RR": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Alloc Torque RR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    }
+  },
+"0x3DF": {
+    "VCU_TV_Torque_Traction_FL": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Traction Torque  FL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Traction_FR": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Traction Torque FR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Traction_RL": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Traction Torque  RL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Traction_RR": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Traction Torque RR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    }
+  },
   "0x3E0": {
     "ECU_Sensor_Status1": {
       "type": "Uint",
@@ -2631,6 +2757,48 @@
       "unit": "rad",
       "expectedmin": -1.0,
       "expectedmax": 35.0
+    }
+  },
+ "0x3EF": {
+    "VCU_TV_Torque_Power_Limit_FL": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Power Limit Torque  FL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Power_Limit_FR": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Power Limit Torque FR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Power_Limit_RL": {
+      "type": "Int",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Power Limit Torque  RL",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
+    },
+    "VCU_TV_Torque_Power_Limit_RR": {
+      "type": "Int",
+      "startbyte": 6,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Power Limit Torque RR",
+      "unit": "Nm",
+      "expectedmin": -21.5,
+      "expectedmax": 21.5
     }
   },
   "0x400": {
