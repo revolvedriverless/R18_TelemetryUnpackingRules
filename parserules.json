@@ -2887,6 +2887,18 @@
       "expectedmax": 500.0
     }
   },
+  "0x403": {
+    "SBS_F1_RideHeight": {
+      "type": "Int",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Rideheight",
+      "unit": "mm",
+      "expectedmin": -35.0,
+      "expectedmax": 35.0
+    }
+  },
   "0x40D": {
     "ADC_FL_DamperFL": {
       "type": "Uint",
