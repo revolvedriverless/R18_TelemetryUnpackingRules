@@ -2897,6 +2897,16 @@
       "unit": "mm",
       "expectedmin": -35.0,
       "expectedmax": 35.0
+    },
+    "SBS_F1_RideHeight_Rate": {
+      "type": "Int",
+      "startbyte": 2,
+      "length": 2,
+      "factor": 0.01,
+      "displayname": "Rideheight",
+      "unit": "",
+      "expectedmin": -35.0,
+      "expectedmax": 35.0
     }
   },
   "0x40D": {
