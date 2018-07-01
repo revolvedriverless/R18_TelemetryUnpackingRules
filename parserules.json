@@ -4564,7 +4564,7 @@
       "expectedmax": 0.0
     }
   },
-    "0x626": {
+    "0x625": {
     "BMS_Coloumb_count": {
       "type": "Int",
       "startbyte": 2,
