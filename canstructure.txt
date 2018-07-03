@@ -32,19 +32,3 @@
 430 = Error_Bitfield_Mid
 431 = Cooling_Temp
 432 = Ambient_Inverter_Temp
-
-
-
-#BMS
-440 = Max_Cell_Voltage
-441 = Average_Cell_Voltage
-442 = Min_Cell_Voltage
-
-#ECU
-351 = ECU_DRIVE_ENABLE
-352 = ECU_DRIVE_DISABLE
-
-#GLV
-465 = GLV_Min_Cell_Voltage
-466 = GLV_Max_Cell_Voltage
-467 = GLV_State_Of_Charge
