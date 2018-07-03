@@ -1,12 +1,39 @@
-// HOW TO USE:
-// Use a '#' for a new catergory
-// All names cannot contain spaces.
-// (CAN_ID) = (CAN_NAME)
-// 
-// Example:
-// #kake
-// 288 = ninja
-// 31A = bolle
+#AMK
+184 = AMK_FL_Setpoint_Message
+185 = AMK_FR_Setpoint_Message
+188 = AMK_RL_Setpoint_Message
+189 = AMK_RR_Setpoint_Message
+283 = AMK_FL_Actual_Values_1
+284 = AMK_FL_Actual_Values_2
+285 = AMK_FR_Actual_Values_1
+286 = AMK_FR_Actual_Values_2
+287 = AMK_RL_Actual_Values_1
+288 = AMK_RL_Actual_Values_2
+289 = AMK_RR_Actual_Values_1
+28A = AMK_RR_Actual_Values_2
+
+#SBS_FL
+400 = Error_Bitfield_FL
+401 = APPS_n_Brake_Pressure
+402 = KERS_n_Steering
+40F = BSPD_Trigger
+
+#SBS_FR
+410 = Error_Bitfield_FR
+411 = Damper_Front
+412 = Acc_n_Gear_Temp_Front
+
+#SBS_Rear
+420 = Error_Bitfield_Rear
+421 = APPS_n_Brake_Pressure
+422 = KERS_n_Steering
+
+#SBS_Mid
+430 = Error_Bitfield_Mid
+431 = Cooling_Temp
+432 = Ambient_Inverter_Temp
+
+
 
 #BMS
 440 = Max_Cell_Voltage
@@ -21,5 +48,3 @@
 465 = GLV_Min_Cell_Voltage
 466 = GLV_Max_Cell_Voltage
 467 = GLV_State_Of_Charge
-
-
