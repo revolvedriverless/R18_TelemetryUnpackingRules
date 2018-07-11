@@ -3599,6 +3599,52 @@
       "expectedmax": 0.0
     }
   },
+  "0x510": {
+    "DV_Actuators_Steering": {
+      "type": "Float",
+      "startbyte": 0,
+      "length": 4,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x512": {
+    "DV_Actuators_Throttle": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 2,
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    },
+    "DV_Actuators_KERS": {
+      "type": "Uint",
+      "startbyte": 4,
+      "length": 2,
+      "factor": 0.001,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
+  "0x512": {
+    "DV_Actuators_Service_Brake": {
+      "type": "Uint",
+      "startbyte": 0,
+      "length": 1,
+      "factor": 1,
+      "displayname": "",
+      "unit": "",
+      "expectedmin": 0.0,
+      "expectedmax": 0.0
+    }
+  },
   "0x660": {
     "BMS_Cell_Voltage_0": {
       "type": "Uint",
